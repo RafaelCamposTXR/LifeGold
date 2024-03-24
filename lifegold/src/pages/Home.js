@@ -1,16 +1,13 @@
 import React from 'react';
 import logo from '../central.png';
+import style from './Home.css';
 
 function Home() {
     return (
-        <div className="Home">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                Texto Inicial do site
-                </p>
+        <div className={style.App}>
+            <header>
+                <img src={logo} className={style.App-logo} alt="logo" />
             </header>
-        
         </div>
     );
 }
