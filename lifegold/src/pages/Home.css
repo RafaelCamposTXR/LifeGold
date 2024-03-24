@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
   height: 60vmin;
   pointer-events: none;
+  align-items: center;
+  height: auto;
+  width: max-content;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
