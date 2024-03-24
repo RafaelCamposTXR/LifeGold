@@ -19,7 +19,7 @@ const styles = {
     backgroundColor: '#333',
     padding: '10px 0',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
   },
   listaMenu: {
     listStyleType: 'none',
