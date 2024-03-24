@@ -1,19 +1,20 @@
-import logo from './central.png';
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import {
+  BrowserRouter,
+  Routes, // instead of "Switch"
+  Route,
+} from "react-router-dom";
+import Home from './Home';
+import Produtos from './Produtos';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar titulo="Menu Inicial" />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Texto Inicial do site
-        </p>
-      </header>
-      
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/produtos" element={<Produtos />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
