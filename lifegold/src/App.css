@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: None;
+    animation: mymove 5s infinite;
   }
 }
 
 .App-header {
-  background-color: #e9ebef;
+  background-color: D9D9D9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
