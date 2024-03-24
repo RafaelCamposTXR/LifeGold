@@ -1,3 +1,21 @@
+
+.menu{
+  background-color: #1818a7;
+  padding: 10px 0;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.listaMenu{
+  text-align: center;
+  list-style-type: none;
+  margin: 25;
+  padding: 0;
+  display: flex;
+}
+
 .botaoNavegacao {
   padding: 10px 20px;
   margin-right: 10px; /* Espaçamento entre os botões */
@@ -7,10 +25,18 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
+  z-index: 2;
 }
 
 .botaoNavegacao:hover {
   background-color: #5021d3; /* Cor de fundo ao passar o mouse */
+}
+
+.link{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 

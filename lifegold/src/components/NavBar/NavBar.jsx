@@ -4,8 +4,8 @@ import style from './NavBar.module.css'
 class NavBar extends React.Component {
   render() {
     return (
-      <div style={styles.menu}>
-        <ul style={styles.listaMenu}>
+      <div className={style.menu}>
+        <ul className={style.listaMenu}>
           <li><a href="#sobre" className = {style.botaoNavegacao}>Sobre</a></li>
           <li><a href="#produtos" className = {style.botaoNavegacao}>Produtos</a></li>
           <li><a href="#piscinas" className = {style.botaoNavegacao}>Piscinas</a></li>
