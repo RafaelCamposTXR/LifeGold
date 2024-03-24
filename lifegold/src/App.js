@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Caixa from './components/Caixa';
+import MenuTopo from './components/MenuTopo';
 
 function App() {
   return (
     <div className="App">
-      <Caixa titulo="Minha Caixa" />
+      <MenuTopo titulo="Menu Inicial" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
