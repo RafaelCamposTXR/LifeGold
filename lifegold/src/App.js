@@ -1,11 +1,11 @@
 import logo from './central.png';
 import './App.css';
-import MenuTopo from './components/MenuTopo';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <MenuTopo titulo="Menu Inicial" />
+      <NavBar titulo="Menu Inicial" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

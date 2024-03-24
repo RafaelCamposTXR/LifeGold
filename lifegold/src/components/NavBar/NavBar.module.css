@@ -1,0 +1,15 @@
+.botaoNavegacao {
+  padding: 10px 20px;
+  margin-right: 10px; /* Espaçamento entre os botões */
+  text-decoration: none;
+  color: #ff03dd; /* Cor do texto */
+  background-color: #333; /* Cor de fundo */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botaoNavegacao:hover {
+  background-color: #249b4a; /* Cor de fundo ao passar o mouse */
+}
+
