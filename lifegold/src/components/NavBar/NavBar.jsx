@@ -1,21 +1,21 @@
+// NavBar.js
 import React from 'react';
-import style from './NavBar.module.css'
+import { Link } from 'react-router-dom';
+import style from './NavBar.module.css';
 
-class NavBar extends React.Component {
-  render() {
-    return (
-      <div className={style.menu}>
-        <ul className={style.listaMenu}>
-          <li><a href="#sobre" className = {style.botaoNavegacao}>Sobre</a></li>
-          <li><a href="#produtos" className = {style.botaoNavegacao}>Produtos</a></li>
-          <li><a href="#piscinas" className = {style.botaoNavegacao}>Piscinas</a></li>
-          <li><a href="#descubra" className = {style.botaoNavegacao}>Descubra</a></li>
-          <li><a href="#contato" className = {style.botaoNavegacao}>Contato</a></li>
-        </ul>
-      </div>
-    );
-  }
+function NavBar() {
+  return (
+    <div className={style.menu}>
+      <ul className={style.listaMenu}>
+        <li><Link to="/" className={style.botaoNavegacao}>Home</Link></li>
+        <li><Link to="/sobre" className={style.botaoNavegacao}>Sobre</Link></li>
+        <li><Link to="/produtos" className={style.botaoNavegacao}>Produtos</Link></li>
+        <li><Link to="/piscinas" className={style.botaoNavegacao}>Piscinas</Link></li>
+        <li><Link to="/descubra" className={style.botaoNavegacao}>Descubra</Link></li>
+        <li><Link to="/contato" className={style.botaoNavegacao}>Contato</Link></li>
+      </ul>
+    </div>
+  );
 }
-
 
 export default NavBar;
