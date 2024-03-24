@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Caixa from './Caixa';
+import Caixa from './components/Caixa';
 
 function App() {
   return (
