@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 .menu{
   background-color: none;
@@ -34,9 +35,26 @@
   z-index: 2;
 }
 
+.botaoNavegacaoAtivo {
+  padding: 10px 20px;
+  margin-right: 10px; /* Espaçamento entre os botões */
+  text-decoration: none;
+  color: #14BBC7; /* Cor do texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+
+  z-index: 2;
+}
+
 .botaoNavegacao:hover {
   color: #14BBC7; /* Cor de fundo ao passar o mouse */
-  font-size: 25px;
+  font-size: 19px;
 }
 
 .link{
