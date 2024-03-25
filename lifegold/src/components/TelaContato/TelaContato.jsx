@@ -7,8 +7,15 @@ function TelaContato() {
   const location = useLocation();
 
   return (
-    <div className={style.menu}>
+    <div className= {style.contato} >
+      <div className= {style.listaMenu}>
+        teste
+      </div>
+      <div className= {style.menu}>
         <img src={img} className={style.fundo}/>
+      </div>
+      
+        
     </div>
   );
 }

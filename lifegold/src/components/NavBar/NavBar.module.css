@@ -11,7 +11,7 @@
 }
 
 .listaMenu{
-  text-align: center;
+  text-align: space-between;
   list-style-type: none;
   margin: 25;
   padding: 0;
