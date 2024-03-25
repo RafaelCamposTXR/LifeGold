@@ -1,11 +1,12 @@
 
 .menu{
-  background-color: #1818a7;
+  background-color: none;
   padding: 10px 0;
   display: flex;
   text-align: center;
   justify-content: flex-end;
   position: relative;
+  height:100px;
 }
 
 .listaMenu{
@@ -20,17 +21,22 @@
   padding: 10px 20px;
   margin-right: 10px; /* Espaçamento entre os botões */
   text-decoration: none;
-  color: #2158be; /* Cor do texto */
-  background-color: #333; /* Cor de fundo */
+  color: #767272; /* Cor do texto */
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
 
   z-index: 2;
 }
 
 .botaoNavegacao:hover {
-  background-color: #5021d3; /* Cor de fundo ao passar o mouse */
+  color: #14BBC7; /* Cor de fundo ao passar o mouse */
+  font-size: 25px;
 }
 
 .link{
@@ -38,6 +44,8 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+
 
 
 
