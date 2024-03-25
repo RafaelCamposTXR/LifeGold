@@ -6,7 +6,7 @@
   text-align: center;
   justify-content: flex-end;
   position: relative;
-  height:fit-content;
+  height:max-content;
 }
 
 .listaMenu{
@@ -19,6 +19,8 @@
 
 .fundo{
   height: fit-content;
+  margin-top: -16px;
+  
 
 }
 .link{
