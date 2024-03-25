@@ -6,22 +6,18 @@
   text-align: center;
   justify-content: flex-end;
   position: relative;
-  height:max-content;
+  height: max-content;
 }
 
 .listaMenu{
   text-align: center;
   list-style-type: none;
-  margin: 25;
   padding: 0;
   display: flex;
 }
 
 .fundo{
   height: fit-content;
-  margin-top: -16px;
-  
-
 }
 .link{
   color: #fff;

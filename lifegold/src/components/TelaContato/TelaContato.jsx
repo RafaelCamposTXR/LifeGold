@@ -8,9 +8,7 @@ function TelaContato() {
 
   return (
     <div className={style.menu}>
-      <ul className={style.listaMenu}>    
         <img src={img} className={style.fundo}/>
-      </ul>
     </div>
   );
 }
