@@ -1,9 +1,10 @@
 import React from 'react';
+import Slider from '../components/Slider/Slider';
 
 function Piscinas() {
     return (
-        <div className="Piscinas">
-            <p>Piscinas</p>        
+        <div>
+            <Slider />
         </div>
     );
 }
