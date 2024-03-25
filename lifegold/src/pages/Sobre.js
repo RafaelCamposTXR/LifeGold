@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import logo from '../components/media/central.png';
 import porqueGeral from '../components/media/porquegeral.png';
-import contato from '../components/media/contato&creditos.png';
-import '../components/styles.css'
+import '../components/styles.css';
+import TelaContato from '../components/TelaContato/TelaContato';
 
 function Sobre() {
     return (
@@ -15,10 +15,9 @@ function Sobre() {
             </div>
             <br>
             </br>
-            <div className ="App">
-              <img src={contato} className="App-logo" alt="logo"/>
-            </div>
+            <TelaContato/>
         </div>
+        
     );
 }
 
