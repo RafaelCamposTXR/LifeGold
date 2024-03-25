@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
 .menu{
   background-color: none;
@@ -31,6 +31,8 @@
   font-optical-sizing: auto;
   font-weight: 700px;
   font-style: normal;
+  position: relative;
+  overflow: hidden;
 
   z-index: 2;
 }

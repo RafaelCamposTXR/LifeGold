@@ -1,5 +1,6 @@
-import React from 'react';
-import logo from '../central.png';
+import React, { useEffect } from 'react';
+import logo from '../components/media/central.png';
+import '../components/styles.css'
 
 function Sobre() {
     return (
