@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import logo from '../components/media/central.png';
 import porqueGeral from '../components/media/porquegeral.png';
-import texto from '../components/media/texto.png';
+import contato from '../components/media/contato&creditos.png';
 import '../components/styles.css'
 
 function Sobre() {
@@ -12,6 +12,11 @@ function Sobre() {
             </header>
             <div className ="App">
               <img src={porqueGeral} className="App-logo" alt="logo"/>
+            </div>
+            <br>
+            </br>
+            <div className ="App">
+              <img src={contato} className="App-logo" alt="logo"/>
             </div>
         </div>
     );
