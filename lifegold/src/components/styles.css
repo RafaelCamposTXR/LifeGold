@@ -12,7 +12,7 @@
   height: auto;
   width: max-content;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

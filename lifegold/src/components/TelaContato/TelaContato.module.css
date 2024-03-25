@@ -6,11 +6,10 @@
   text-align: center;
   position: relative;
   justify-content: flex-end;
+  position: 'absolute',
 }
 
-.menu{
-  height: max-content;
-}
+
 
 .listaMenu{
   align-self: flex-start;
