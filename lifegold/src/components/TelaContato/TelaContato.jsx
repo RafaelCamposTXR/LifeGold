@@ -6,16 +6,9 @@ import img from '../media/fundoTelaContato.png';
 function TelaContato() {
   const location = useLocation();
 
-  return (
+  return(
     <div className= {style.contato} >
-      <div className= {style.listaMenu}>
-        teste
-      </div>
-      <div className= {style.menu}>
         <img src={img} className={style.fundo}/>
-      </div>
-      
-        
     </div>
   );
 }
