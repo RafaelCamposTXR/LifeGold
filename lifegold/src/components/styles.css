@@ -94,6 +94,6 @@
 
 .linha-cinza {
   border-top: 1px solid #ccc;
-  margin-top: 30px auto;
+  margin-top: 30px auto 0;
   width: 100%;
 }
