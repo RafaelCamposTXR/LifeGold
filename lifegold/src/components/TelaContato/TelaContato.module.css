@@ -6,7 +6,6 @@
   justify-content: space-around;
   position: relative;
   width: auto;
-
 }
 
 .listaMenu{
@@ -19,11 +18,14 @@
 .logo{
   margin-top:10px;
   height: fit-content;
+  display: flex;
 }
 
 .fundo{
   height: fit-content;
+  width: fit-content;
   margin-left: auto;
+  display: flex;
 }
 
 

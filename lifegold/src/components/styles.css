@@ -44,3 +44,29 @@
     transform: rotate(360deg);
   }
 }
+
+.menu {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.item-menu {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nome-item {
+  font-weight: bold;
+}
+
+.preco-item{
+  font-weight: bold;
+}
+
+.lista-menu {
+  max-width: 400px;
+  margin: 0 auto;
+}
