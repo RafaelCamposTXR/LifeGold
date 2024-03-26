@@ -9,11 +9,12 @@
 }
 
 .App-header {
+  margin-top: 14vmin;
   background-color: D9D9D9;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: start;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -33,12 +34,13 @@
 
 @media only screen and (max-width: 768px) {
   .App-logo {
-    margin-top: 100px;
-    max-width: 300px;;
+    margin-top: 5vmin;
+    max-width: 80vmin;;
+  }
+  .App-header {
+    margin-top: 30vmin;
   }
 }
-
-
 
 .App-link {
   color: #61dafb;

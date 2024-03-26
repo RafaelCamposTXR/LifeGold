@@ -21,6 +21,7 @@
     border-radius: 20px;
   }
 
+  
   @media only screen and (max-width: 768px) {
     .piscina-item img {
       max-width: 100px;
