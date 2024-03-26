@@ -41,7 +41,6 @@
   font-style: normal;
   position: relative;
   overflow: hidden;
-
   z-index: 2;
 }
 
@@ -58,7 +57,6 @@
   font-optical-sizing: auto;
   font-weight: 700px;
   font-style: normal;
-
   z-index: 2;
 }
 
