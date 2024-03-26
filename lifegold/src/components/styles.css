@@ -117,3 +117,13 @@
   width: 100px;
   height: 100px;
 }
+
+.texto {
+  margin-top: 50px;
+  text-align: center;
+  color: #3a3a3a; /* Cor do texto */
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400px;
+  position: relative;
+}

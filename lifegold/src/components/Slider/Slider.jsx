@@ -25,6 +25,8 @@ function Slider() {
         slidesPerView={1}
         pagination={{ clickable: true }}
         navigation={true}
+        autoplay={{ delay: 4000 }}
+        speed={500}
       >
         {data.map( (item) => (
           <SwiperSlide key={item.id}>
