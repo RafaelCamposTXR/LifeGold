@@ -20,6 +20,16 @@
     object-fit: cover;
     border-radius: 20px;
   }
+
+  @media only screen and (max-width: 768px) {
+    .piscina-item img {
+      max-width: 100px;
+      height: 150px;
+    }
+    .piscina-grid {
+      gap: 10px;
+    }
+  }
   
   
   .details-modal {
