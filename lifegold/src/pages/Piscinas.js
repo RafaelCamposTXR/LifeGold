@@ -13,7 +13,7 @@ function Piscinas() {
             <div style={{ marginTop: '130px' }}>
                 <Slider />
             </div>
-            <div style={{ marginTop: '100px' }}>
+            <div style={{ marginTop: '130px', maxWidth: '600px', margin: '0 auto' }}>
                 <div className='texto'>
                     <p>Confira os nossos trabalhos ao longo de nossa experiência com construção de piscinas</p>
                 </div>
