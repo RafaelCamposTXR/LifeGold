@@ -2,7 +2,7 @@
 
 .menu{
   background-color: none;
-  padding: 10px 0;
+  padding: 1.5vmin 0;
   display: flex;
   text-align: end;
   justify-content: flex-end;
@@ -13,22 +13,34 @@
   top: 0; /* Coloca o navbar no topo da tela */
   z-index: 1000;
   margin-top: 12px;
-  margin-right: 15px;
+  margin-right: 5vmin;
 }
 
 .listaMenu{
   text-align: space-between;
   justify-content:flex-end;
   list-style-type: none;
-  margin: 25;
+  margin-right: 3vmin;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 768px) {
+  .listaMenu {
+    justify-content:flex-start;
+    max-width: 50vmin;
+    margin-left:auto;
+  }
+  .menu {
+    justify-content:flex-start;
+
+  }
+}
+
 .botaoNavegacao {
   padding: 10px 20px;
-  margin-right: 10px; /* Espaçamento entre os botões */
+  margin-right: 3vmin; /* Espaçamento entre os botões */
   text-decoration: none;
   color: #767272; /* Cor do texto */
   border: none;
@@ -46,7 +58,7 @@
 
 .botaoNavegacaoAtivo {
   padding: 10px 20px;
-  margin-right: 10px; /* Espaçamento entre os botões */
+  margin-right: 3vmin; /* Espaçamento entre os botões */
   text-decoration: none;
   color: #14BBC7; /* Cor do texto */
   border: none;
