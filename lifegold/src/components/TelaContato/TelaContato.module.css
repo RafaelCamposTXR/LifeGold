@@ -3,13 +3,11 @@
 .contato{
   background-color: #E3E3E3;
   display: flex;
-  text-align: center;
+  justify-content: space-around;
   position: relative;
-  justify-content: flex-end;
-  position: 'absolute',
+  width: auto;
+
 }
-
-
 
 .listaMenu{
   align-self: flex-start;
@@ -18,15 +16,16 @@
   display: flex;
 }
 
-.fundo{
-  align-self: right;
+.logo{
+  margin-top:10px;
   height: fit-content;
 }
-.link{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+
+.fundo{
+  height: fit-content;
+  margin-left: auto;
 }
+
 
 
 
