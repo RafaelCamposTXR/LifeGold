@@ -5,7 +5,9 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
+  max-height: 30vmin;
   width: 100%;
+  margin-top: 20vmin;
 }
 
 .listaMenu{
@@ -18,7 +20,7 @@
 .texto{
   margin-top:3%;
   min-width:20%;
-  margin-left: 200%;
+  margin-left: 140%;
   margin-right: -20%;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
@@ -28,16 +30,16 @@
 }
 
 .logo{
-  margin-top:16%;
+  margin-top:8%;
   margin-left: 60%;
   height: fit-content;
   display: flex;
 }
 
 .fundo{
-  height: fit-content;
-  width: fit-content;
-  margin-left: auto;
+  position: relative;
+  height: 30vmin;
+  width: 100%;
   display: flex;
 }
 

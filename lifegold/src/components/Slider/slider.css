@@ -3,7 +3,7 @@
     max-width: 1440px;
     height:auto;
     margin: 0 auto;
-
+    z-index: 1;
 }
 
 .slider-item{
