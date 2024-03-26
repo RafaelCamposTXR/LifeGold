@@ -4,10 +4,10 @@ import './MenuItens.css';
 function MenuItem({ name, price, image}) {
   return (
     <div className="item-menu">
+      <img src={image} className="image"/>
       <div className="nome-item">
         {name}
         {price}
-        <img src={image} className="image"/>
       </div>
       
     </div>

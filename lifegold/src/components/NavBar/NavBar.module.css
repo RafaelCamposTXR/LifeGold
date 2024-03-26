@@ -4,7 +4,7 @@
   background-color: none;
   padding: 10px 0;
   display: flex;
-  text-align: center;
+  text-align: end;
   justify-content: flex-end;
   position: fixed;
   right: 0;
@@ -18,10 +18,12 @@
 
 .listaMenu{
   text-align: space-between;
+  justify-content:flex-end;
   list-style-type: none;
   margin: 25;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .botaoNavegacao {

@@ -8,15 +8,32 @@
   justify-content: center;
 }
 
+.App-header {
+  background-color: D9D9D9;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
 .App-logo {
-  margin-top: 100px;
+  display:block;
+  margin-top: 10px;
   height: 60vmin;
   pointer-events: none;
   align-items: center;
   height: auto;
-  width: max-content;
+  width: fit-content;
   justify-content: center;
-  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .App-logo {
+    max-width: 300px;;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,16 +42,7 @@
   }
 }
 
-.App-header {
-  background-color: D9D9D9;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -72,58 +80,16 @@
   width: auto; /* Largura automática (mantém a proporção) */
 }
 
-.menu {
-  margin-top: 200px;
-  text-align: center;
-}
-
-.item-menu {
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  padding-bottom: 100px;
-  display: flex;
-  justify-content: flex-start;
-  background-color: #ebf3f4;
-}
-
-.nome-item {
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
-  font-optical-sizing: auto;
-  font-weight: 700px;
-  font-style: normal;
-  padding-bottom: 0px;
-}
-
-.preco-item{
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
-  font-optical-sizing: auto;
-  font-weight: 700px;
-  font-style: normal;
-  padding-bottom: 0px;
-}
-
-.lista-menu {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.image{
-  margin-top:50px;
-  margin-right:auto;
-  width: 200px;
-  height: 200px;
-}
-
 .texto {
-  margin-top: 50px;
+  margin-top: 120px;
   text-align: center;
   color: #3a3a3a; /* Cor do texto */
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   font-weight: 400px;
-  position: relative;
+}
+
+.textoPai{
+  display: flex;
+  justify-content: center;
 }

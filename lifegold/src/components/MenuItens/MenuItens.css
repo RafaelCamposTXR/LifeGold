@@ -2,16 +2,17 @@
 
 
 .menu {
-  margin-top: 200px;
+  margin-top: 50px;
   text-align: center;
 }
 
 .item-menu {
-  border: 1px solid #ccc;
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: space-between;
+  border: 5px solid #ccc;
+  margin-bottom: 80px;
+  margin-left: 20px;
   background-color: #ebf3f4;
+  max-width: 300px;
+  max-height: auto;
 }
 
 .nome-item {
@@ -34,13 +35,23 @@
 }
 
 .lista-menu {
-  max-width: 400px;
-  margin: 0 auto;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image{
   margin-top: auto;
   margin-right:auto;
-  width: fit-content;
+  max-width: 300px;
   height: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+  .item-menu{
+    max-width: 100px;
+  }
+  .image {
+    max-width: 100px;
+  }
 }
