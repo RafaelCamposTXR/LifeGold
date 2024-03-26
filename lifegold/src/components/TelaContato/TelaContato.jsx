@@ -9,8 +9,8 @@ function TelaContato() {
 
   return(
     <div className= {style.contato} >
-      <div className= {style.listMenu}>
-        Entre em Contato
+      <div className= {style.texto}>
+        ENTRE EM CONTATO
       </div>
       <img src={logo} className={style.logo}/>
       <img src={img} className={style.fundo}/>
