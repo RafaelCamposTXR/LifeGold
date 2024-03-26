@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
-.menu{
+.contato{
   background-color: #E3E3E3;
   display: flex;
   text-align: center;
-  justify-content: flex-end;
   position: relative;
-  height:fit-content;
+  justify-content: flex-end;
+  position: 'absolute',
 }
 
+
+
 .listaMenu{
-  text-align: center;
+  align-self: flex-start;
+  position: relative;
   list-style-type: none;
-  margin: 25;
-  padding: 0;
   display: flex;
 }
 
 .fundo{
+  align-self: right;
   height: fit-content;
-
 }
 .link{
   color: #fff;
