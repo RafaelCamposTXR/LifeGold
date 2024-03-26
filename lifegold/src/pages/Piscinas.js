@@ -3,7 +3,7 @@ import Slider from '../components/Slider/Slider';
 
 function Piscinas() {
     return (
-        <div>
+        <div style={{ marginTop: '100px' }}>
             <Slider />
         </div>
     );
