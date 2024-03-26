@@ -31,7 +31,7 @@ function Menu() {
     <div className="menu">
       <div className="lista-menu">
         {menuItems.map((item, index) => (
-          <MenuItem key={index} name={item.name} price={item.price} image ={item.image} />
+            <MenuItem key={index} name={item.name} price={item.price} image ={item.image} />
         ))}
       </div>
     </div>
