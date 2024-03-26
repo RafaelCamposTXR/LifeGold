@@ -13,8 +13,6 @@ function Sobre() {
             <div className ="App">
               <img src={porqueGeral} className="App-logo" alt="logo"/>
             </div>
-            <br>
-            </br>
             <TelaContato/>
         </div>
         
