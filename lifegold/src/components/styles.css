@@ -6,6 +6,7 @@
 }
 
 .App-logo {
+  margin-top: 100px;
   height: 60vmin;
   pointer-events: none;
   align-items: center;
@@ -66,4 +67,30 @@
 .logoh {
   height: 75px; /* Altura da logo */
   width: auto; /* Largura automática (mantém a proporção) */
+}
+
+.menu {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.item-menu {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nome-item {
+  font-weight: bold;
+}
+
+.preco-item{
+  font-weight: bold;
+}
+
+.lista-menu {
+  max-width: 400px;
+  margin: 0 auto;
 }
