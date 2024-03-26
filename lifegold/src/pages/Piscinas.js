@@ -5,7 +5,6 @@ import '../components/styles.css'
 function Piscinas() {
     return (
         <div>
-            <div>
             <div className='graybox'>
                 <div className='content'>
                     <img src={require('../components/media/logoh.png')} className="logoh" />
@@ -14,7 +13,6 @@ function Piscinas() {
             <div style={{ marginTop: '130px' }}>
                 <Slider />
             </div>
-        </div>
         </div>
     );
 }
