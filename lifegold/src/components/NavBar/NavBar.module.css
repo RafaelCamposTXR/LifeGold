@@ -12,7 +12,7 @@
   height:100px;
   top: 0; /* Coloca o navbar no topo da tela */
   z-index: 1000;
-  margin-top: 15px;
+  margin-top: 12px;
   margin-right: 15px;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .botaoNavegacao:hover {
-  color: #14BBC7; /* Cor de fundo ao passar o mouse */
+  color: #ffffff; /* Cor de fundo ao passar o mouse */
   font-size: 19px;
 }
 

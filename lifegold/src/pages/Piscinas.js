@@ -1,10 +1,20 @@
 import React from 'react';
 import Slider from '../components/Slider/Slider';
+import '../components/styles.css'
 
 function Piscinas() {
     return (
-        <div style={{ marginTop: '100px' }}>
-            <Slider />
+        <div>
+            <div>
+            <div className='graybox'>
+                <div className='content'>
+                    <img src={require('../components/media/logoh.png')} className="logoh" />
+                </div>
+            </div>
+            <div style={{ marginTop: '130px' }}>
+                <Slider />
+            </div>
+        </div>
         </div>
     );
 }

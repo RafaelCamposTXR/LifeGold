@@ -44,3 +44,26 @@
     transform: rotate(360deg);
   }
 }
+
+.graybox {
+  background-color: #eeeeee; /* Cor de fundo cinza */
+  height: 90px; /* Altura da caixa */
+  width: 100vw; /* Largura total da viewport */
+  position: fixed; /* Posição fixa na parte superior da tela */
+  top: 0; /* Alinha a caixa no topo da tela */
+  left: 0; /* Alinha a caixa no canto esquerdo da tela */
+  z-index: 999; /* Define a ordem de empilhamento */
+  display: flex; /* Ativa o flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 0 20px; /* Adiciona um pouco de padding para o conteúdo interno */
+  box-sizing: border-box; /* Garante que o padding não aumente a largura da caixa */
+}
+
+.content {
+  margin-left: 10px; /* Espaço à esquerda para a logo */
+}
+
+.logoh {
+  height: 75px; /* Altura da logo */
+  width: auto; /* Largura automática (mantém a proporção) */
+}
