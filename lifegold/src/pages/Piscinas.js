@@ -22,6 +22,10 @@ function Piscinas() {
                     <p>Confira os nossos trabalhos ao longo de nossa experiência com construção de piscinas</p>
                 </div>
             </div>
+            
+            <div style={{ marginTop: '20px' }}>
+                <div className="linha-cinza"></div> {/* Adiciona a linha cinza */}
+            </div>
 
             <div style={{ marginTop: '70px' }}>
                 <Catalogo />
