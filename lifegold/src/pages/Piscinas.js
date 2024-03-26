@@ -23,7 +23,7 @@ function Piscinas() {
                 </div>
             </div>
 
-            <div style={{ marginTop: '50px' }}>
+            <div style={{ marginTop: '70px' }}>
                 <Catalogo />
             </div>
             

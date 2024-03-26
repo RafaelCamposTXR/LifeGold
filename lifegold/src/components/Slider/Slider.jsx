@@ -14,9 +14,9 @@ register();
 
 function Slider() {
   const data = [
-    { id: '1', image: require('../media/piscina1.png') },
-    { id: '2', image: require('../media/piscina2.png') },
-    { id: '3', image: require('../media/piscina3.png') },
+    { id: '1', image: require('../media/piscina1.jpeg') },
+    { id: '2', image: require('../media/piscina2.jpeg') },
+    { id: '3', image: require('../media/piscina3.jpeg') },
   ]
 
   return (
