@@ -1,0 +1,43 @@
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .piscina-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .piscina-item {
+    cursor: pointer;
+  }
+
+  .piscina-item img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  
+  .details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  
+  .details-content {
+    text-align: center;
+  }
+  
+  .details-content img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  
