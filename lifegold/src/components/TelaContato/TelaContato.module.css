@@ -3,9 +3,8 @@
 .contato{
   background-color: #E3E3E3;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   position: relative;
-  width: auto;
 }
 
 .listaMenu{

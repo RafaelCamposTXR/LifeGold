@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
+
+
 .App {
   text-align: center;
   display: flex;
@@ -77,20 +80,40 @@
 .item-menu {
   border: 1px solid #ccc;
   margin-bottom: 10px;
-  padding-bottom: 400px;
+  padding-bottom: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  background-color: #ebf3f4;
 }
 
 .nome-item {
   font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  padding-bottom: 0px;
 }
 
 .preco-item{
   font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  padding-bottom: 0px;
 }
 
 .lista-menu {
   max-width: 400px;
   margin: 0 auto;
+}
+
+.image{
+  margin-top:50px;
+  margin-right:auto;
+  width: 100px;
+  height: 100px;
 }
