@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from '../components/Slider/Slider';
-import '../components/styles.css'
+import '../components/styles.css';
+import '../components/catalogo/Catalogo';
+import Catalogo from '../components/catalogo/Catalogo';
 
 function Piscinas() {
     return (
@@ -10,13 +12,19 @@ function Piscinas() {
                     <img src={require('../components/media/logoh.png')} className="logoh" />
                 </div>
             </div>
+
             <div style={{ marginTop: '130px' }}>
                 <Slider />
             </div>
+
             <div style={{ marginTop: '130px', maxWidth: '600px', margin: '0 auto' }}>
                 <div className='texto'>
                     <p>Confira os nossos trabalhos ao longo de nossa experiência com construção de piscinas</p>
                 </div>
+            </div>
+
+            <div>
+                <Catalogo />
             </div>
             
         </div>
