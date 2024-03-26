@@ -9,7 +9,7 @@ function MenuItem({ name, price, image}) {
         {name}
       </div>
       <div className="preco-item">
-        {price}
+        R${price}
       </div>
       
     </div>

@@ -6,6 +6,7 @@
 }
 
 .item-menu {
+  align-content: end;
   border: 5px solid #14BBC7;
   margin-bottom: 80px;
   margin-left: 20px;
@@ -17,7 +18,7 @@
 .nome-item {
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-optical-sizing: auto;
   font-weight: 700px;
   font-style: normal;
