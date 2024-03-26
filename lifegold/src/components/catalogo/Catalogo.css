@@ -12,6 +12,7 @@
   
   .piscina-item {
     cursor: pointer;
+    margin: 50px;
   }
 
   .piscina-item img {
