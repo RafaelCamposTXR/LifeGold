@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 .App {
   text-align: center;
   display: flex;
@@ -93,4 +95,14 @@
 .lista-menu {
   max-width: 400px;
   margin: 0 auto;
+}
+
+.texto {
+  margin-top: 50px;
+  text-align: center;
+  color: #3a3a3a; /* Cor do texto */
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400px;
+  position: relative;
 }
