@@ -24,6 +24,9 @@ function Catalogo() {
         {piscinas.map((piscina) => (
           <div key={piscina.id} className="piscina-item" onClick={() => openDetails(piscina)}>
             <img src={piscina.image} alt={`Piscina ${piscina.id}`} />
+            <div className="overlay">
+              <p>Ver detalhes</p>
+            </div>
           </div>
         ))}
       </div>
