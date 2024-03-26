@@ -61,4 +61,7 @@
   .image {
     max-width: 100px;
   }
+  .nome-item{
+    font-size: 14px;
+  }
 }
