@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import style from './TelaContato.module.css';
+import './TelaContato.css';
 import img from '../media/fundoTelaContato.png';
 import logo from '../media/LifeGoldlogo.png';
 
@@ -8,12 +8,14 @@ function TelaContato() {
   const location = useLocation();
 
   return(
-    <div className= {style.contato} >
-      <div className= {style.texto}>
-        ENTRE EM CONTATO
+    <div className= "contato" >
+      <div className= "listaMenu">
+      <div className= "texto">
+          ENTRE EM CONTATO
+        </div>
       </div>
-      <img src={logo} className={style.logo}/>
-      <img src={img} className={style.fundo}/>
+      <img src={logo} className="logo"/>
+      <img src={img} className="fundo"/>
     </div>
   );
 }

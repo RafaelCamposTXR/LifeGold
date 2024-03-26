@@ -7,21 +7,19 @@
   position: relative;
   max-height: 30vmin;
   width: 100%;
-  margin-top: 20vmin;
+  margin-top: 50vmin;
 }
 
 .listaMenu{
-  position: relative;
+  margin-left:2%;
+  justify-content: start;
   list-style-type: none;
   display: flex;
-
+  max-width: 70%;
+  flex-wrap: wrap;
 }
 
 .texto{
-  margin-top:3%;
-  min-width:20%;
-  margin-left: 140%;
-  margin-right: -20%;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   font-optical-sizing: auto;
@@ -30,16 +28,16 @@
 }
 
 .logo{
-  margin-top:8%;
-  margin-left: 60%;
+  margin-top: 8%;
+  margin-left: 50%;
   height: fit-content;
   display: flex;
 }
 
 .fundo{
-  position: relative;
+  margin-right: 0;
   height: 30vmin;
-  width: 100%;
+  width: fit-content;
   display: flex;
 }
 
