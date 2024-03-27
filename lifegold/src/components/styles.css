@@ -116,12 +116,11 @@
 
 .imagem-lateral {
   height: 800px;
-  max-width: 500px;
   object-fit: cover;
 }
 
 .imagem-lateral img {
-  height: 800px;
+  height: 900px;
   width: auto;
-  clip-path: polygon(0 0, 19% 0, 26% 83%, 0% 100%);
+  clip-path: polygon(0 0, 50% 0, 74% 80%, 0% 100%);
 }

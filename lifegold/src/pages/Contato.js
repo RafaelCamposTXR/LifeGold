@@ -11,7 +11,7 @@ function Contato() {
             </div>
 
             <div className="imagem-lateral" style={{ marginTop: '90px' }}>
-                <img src={require('../components/media/piscinalonga3.png')} />
+                <img src={require('../components/media/piscina6.jpeg')} />
             </div>
         </div>
     );
