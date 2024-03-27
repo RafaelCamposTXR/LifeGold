@@ -13,23 +13,29 @@ const Bubble = ({ size, borderWidth, top, left }) => {
 const BubbleContainer = ({ numBubbles, areaWidth, areaHeight }) => {
   const [bubbles, setBubbles] = useState([]);
 
+  const isBubbleVisible = (bubble) => {
+    return bubble.top + bubble.size > 0 && bubble.top < areaHeight && bubble.left + bubble.size > 0 && bubble.left < areaWidth;
+  };
+
   const generateRandomBubbles = () => {
-    const newBubbles = [];
-    for (let i = 0; i < numBubbles; i++) {
+
+    const visibleBubbles = bubbles.filter(isBubbleVisible);
+
+    const newBubbles = [...visibleBubbles];
+    for (let i = visibleBubbles.length; i < numBubbles; i++) {
       const size = Math.floor(Math.random() * 50) + 20; // Tamanho aleatório entre 20 e 70
       const borderWidth = Math.floor(Math.random() * 10) + 2;
       const top = Math.random() * areaHeight; // Posição vertical aleatória dentro da área especificada
       const left = Math.random() * areaWidth; // Posição horizontal aleatória dentro da área especificada
       newBubbles.push({ id: i, size, borderWidth, top, left });
     }
+    
     setBubbles(newBubbles);
   };
 
   useEffect(() => {
     generateRandomBubbles();
-    const interval = setInterval(generateRandomBubbles, 5000); // Gera novas bolhas a cada 5 segundos
-    return () => clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
-  }, []); // Executa apenas uma vez após a montagem do componente
+  }, []);
 
   return (
     <div className="bubble-container">
