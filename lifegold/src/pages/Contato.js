@@ -5,7 +5,6 @@ import BubbleContainer from '../components/Bolhas/BubbleContainer';
 function Contato() {
     return (
         <div className="Contato">
-            <BubbleContainer numBubbles={10} />
 
             <div className="graybox">
                 <div className="content">
@@ -16,6 +15,8 @@ function Contato() {
             <div className="imagem-lateral" style={{ marginTop: '90px', zIndex: '0' }}>
                 <img src={require('../components/media/piscina6.jpeg')} />
             </div>
+
+            <BubbleContainer numBubbles={10} areaWidth={500} areaHeight={900} />
         </div>
     );
 }

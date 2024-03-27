@@ -5,40 +5,31 @@ const Bubble = ({ size, borderWidth, top, left }) => {
   return (
     <div
       className="bubble"
-      style={{
-        width: size,
-        height: size,
-        borderWidth: borderWidth,
-        top,
-        left
-      }}
+      style={{ width: size, height: size, borderWidth, top, left }}
     ></div>
   );
 };
 
-const BubbleContainer = ({ numBubbles }) => {
+const BubbleContainer = ({ numBubbles, areaWidth, areaHeight }) => {
   const [bubbles, setBubbles] = useState([]);
 
-  useEffect(() => {
-    const generateRandomBubbles = () => {
-      const newBubbles = [];
-      for (let i = 0; i < numBubbles; i++) {
-        const size = Math.floor(Math.random() * 50) + 20;
-        const borderWidth = Math.floor(Math.random() * 10) + 2;
-        const top = Math.random() * window.innerHeight;
-        const left = Math.random() * window.innerWidth;
-        newBubbles.push({ id: i, size, borderWidth, top, left });
-      }
-      setBubbles(newBubbles);
-    };
+  const generateRandomBubbles = () => {
+    const newBubbles = [];
+    for (let i = 0; i < numBubbles; i++) {
+      const size = Math.floor(Math.random() * 50) + 20; // Tamanho aleatório entre 20 e 70
+      const borderWidth = Math.floor(Math.random() * 10) + 2;
+      const top = Math.random() * areaHeight; // Posição vertical aleatória dentro da área especificada
+      const left = Math.random() * areaWidth; // Posição horizontal aleatória dentro da área especificada
+      newBubbles.push({ id: i, size, borderWidth, top, left });
+    }
+    setBubbles(newBubbles);
+  };
 
-    generateRandomBubbles(); // Gera bolhas iniciais
-    const interval = setInterval(() => {
-      generateRandomBubbles(); // Gera novas bolhas a cada 5 segundos
-    }, 5000);
-    
+  useEffect(() => {
+    generateRandomBubbles();
+    const interval = setInterval(generateRandomBubbles, 5000); // Gera novas bolhas a cada 5 segundos
     return () => clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
-  }, [numBubbles]);
+  }, []); // Executa apenas uma vez após a montagem do componente
 
   return (
     <div className="bubble-container">
