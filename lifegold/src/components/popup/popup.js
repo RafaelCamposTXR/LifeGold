@@ -1,6 +1,9 @@
 import React from 'react'
 
 function popup(props) {
+
+  
+
   return (props.trigger) ? (
     <div className="popup">
       <div className="popupInterior">

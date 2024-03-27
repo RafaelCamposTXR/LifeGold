@@ -95,3 +95,25 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
 }
+
+.details-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  width: 1200px;
+  height: 500px;
+  overflow-y: auto;
+  z-index: 2;
+}
+
+.details-content img {
+  text-align: right;
+  max-width: 100%;
+  max-height: 300px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  z-index: 2;
+}
