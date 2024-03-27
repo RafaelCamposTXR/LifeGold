@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
 .menu{
+  margin-top: 20vmin;
   background-color: none;
   padding: 1.5vmin 0;
   display: flex;
@@ -12,33 +13,57 @@
   height:100px;
   top: 0; /* Coloca o navbar no topo da tela */
   z-index: 1000;
-  margin-top: 12px;
+  margin-top: 6px;
   margin-right: 5vmin;
 }
 
 .listaMenu{
-  text-align: end;
+  margin-top: 2.5vmin;
+  position: fixed;
+  text-align: center;
   justify-content:flex-end;
   list-style-type: none;
   margin-right: 3vmin;
   margin-left:0;
-  padding: 0;
+  padding: 4px;
   display: flex;
   flex-wrap: wrap;
 }
 
+.logoPai{
+  display: none;
+  margin-left: 80%;
+  right: 0;
+  justify-content: end;
+}
+
+.logoh {
+  height: 75px; /* Altura da logo */
+  width: auto; /* Largura automática (mantém a proporção) */
+  display: none;
+  left: auto;
+  right: 0;
+}
+
 @media only screen and (max-width: 768px) {
-  .listaMenu {
-    justify-content:space-between;
-    max-width: 80vmin;
-  }
   .menu {
-    justify-content:space-between;
-    margin-left: auto;
+    justify-content:start;
+    margin-top: 2px;
+    text-align: start;
+    left: 0;
+    right: auto;
+  }
+  .listaMenu {
+    justify-content:flex-start;
+    text-align: start;
+    max-width: 40vmin;
   }
   .botaoNavegacao{
     margin-right: 1vmin;
     padding: 1vmin 1vmin;
+  }
+  .logoh {
+    display:flex;
   }
 }
 

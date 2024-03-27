@@ -16,6 +16,7 @@ function NavBar() {
         <li><Link to="/contato" className={location.pathname === '/contato' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>CONTATO</Link></li>
       </ul>
     </div>
+    
   );
 }
 
