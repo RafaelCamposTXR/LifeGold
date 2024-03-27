@@ -30,20 +30,7 @@
   flex-wrap: wrap;
 }
 
-.logoPai{
-  display: none;
-  margin-left: 80%;
-  right: 0;
-  justify-content: end;
-}
 
-.logoh {
-  height: 75px; /* Altura da logo */
-  width: auto; /* Largura automática (mantém a proporção) */
-  display: none;
-  left: auto;
-  right: 0;
-}
 
 @media only screen and (max-width: 768px) {
   .menu {
@@ -62,9 +49,7 @@
     margin-right: 1vmin;
     padding: 1vmin 1vmin;
   }
-  .logoh {
-    display:flex;
-  }
+
 }
 
 .botaoNavegacao {
