@@ -6,12 +6,11 @@ import '../components/styles.css'
 function Produtos() {
     return (
         <div className="Produtos">
-          <div className='graybox'>
-              <div className='content'>
-                  <img src={require('../components/media/logoh.png')} className="logoh" />
-              </div>
-          </div>
-
+          <div className="graybox">
+            <div className="content">
+              <img src={require('../components/media/logoh.png')} className="logoh" />
+            </div>
+            </div>
           <div className="textoPai">
             <div style={{ marginTop: '20px', maxWidth: '600px'}}>
               <div className='texto'>
@@ -19,7 +18,6 @@ function Produtos() {
               </div>
             </div>  
           </div>
-
           <Menu/>
         </div>
     );

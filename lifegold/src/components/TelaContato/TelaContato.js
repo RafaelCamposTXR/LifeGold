@@ -6,7 +6,6 @@ import logo from '../media/LifeGoldlogo.png';
 
 function TelaContato() {
   const location = useLocation();
-
   return(
     <div className= "contato" >
       <div className= "listaMenu">

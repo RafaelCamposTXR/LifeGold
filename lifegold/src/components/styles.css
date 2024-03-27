@@ -56,6 +56,7 @@
 }
 
 .graybox {
+  margin-bottom: 30px;
   background-color: #eeeeee; /* Cor de fundo cinza */
   height: 90px; /* Altura da caixa */
   width: 100vw; /* Largura total da viewport */
@@ -67,6 +68,17 @@
   align-items: center; /* Centraliza verticalmente */
   padding: 0 20px; /* Adiciona um pouco de padding para o conteúdo interno */
   box-sizing: border-box; /* Garante que o padding não aumente a largura da caixa */
+}
+
+@media only screen and (max-width: 768px) {
+  .graybox {
+    height: 14vh;
+    justify-content: end;
+    opacity: 0.7;
+  }
+  .content {
+    display:none;
+  }
 }
 
 .content {

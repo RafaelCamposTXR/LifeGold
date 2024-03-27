@@ -69,10 +69,9 @@
   }
   .nome-item{
     font-size: 14px;
-    border-radius: 14px;
+    border-radius: 12.5px;
   }
 }
-
 
 .item-menu:hover .overlay {
   opacity:0.45;
