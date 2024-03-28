@@ -56,7 +56,7 @@ function Menu() {
       {selectedPiscina && (
         <div className="popup-container">
           <div className="popup-content">
-            <img src={selectedPiscina.image} alt={`Piscina ${selectedPiscina.id}`} />
+            <img src={selectedPiscina.image} className="popup-img" alt={`Piscina ${selectedPiscina.id}`} />
             <p>{selectedPiscina.details}</p>
             <button onClick={closeDetails}>Fechar</button>
           </div>
