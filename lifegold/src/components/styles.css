@@ -138,9 +138,10 @@
 }
 
 .PorqueGeralMobile{
+  margin-top: 100px;
   display:none;
   text-align: center;
-  width:380px;
+  width:100%;
 }
 
 @media only screen and (max-width: 768px) {
