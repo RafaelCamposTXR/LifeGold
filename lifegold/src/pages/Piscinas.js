@@ -9,7 +9,7 @@ function Piscinas() {
         <div>
             <div className='graybox'>
                 <div className='content'>
-                    <img src={require('../components/media/logoh.png')} className="logoh" />
+                    <img src={require('../components/media/logoh.png')} className="logoh" alt="" />
                 </div>
             </div>
 
