@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6f50f32.css",
-    "main.js": "/static/js/main.4bd019f4.js",
+    "main.css": "/static/css/main.20bf8f4d.css",
+    "main.js": "/static/js/main.9aa6a7f4.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -18,13 +18,14 @@
     "static/media/piscina9.jpeg": "/static/media/piscina9.dc496cf0392d4768049c.jpeg",
     "static/media/piscina5.jpeg": "/static/media/piscina5.de28b30ce4803ca43eb6.jpeg",
     "static/media/piscina1.jpeg": "/static/media/piscina1.a8d2270cadef6b2aa49c.jpeg",
-    "static/media/porquegeral.png": "/static/media/porquegeral.4981674a5798590d22ce.png",
     "static/media/piscina7.jpeg": "/static/media/piscina7.632af2403dc1e1f915c8.jpeg",
     "static/media/sulfato.jpg": "/static/media/sulfato.8fe724459ebe205184b6.jpg",
+    "static/media/PorqueGeralPC.png": "/static/media/PorqueGeralPC.79a88a366e5febc9917f.png",
     "static/media/logoh.png": "/static/media/logoh.d962bf8d12cd3b24f7ec.png",
     "static/media/g_baldecloro.jpg": "/static/media/g_baldecloro.e9cef3f7e511412794d4.jpg",
     "static/media/mangueiraFlutuante1_2.jpg": "/static/media/mangueiraFlutuante1_2.8fc513bf8ca5dcadf21e.jpg",
     "static/media/g_tratamentosemanal.jpg": "/static/media/g_tratamentosemanal.2005d480d2dd2bd9d455.jpg",
+    "static/media/PorqueGeralMobile.png": "/static/media/PorqueGeralMobile.5b03938efdb169987884.png",
     "static/media/barrilha.jpg": "/static/media/barrilha.3b27aa1d52d3add31d27.jpg",
     "static/media/estojoTeste.jpg": "/static/media/estojoTeste.0e04c93a7e1572e493c0.jpg",
     "static/media/g_t200.jpg": "/static/media/g_t200.5977b8559f8ce0cf3d3f.jpg",
@@ -44,12 +45,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.c6f50f32.css.map": "/static/css/main.c6f50f32.css.map",
-    "main.4bd019f4.js.map": "/static/js/main.4bd019f4.js.map",
+    "main.20bf8f4d.css.map": "/static/css/main.20bf8f4d.css.map",
+    "main.9aa6a7f4.js.map": "/static/js/main.9aa6a7f4.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6f50f32.css",
-    "static/js/main.4bd019f4.js"
+    "static/css/main.20bf8f4d.css",
+    "static/js/main.9aa6a7f4.js"
   ]
 }
