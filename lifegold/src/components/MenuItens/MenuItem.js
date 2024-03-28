@@ -1,7 +1,7 @@
 import React from 'react';
 import './MenuItens.css';
 
-function MenuItem({ name, image}) {
+function MenuItem({name, image}) {
 
   return (
     <div className="item-menu" >

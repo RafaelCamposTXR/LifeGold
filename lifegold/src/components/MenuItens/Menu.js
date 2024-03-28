@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './MenuItens.css';
-import MenuItem from './MenuItem.js';
+import MenuItem from './MenuItem';
 import Popup from '../popup/Popup';
 
 function Menu() {
 
   const [selectedItem, setSelectedItem] = useState(null);
+  
   const handleItemClick = (item) => {
     setSelectedItem(item);
   };
