@@ -131,3 +131,23 @@
   width: auto;
   clip-path: polygon(0 0, 50% 0, 74% 80%, 0% 100%);
 }
+
+.PorquegeralPC{
+  display:flex;
+  width:100%;
+}
+
+.PorqueGeralMobile{
+  display:none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .PorqueGeralPC{
+    display:none
+  }
+  .PorqueGeralMobile{
+    display:flex
+  }
+}
+

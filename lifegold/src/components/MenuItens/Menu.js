@@ -6,10 +6,10 @@ function Menu() {
 
   const [selectedPiscina, setSelectedPiscina] = useState(null);
 
-  const menuItems = [
+  const menuItems = [        
     { name: 'PENEIRA CATA-FOLHAS', image: require('../media/peneira.jpg'), texto:'Equipamento para higienização de piscinas, ideal para remoção de penas partículas no fundo da piscina e detritos da superfície'},
     { name: 'ASPIRADOR', image:require('../media/aspirador.jpg'), texto:'Equipamento para manutenção e higienização de piscinas , ideal para aspiração de piscinas de fibra alvenaria , concreto e pastilha'},
-    { name: 'BOMBA 1/2 CV CONJUNTO', image: require('../media/bombaVelcro1_2.jpg'), texto:''},
+    { name: 'BOMBA 1/2 CV CONJUNTO', image: require('../media/bombaVelcro1_2.jpg'), texto:'Produzidas com polímeros  de alta qualidade que suportam os agentes químicos de tratamento de piscinas e garantem maior robustez, desempenho e vida útil.Possuem abas incorporadas para fácil acesso à limpeza do cesto sem a necessidade do uso de chaves. Indicado para piscinas de alvenaria e fibra. Ideal para Piscinas de até: 52.000 Litros'},
     { name: 'BOMBA 1/3 CV CONJUNTO', image: require('../media/bombaVelcro1_3.jpg'), texto:''},
     { name: 'CLORADOR FLUTUANTE MARGARIDA', image: require('../media/cloradorFlutuante.jpg'), texto:'Equipamento que distribui gradualmente cloro de forma uniforme sobre a piscina conforme o tempo vai passando . Evitando a contaminação através da superfície e a proliferação de microorganismos e bactérias também prevenindo contra o surgimento de larvas e mosquitos.'},
     { name: 'ESTOJO TESTE', image: require('../media/estojoTeste.jpg'), texto:'Equipamento fundamental para manter a qualidade da água e preservar a saúde dos banhistas , capaz de medir o nível do pH da água e a concentração de cloro.'},

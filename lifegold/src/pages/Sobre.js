@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import logo from '../components/media/LifeGold.png';
 import fundoCentral from '../components/media/FundoSubtitulo.png';
-import porqueGeral from '../components/media/porquegeral.png';
+import porqueGeralPC from '../components/media/porqueGeralPC.png';
+import porqueGeralMobile from '../components/media/porqueGeralMobile.png';
 import '../components/styles.css';
 import TelaContato from '../components/TelaContato/TelaContato';
 
@@ -13,7 +14,8 @@ function Sobre() {
                 <img src={fundoCentral} className="App-logo" alt="logo" />
             </header>
             <div className ="App">
-              <img src={porqueGeral} className="App-logo" alt="logo"/>
+              <img src={porqueGeralPC} className="PorqueGeralPC" alt="logo"/>
+              <img src={porqueGeralMobile} className="PorqueGeralMobile" alt="logo"/>
             </div>
             <TelaContato/>
         </div>
