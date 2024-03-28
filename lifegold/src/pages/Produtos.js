@@ -12,7 +12,7 @@ function Produtos() {
             </div>
             </div>
           <div className="textoPai">
-            <div style={{ marginTop: '20px', maxWidth: '600px'}}>
+            <div style={{ marginTop: '6vh', maxWidth: '600px'}}>
               <div className='texto'>
                 <p>Confira o nosso catálogo de produtos especializados, em constante crescimento</p>
               </div>

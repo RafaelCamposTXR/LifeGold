@@ -12,14 +12,14 @@ function Menu() {
     { name: 'BOMBA 1/2 CV CONJUNTO', image: require('../media/bombaVelcro1_2.jpg'), texto:''},
     { name: 'BOMBA 1/3 CV CONJUNTO', image: require('../media/bombaVelcro1_3.jpg'), texto:''},
     { name: 'CLORADOR FLUTUANTE MARGARIDA', image: require('../media/cloradorFlutuante.jpg'), texto:''},
-    { name: 'ESTOJO TESTE', image: require('../media/estojoTeste.jpg'), texto:'Equipamento fundamental para manter a qualidade da água e preservar a saúde dos banhistas , capaz de medir o nível do pH da água e a concentração de cloro'},
+    { name: 'ESTOJO TESTE', image: require('../media/estojoTeste.jpg'), texto:'Equipamento fundamental para manter a qualidade da água e preservar a saúde dos banhistas , capaz de medir o nível do pH da água e a concentração de cloro.'},
     { name: 'FILTRO VELCRO V40', image: require('../media/filtroVelcrov40.jpg'), texto:''},
     { name: 'FILTRO VELCRO V30', image: require('../media/filtroVelcrov30.jpg'), texto:''},
     { name: 'MANGUEIRA FLUTUANTE 1/2', image: require('../media/mangueiraFlutuante1_2.jpg'), texto:''},
     { name: 'PONTEIRA P/ MANGUEIRA', image: require('../media/ponteira.jpg'), texto:''},
     { name: 'ADAPTADOR 1/2', image: require('../media/adaptador.jpg'), texto:''},
-    { name: 'CLORO 3 EM 1', image: require('../media/cloro.jpg'), texto:''},
-    { name: 'SULFATO DE ALUMÍNIO 2KG', image: require('../media/sulfato.jpg'), texto:''},
+    { name: 'CLORO 3 EM 1', image: require('../media/cloro.jpg'), texto:'Utilizado em tratamento de piscinas, ação bactericida e auxiliar de tratamento. Possui efeitos de desinfetante, clarificante e decantador (não dispensa o uso dos demais produtos).'},
+    { name: 'SULFATO DE ALUMÍNIO 2KG', image: require('../media/sulfato.jpg'), texto:'Produto especializado em decantar as impurezas na água, auxiliando no tratamento geral da piscina.'},
     { name: 'ELEVADOR DE pH', image: require('../media/barrilha.jpg'), texto:''},
     { name: 'CLARIFICANTE', image: require('../media/g_clarificante.jpg'), texto:''},
     { name: 'ALGICIDA DE MANUTENÇÃO', image: require('../media/g_algicidamanutencao.jpg'), texto:''},
@@ -56,9 +56,12 @@ function Menu() {
       {selectedPiscina && (
         <div className="popup-container">
           <div className="popup-content">
+          <div className="popup-titulo">
+              {selectedPiscina.name}
+            </div>
             <img src={selectedPiscina.image} className="popup-img" alt={`Piscina ${selectedPiscina.id}`} />
             <p>{selectedPiscina.details}</p>
-            <div className="texto">
+            <div className="popup-texto">
               {selectedPiscina.texto}
             </div>
             <button onClick={closeDetails}>Fechar</button>
