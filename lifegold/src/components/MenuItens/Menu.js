@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
 import './MenuItens.css';
 import MenuItem from './MenuItem';
-import Popup from '../popup/Popup';
+import '../popup/Popup.css';
 
 function Menu() {
 
-  const [selectedItem, setSelectedItem] = useState(null);
-  
-  const handleItemClick = (item) => {
-    setSelectedItem(item);
-  };
+  const [selectedPiscina, setSelectedPiscina] = useState(null);
 
   const menuItems = [
     { name: 'PENEIRA CATA-FOLHAS', image: require('../media/peneira.jpg')},
@@ -35,16 +31,41 @@ function Menu() {
     { name: 'BALDE CLORO GRANULADO 10KG', image: require('../media/g_baldecloro.jpg')},
   ];
 
+  const openDetails = (item) => {
+    setSelectedPiscina(item);
+  };
+
+  const closeDetails = () => {
+    setSelectedPiscina(null);
+  };
+
   return (
     <div className="menu">
       <div className="lista-menu">
-        {menuItems.map((item, index) => (
-            <MenuItem key={index} name={item.name} price={item.price} image ={item.image} onItemClick={() => handleItemClick(item)}  />
+        {menuItems.map((item) => (
+          <div className="item-menu" onClick={() => openDetails(item)} >
+          <img src={item.image} className="image" alt=""/>
+          <div className="overlay">
+            <p>Ver detalhes</p>
+          </div>
+          <div className="nome-item">
+            {item.name}
+          </div>
+        </div>
         ))}
       </div>
-      {selectedItem && <Popup item={selectedItem} onClose={() => setSelectedItem(null)} />}
+      {selectedPiscina && (
+        <div className="details-modal">
+          <div className="details-content">
+            <img src={selectedPiscina.image} alt={`Piscina ${selectedPiscina.id}`} />
+            <p>{selectedPiscina.details}</p>
+            <button onClick={closeDetails}>Fechar</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
 
 export default Menu;
+
