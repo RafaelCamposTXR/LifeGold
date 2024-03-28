@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './MenuItens.css';
 import MenuItem from './MenuItem.js';
+import Popup from '../popup/Popup';
 
 function Menu() {
+
+  const [selectedItem, setSelectedItem] = useState(null);
+  const handleItemClick = (item) => {
+    setSelectedItem(item);
+  };
+
   const menuItems = [
     { name: 'PENEIRA CATA-FOLHAS', image: require('../media/peneira.jpg')},
     { name: 'ASPIRADOR', image:require('../media/aspirador.jpg')},
@@ -31,9 +38,10 @@ function Menu() {
     <div className="menu">
       <div className="lista-menu">
         {menuItems.map((item, index) => (
-            <MenuItem key={index} name={item.name} price={item.price} image ={item.image} />
+            <MenuItem key={index} name={item.name} price={item.price} image ={item.image} onItemClick={() => handleItemClick(item)}  />
         ))}
       </div>
+      {selectedItem && <Popup item={selectedItem} onClose={() => setSelectedItem(null)} />}
     </div>
   );
 }

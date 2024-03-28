@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './MenuItens.css';
 
 function MenuItem({ name, image}) {
