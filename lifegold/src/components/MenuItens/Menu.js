@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './MenuItens.css';
 import MenuItem from './MenuItem';
-import '../popup/Popup.css';
 
 function Menu() {
 
@@ -55,8 +54,8 @@ function Menu() {
         ))}
       </div>
       {selectedPiscina && (
-        <div className="details-modal">
-          <div className="details-content">
+        <div className="popup-container">
+          <div className="popup-content">
             <img src={selectedPiscina.image} alt={`Piscina ${selectedPiscina.id}`} />
             <p>{selectedPiscina.details}</p>
             <button onClick={closeDetails}>Fechar</button>
