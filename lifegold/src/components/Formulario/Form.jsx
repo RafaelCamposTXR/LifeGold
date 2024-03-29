@@ -18,9 +18,7 @@ function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar a lógica para enviar os dados do formulário para o servidor
     console.log(formData); // Exemplo de exibição dos dados no console
-    // Limpar o formulário após o envio
     setFormData({
       name: '',
       email: '',
