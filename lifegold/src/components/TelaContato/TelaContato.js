@@ -9,15 +9,26 @@ function TelaContato() {
   return(
     <div className= "contato" >
 
-      <div className= "listaMenu">
-        <div className= "texto">
-          ENTRE EM CONTATO
-        </div>
+      <div className= "espaco-contatos">
+        <div className= "listaMenu">
+          <div className= "texto">
+            ENTRE EM CONTATO
+          </div>
 
-        <div className='texto-normal' style={{ whiteSpace: 'pre-line' }} >
-          @lifegoldpiscinas {'\n'}
-          (34) 3612-5203  /  (34) 99803-2462 {'\n'}
-          lifegoldpiscinas@gmail.com
+          <div className='texto-normal' style={{ whiteSpace: 'pre-line' }} >
+            @lifegoldpiscinas {'\n'}
+            (34) 3612-5203  /  (34) 99803-2462 {'\n'}
+            lifegoldpiscinas@gmail.com
+          </div>
+        </div>
+        <div className= "listaMenu">
+          <div className= "texto">
+            ENDEREÇO
+          </div>
+
+          <div className='texto-normal' style={{ whiteSpace: 'pre-line' }} >
+            Rua Presidente Olegário Maciel, 111 - Loja 6 Centro
+          </div>
         </div>
 
       </div>

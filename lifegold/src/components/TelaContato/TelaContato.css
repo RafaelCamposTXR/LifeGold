@@ -10,40 +10,46 @@
   margin-top: 50vmin;
   padding:0px;
   z-index:3;
-  margin-bottom:auto;
+  margin-bottom:-10px;
 }
 
+.espaco-contatos {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left;
+  width: 1500px;
+  height: auto;
+}
 
 .listaMenu{
-  padding:0;
-  margin-left:2%;
+  padding-right: 50px;
   justify-content: start;
-  list-style-type: none;
   display: flex;
-  max-width: 70%;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
   flex-wrap: wrap;
 }
 
 
 .texto{
-  margin-top:6vh;
-  margin-bottom:2vh;
+  margin-top: 8vh;
+  margin-bottom: 40px;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 22px;
-  font-optical-sizing: auto;
+  font-size: 24px;
   font-weight: 700px;
   font-style: normal;
 }
 
 
 .texto-normal {
-  margin-top:-4vh;
+  margin-top:-5vh;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
-  font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
-  margin-bottom: 5px;
   line-height: 1.5;
 }
 
