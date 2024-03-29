@@ -104,11 +104,24 @@
     padding-top: 5px;
   }
 
+  .espaco-text {
+    display: flex;
+    justify-content: left;
+    flex: 1;
+    align-items: top;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+  }
+
   .details-text {
+    width: 1000px;
+    height: auto;
     font-family: "Josefin Sans", sans-serif;
+    color: rgb(73, 73, 73);
     font-size: 22px;
-    text-align: center;
-    
+    text-align: left;
   }
 
   .details-modal {
@@ -124,6 +137,7 @@
     height: 500px;
     overflow-y: auto;
     z-index: 2;
+    box-shadow: 0px 0px 10px rgba(131, 131, 131, 0.5);
   }
 
   .details-modal1{
@@ -138,11 +152,20 @@
     align-items: center;
     z-index: 1000;
   }
+
+  .espaco-img {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+  }
   
   .details-content img {
-    text-align: right;
     max-width: 100%;
     max-height: 300px;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-    z-index: 2;
+  }
+
+  .details-content {
+    display: flex;
+    justify-content: space-between;
   }
