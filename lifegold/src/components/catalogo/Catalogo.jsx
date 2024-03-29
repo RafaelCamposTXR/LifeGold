@@ -5,17 +5,17 @@ function Catalogo() {
   const [selectedPiscina, setSelectedPiscina] = useState(null);
 
   const piscinas = [
-    { id: 1, image: require('../media/piscina1.jpeg'), details: 'Desfrute do conforto e da elegância de nossa piscina de design exclusivo. Com sua água cristalina e ambiente tranquilo, nossa piscina proporciona momentos relaxantes e divertidos para toda a família. Construída com materiais de alta qualidade e tecnologia de ponta, nossa piscina combina beleza e durabilidade. Aproveite o verão com estilo em nossa piscina!' },
-    { id: 2, image: require('../media/piscina2.jpeg'), details: 'Detalhes da Piscina 2' },
-    { id: 3, image: require('../media/piscina3.jpeg'), details: 'Detalhes da Piscina 3' },
-    { id: 4, image: require('../media/piscina4.jpeg'), details: 'Desfrute do conforto e da elegância de nossa piscina de design exclusivo. Com sua água cristalina e ambiente tranquilo, nossa piscina proporciona momentos relaxantes e divertidos para toda a família. Construída com materiais de alta qualidade e tecnologia de ponta, nossa piscina combina beleza e durabilidade. Aproveite o verão com estilo em nossa piscina!' },
-    { id: 5, image: require('../media/piscina5.jpeg'), details: 'Detalhes da Piscina 2' },
-    { id: 6, image: require('../media/piscina6.jpeg'), details: 'Detalhes da Piscina 3' },
-    { id: 7, image: require('../media/piscina7.jpeg'), details: 'Desfrute do conforto e da elegância de nossa piscina de design exclusivo. Com sua água cristalina e ambiente tranquilo, nossa piscina proporciona momentos relaxantes e divertidos para toda a família. Construída com materiais de alta qualidade e tecnologia de ponta, nossa piscina combina beleza e durabilidade. Aproveite o verão com estilo em nossa piscina!' },
-    { id: 8, image: require('../media/piscina8.jpeg'), details: 'Detalhes da Piscina 2' },
-    { id: 9, image: require('../media/piscina9.jpeg'), details: 'Detalhes da Piscina 3' },
-    { id: 10, image: require('../media/piscina10.jpeg'), details: 'Desfrute do conforto e da elegância de nossa piscina de design exclusivo. Com sua água cristalina e ambiente tranquilo, nossa piscina proporciona momentos relaxantes e divertidos para toda a família. Construída com materiais de alta qualidade e tecnologia de ponta, nossa piscina combina beleza e durabilidade. Aproveite o verão com estilo em nossa piscina!' },
-    { id: 11, image: require('../media/piscina11.jpeg'), details: 'Detalhes da Piscina 2' },
+    { id: 1, image: require('../media/piscina1.jpeg'), details: 'SPA de alvenaria com acabamento em pastilha e jatos de hidromassagem.' },
+    { id: 2, image: require('../media/piscina2.jpeg'), details: 'SPA para 6 pessoas, fundação em alvenaria com acabamento em pastilha.' },
+    { id: 3, image: require('../media/piscina3.jpeg'), details: 'SPA em alvenaria com acabamento em cimento diamond azul royal.' },
+    { id: 4, image: require('../media/piscina4.jpeg'), details: 'SPA em alvenaria com revestimento em pastilha, comporta até 6 pessoas.' },
+    { id: 5, image: require('../media/piscina5.jpeg'), details: 'Piscina  de alvenaria com revestimento em pastilha e jato escocês, integrado com a iluminação.' },
+    { id: 6, image: require('../media/piscina6.jpeg'), details: 'SPA de alvenaria, revestido em pastilha, coletivo.' },
+    { id: 7, image: require('../media/piscina7.jpeg'), details: 'Piscina em alvenaria, revestida com pastilhas.' },
+    { id: 8, image: require('../media/piscina8.jpeg'), details: 'Piscina revestida com Vinil.' },
+    { id: 9, image: require('../media/piscina9.jpeg'), details: 'Piscina revestida com Vinil e cascata naja  de aço Inox.' },
+    { id: 10, image: require('../media/piscina10.jpeg'), details: 'Piscina revestida com Vinil e cascata naja  de aço Inox.' },
+    { id: 11, image: require('../media/piscina11.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
   ];
 
   const openDetails = (piscina) => {
