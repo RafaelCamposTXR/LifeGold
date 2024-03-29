@@ -11,6 +11,9 @@
     width: 80%;
     height:auto;
   }
+  .slider-item{
+    max-width:100%;
+  }
 }
 
 .slider-item{

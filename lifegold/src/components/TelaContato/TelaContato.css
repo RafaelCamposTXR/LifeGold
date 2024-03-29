@@ -8,9 +8,11 @@
   max-height: 30vmin;
   width: 100%;
   margin-top: 50vmin;
+  padding:0;
 }
 
 .listaMenu{
+  padding:0;
   margin-left:2%;
   justify-content: start;
   list-style-type: none;
@@ -20,6 +22,8 @@
 }
 
 .texto{
+  margin-top:6vh;
+  margin-bottom:2vh;
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   font-optical-sizing: auto;
@@ -28,6 +32,7 @@
 }
 
 .texto-normal {
+  margin-top:-4vh;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-optical-sizing: auto;
@@ -55,9 +60,6 @@
   .fundo {
     display: none;
   }
-}
-
-@media only screen and (max-width: 768px) {
   .logo {
     max-width: 100px;
   }

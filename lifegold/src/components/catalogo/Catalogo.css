@@ -24,22 +24,26 @@
   
   @media only screen and (max-width: 768px) {
     .piscina-item img {
-      max-width: 100px;
-      height: 120px;
+      max-width: 80%;
+      height: 20vh;
+      padding:0;
     }
 
     .piscina-item {
       cursor: pointer;
+      padding:0;
     }
 
     .piscina-grid {
-      gap: 15px;
+      gap: 15%;
       grid-template-columns: repeat(2, 1fr);
+      padding:0;
     }
 
     .catalogo{
-      justify-content: start;
-      margin-left:40px;
+      justify-content: center;
+      margin-left:10%;
+      padding:0;
     }
 
   }

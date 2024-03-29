@@ -6,10 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom:100vh;
 }
 
 .App-header {
-  margin-top: 14vmin;
+  margin-top: 0;
   background-color: D9D9D9;
   min-height: 100vh;
   display: flex;
@@ -19,11 +20,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  
 }
 
 .App-logo {
   display:block;
-  margin-top: 10px;
+  margin-top: 100px;
   height: 60vmin;
   pointer-events: none;
   align-items: center;
@@ -35,7 +37,7 @@
 @media only screen and (max-width: 768px) {
   .App-logo {
     margin-top: 5vmin;
-    max-width: 400px;;
+    max-width: 100%;
   }
   .App-header {
     margin-top: 30vmin;
@@ -92,25 +94,34 @@
 }
 
 .texto {
-  margin-top: 120px;
+  margin-top: 20vh;
   text-align: center;
   color: #3a3a3a; /* Cor do texto */
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
+  margin-left:0;
+  margin-right:0;
 }
 
 .texto-menor {
-  margin-top: 120px;
+  max-width:80%;
+  margin-top: 20vh;
   text-align: center;
   color: #3a3a3a; /* Cor do texto */
   font-family: "Josefin Sans", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight:10;
 }
 
 @media only screen and (max-width: 768px) {
   .texto{
-    max-width: 200px;
-    text-align: center;
+    justify-content:center;
+    max-width: 80%;
+    margin-left:7%;
+    padding:0;
+  }
+  .texto-menor{
+    max-width: 80%;
   }
 }
 
@@ -158,6 +169,8 @@
   }
   .PorqueGeralMobile{
     display:flex;
+    max-width:100%;
+
   }
 }
 
