@@ -13,6 +13,9 @@ function Contato() {
                 </div>
             </div>
             <div>
+            <div className='texto-contato'>
+                <p>Confira o nosso catálogo de produtos especializados, em constante crescimento</p>
+              </div>
                 <Form/>
             </div>
             <div className="imagem-lateral" style={{ marginTop: '90px', zIndex: '0' }}>

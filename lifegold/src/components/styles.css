@@ -114,13 +114,26 @@
   margin-right:0;
 }
 
+.texto-contato {
+  max-width:200vmin;
+  position: absolute;
+  margin-top: 10vh;
+  text-align: center;
+  color: #747272; /* Cor do texto */
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 38px;
+  margin-left:0;
+  margin-right:0;
+  z-index:500;
+}
+
 .texto-menor {
   max-width:80%;
   margin-top: 20vh;
   text-align: center;
   color: #747272; /* Cor do texto */
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight:10;
 }
 
