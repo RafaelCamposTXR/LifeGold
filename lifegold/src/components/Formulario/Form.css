@@ -2,7 +2,6 @@
 
 .form-container {
   position:absolute;
-  padding:0;
   margin-top:10vh;
   margin-bottom:0;
   margin-left:550px;
@@ -16,20 +15,24 @@
 
 form {
   margin-top:0vh;
-  width: 400px; 
-  padding: 20px;
-  background-color: #f9f9f9; 
+  margin-left:0px;
+  width: 400px;
+  padding: 40px;
+  background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 form div {
+  margin-left:0px;
   margin-bottom: 20px;
 }
 
 form label {
+  margin-left:0px;
   display: block;
   margin-bottom: 5px;
+  
 }
 
 form input[type="text"],
@@ -39,10 +42,12 @@ form textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  
 }
 
 form textarea {
   height: 100px; 
+  margin-right: 10px;
 }
 
 form button {

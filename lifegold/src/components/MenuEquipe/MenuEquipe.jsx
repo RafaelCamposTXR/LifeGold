@@ -7,8 +7,11 @@ function MenuEquipe() {
   const [selectedPiscina, setSelectedPiscina] = useState(null);
 
   const menuItems = [        
-    { name: 'TIAGO AUGUSTO', image: require('../media/PessoaAnonima.jpg'), texto:' 20 anos de experiência no ramo de piscinas. \n É projetista, vendedor, consultor. \n Possui domínio de construção e projeção de piscinas. \n Especialista na área hidráulica e alvenaria de piscinas'},
+    { name: 'GABRIEL MACHADO', image: require('../media/PessoaAnonima.jpg'), texto:' Piscineiro certificado. Assistente técnico. Vendedor '},
     { name: 'CESAR VALTER', image: require('../media/PessoaAnonima.jpg'), texto:' Assistente técnico. \n Piscineiro certificado. \n Social mídia '},
+    { name: 'GABRIELLY BORGES', image: require('../media/PessoaAnonima.jpg'), texto:' Assistente técnico. \n Piscineiro certificado. \n Social mídia '},
+    { name: 'CRISTIANE BORGES', image: require('../media/PessoaAnonima.jpg'), texto:' Assistente técnico. \n Piscineiro certificado. \n Social mídia '},
+    { name: 'TIAGO AUGUSTO', image: require('../media/tiago.png'), texto:' 20 anos de experiência no ramo de piscinas. \n É projetista, vendedor, consultor. \n Possui domínio de construção e projeção de piscinas. \n Especialista na área hidráulica e alvenaria de piscinas'},
 
   ];
 
