@@ -84,6 +84,7 @@
     align-items: end;
     width: auto;
     height: auto;
+    padding-top: 50px;
   }
 
   .botao-fechar-piscina {
@@ -104,12 +105,14 @@
   }
 
   .espaco-text {
+    display: flex;
+    flex-direction: column;
     justify-content: left;
     flex: 1;
     align-items: left;
     padding-top: 20px;
     padding-left: 20px;
-    width: 500px;
+    width: 850px;
     height: auto;
   }
 
@@ -120,20 +123,40 @@
     color: rgb(73, 73, 73);
     font-size: 22px;
     text-align: left;
+    line-height: 1.3;
+    font-weight: lighter;
+  }
+
+  .titulo-piscina {
+    width: 100%;
+    height: auto;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(145, 145, 145);
+    font-size: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+
+  .esquerda {
+    width: 1000px;
+    height: auto;
   }
 
   .espaco-img {
     align-items: flex-end;
     justify-content: flex-end;
-    height: 600px;
-    width: 500px;
+    height: 630px;
+    width: 550px;
+    border-radius: 50px;
   }
   
   .details-content img {
     height: 100%;
-    width: auto;
+    width: 100%;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     align-self: flex-end;
+    border-radius: 40px;
   }
 
   .details-content {
@@ -141,6 +164,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
   }
 
   .details-modal {

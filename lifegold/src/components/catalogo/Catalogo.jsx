@@ -41,9 +41,11 @@ function Catalogo() {
       {selectedPiscina && (
         <div className="details-modal">
           <div className="details-content">
-
-            <div className='espaco-text'>
-              <div className="details-text">{selectedPiscina.details}</div>
+            <div  className='esquerda'>
+              <div className='espaco-text'>
+                <div className='titulo-piscina'>Life Gold Piscinas</div>
+                <div className="details-text">{selectedPiscina.details}</div>
+              </div>
               <div className='espaco-botao'>
                 <button className="botao-fechar-piscina" onClick={closeDetails}>FECHAR</button>
               </div>
