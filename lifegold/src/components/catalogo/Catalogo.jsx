@@ -44,16 +44,14 @@ function Catalogo() {
 
             <div className='espaco-text'>
               <div className="details-text">{selectedPiscina.details}</div>
+              <div className='espaco-botao'>
+                <button className="botao-fechar-piscina" onClick={closeDetails}>FECHAR</button>
+              </div>
             </div>
 
             <div className='espaco-img'>
               <img src={selectedPiscina.image} alt={`Piscina ${selectedPiscina.id}`} />
             </div>
-
-            <div className='espaco-botao'>
-              <button className="botao-fechar-piscina" onClick={closeDetails}>FECHAR</button>
-            </div>
-
           </div>
         </div>
       )}
