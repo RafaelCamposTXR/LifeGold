@@ -17,6 +17,7 @@ function Contato() {
                 <img src={require('../components/media/piscina6.jpeg')} />
             </div>
             <BubbleContainer numBubbles={10} areaWidth={500} areaHeight={900} />
+            <input type="text" name="user-name"></input>
             <TelaContato/>
         </div>
     );

@@ -20,24 +20,24 @@ function MenuEquipe() {
   };
 
   return (
-    <div className="menu">
-      <div className="lista-menu">
+    <div className="menu-equipe">
+      <div className="lista-menu-equipe">
         {menuItems.map((item) => (
-          <div className="item-menu" onClick={() => openDetails(item)} >
-          <img src={item.image} className="image" alt=""/>
-          <div className="overlay">
+          <div className="item-menu-equipe" onClick={() => openDetails(item)} >
+          <img src={item.image} className="image-equipe" alt=""/>
+          <div className="overlay-equipe">
             <p>Ver detalhes</p>
           </div>
-          <div className="nome-item">
+          <div className="nome-item-equipe">
             {item.name}
           </div>
         </div>
         ))}
       </div>
       {selectedPiscina && (
-        <div className="popup-container">
-          <div className="popup-content">
-          <div className="popup-titulo">
+        <div className="popup-container-equipe">
+          <div className="popup-content-equipe">
+          <div className="popup-titulo-equipe">
               {selectedPiscina.name}
             </div>
             <img src={selectedPiscina.image} className="popup-img" alt={`Piscina ${selectedPiscina.id}`} />

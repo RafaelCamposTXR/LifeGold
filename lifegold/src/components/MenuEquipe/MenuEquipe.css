@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
-.menu {
+.menu-equipe {
   margin-top: 50px;
   text-align: center;
 }
 
-.item-menu {
+.item-menu-equipe {
   position:relative;
   align-content: end;
   border: 5px solid #f8a814;
@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-.nome-item {
+.nome-item-equipe {
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
@@ -34,7 +34,7 @@
   border-radius: 20px;
 }
 
-.preco-item{
+.preco-item-equipe{
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
@@ -44,13 +44,13 @@
   padding-bottom: 0px;
 }
 
-.lista-menu {
+.lista-menu-equipe {
   display: flex ;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.image{
+.image-equipe{
   margin-top: auto;
   margin-right:auto;
   max-width: 300px;
@@ -59,15 +59,15 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .item-menu{
+  .item-menu-equipe{
     max-width: 100px;
     border-radius: 20px;
   }
-  .image {
+  .image-equipe {
     max-width: 100px;
     border-radius: 20px;
   }
-  .nome-item{
+  .nome-item-equipe{
     font-size: 14px;
     border-radius: 12.5px;
   }
@@ -77,7 +77,7 @@
   opacity:0.45;
 } 
 
-.overlay {
+.overlay-equipe {
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -89,14 +89,14 @@
   transition: 5s ease;
 }
 
-.overlay p {
+.overlay-equipe p {
   color: rgb(0, 0, 0);
   font-weight: normal;
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
 }
 
-.popup-container {
+.popup-container-equipe {
   position:fixed;
   left:0;
   top:0;
@@ -109,7 +109,7 @@
   z-index: 1000;
 }
 
-.popup-content {
+.popup-content-equipe {
   width:40vmin;
   height:fit-content;
   border: 5px solid #14BBC7;
@@ -121,11 +121,11 @@
   position: relative;
 }
 
-.popup-content h2 {
+.popup-content-equipe h2 {
   margin-top: 0;
 }
 
-.popup-img {
+.popup-img-equipe {
   margin-top: 10%;
   border: 5px solid #f8a814;
   border-radius: 5px;
@@ -134,7 +134,7 @@
   margin-bottom: 10px;
 }
 
-.popup-content button {
+.popup-content-equipe button {
   margin-top: 5vh;
   background-color: #f8a814;
   color: white;
@@ -144,11 +144,11 @@
   cursor: pointer;
 }
 
-.popup-content button:hover {
+.popup-content-equipe button:hover {
   background-color: #0056b3;
 }
 
-.popup-texto {
+.popup-texto-equipe {
   margin-top:0;
   margin-left:1%;
   text-align: start;
@@ -157,7 +157,7 @@
   font-size: 20px;
 }
 
-.popup-titulo {
+.popup-titulo-equipe {
   margin-top:0;
   text-align: center;
   color: #3a3a3a; /* Cor do texto */
