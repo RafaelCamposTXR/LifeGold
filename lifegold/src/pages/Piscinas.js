@@ -34,7 +34,8 @@ function Piscinas() {
 
             <div style={{ marginTop: '100px' }}>
             </div>
-            
+
+            <TelaContato/>            
         </div>
     );
 }
