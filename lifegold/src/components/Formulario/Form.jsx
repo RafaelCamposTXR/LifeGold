@@ -32,7 +32,7 @@ function Form() {
       <div className="form-container"> {/* Aplica a classe .form-container */}
         <form className="form" onSubmit={handleSubmit}> {/* Aplica a classe .form */}
           <div>
-            <label htmlFor="name">Nome:</label>
+            <label htmlFor="name">Seu Nome:</label>
             <input 
               type="text" 
               id="name" 
@@ -43,7 +43,7 @@ function Form() {
             />
           </div>
           <div>
-            <label htmlFor="email">E-mail:</label>
+            <label htmlFor="email">Seu E-mail:</label>
             <input 
               type="email" 
               id="email" 

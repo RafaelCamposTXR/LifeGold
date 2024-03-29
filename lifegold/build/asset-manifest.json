@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aab9f503.css",
-    "main.js": "/static/js/main.a6607bc2.js",
+    "main.css": "/static/css/main.4163e26b.css",
+    "main.js": "/static/js/main.3096dab3.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
     "static/media/piscinalonga1.png": "/static/media/piscinalonga1.8edf89b48c42b2f83baa.png",
     "static/media/FundoSubtitulo.png": "/static/media/FundoSubtitulo.f4e5f3e572e99a19b6af.png",
+    "static/media/IndicaPiscina.png": "/static/media/IndicaPiscina.c8e23707da7d1e11cc66.png",
     "static/media/piscina6.jpeg": "/static/media/piscina6.dcf113e71d671a6a8ff9.jpeg",
+    "static/media/tiago.png": "/static/media/tiago.e2bfcdcbe62dd173056e.png",
     "static/media/piscina10.jpeg": "/static/media/piscina10.dce3c5343ce2e55bd6da.jpeg",
     "static/media/fundoTelaContato.png": "/static/media/fundoTelaContato.ad83c526317296242007.png",
     "static/media/piscina11.jpeg": "/static/media/piscina11.971ddec9066bf4532711.jpeg",
@@ -45,12 +47,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.aab9f503.css.map": "/static/css/main.aab9f503.css.map",
-    "main.a6607bc2.js.map": "/static/js/main.a6607bc2.js.map",
+    "main.4163e26b.css.map": "/static/css/main.4163e26b.css.map",
+    "main.3096dab3.js.map": "/static/js/main.3096dab3.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aab9f503.css",
-    "static/js/main.a6607bc2.js"
+    "static/css/main.4163e26b.css",
+    "static/js/main.3096dab3.js"
   ]
 }

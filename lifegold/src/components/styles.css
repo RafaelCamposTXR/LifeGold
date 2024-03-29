@@ -107,7 +107,7 @@
 .texto-produto {
   margin-top: 40vh;
   text-align: center;
-  color: #747272; /* Cor do texto */
+  color: #747272;
   font-family: "Josefin Sans", sans-serif;
   font-size: 38px;
   margin-left:0;
@@ -115,15 +115,14 @@
 }
 
 .texto-contato {
-  max-width:200vmin;
+  margin-left:29%;
+  max-width:100vmin;
   position: absolute;
-  margin-top: 10vh;
+  margin-top: 12vh;
   text-align: center;
-  color: #747272; /* Cor do texto */
+  color: #3c3b3b;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 38px;
-  margin-left:0;
-  margin-right:0;
+  font-size: 26px;
   z-index:500;
 }
 
@@ -153,6 +152,9 @@
   }
   .texto-menor{
     max-width: 80%;
+  }
+  .texto-contato{
+    color:#ffffff;
   }
 }
 

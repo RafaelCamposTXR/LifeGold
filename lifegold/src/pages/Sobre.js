@@ -23,6 +23,9 @@ function Sobre() {
               </div>
               <img src={IndicaPiscina} className="PorqueGeralPC" alt="logo"/>
               <img src={IrPiscina} className="PorqueGeralPC" alt="logo"/>
+
+              <img src={IndicaPiscina} className="PorqueGeralMobile" alt="logo"/>
+              <img src={IrPiscina} className="PorqueGeralMobile" alt="logo"/>
             </header>
             <div className ="App">
               

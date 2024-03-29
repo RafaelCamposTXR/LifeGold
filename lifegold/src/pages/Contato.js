@@ -14,7 +14,7 @@ function Contato() {
             </div>
             <div>
             <div className='texto-contato'>
-                <p>Confira o nosso catálogo de produtos especializados, em constante crescimento</p>
+                <p>Se interessou em nos contatar? Nos envie uma mensagem com seu pedido ou dúvida</p>
               </div>
                 <Form/>
             </div>
