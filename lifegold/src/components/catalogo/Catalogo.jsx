@@ -42,8 +42,10 @@ function Catalogo() {
         <div className="details-modal">
           <div className="details-content">
             <img src={selectedPiscina.image} alt={`Piscina ${selectedPiscina.id}`} />
-            <p>{selectedPiscina.details}</p>
-            <button onClick={closeDetails}>Fechar</button>
+            <div className="details-text">{selectedPiscina.details}</div>
+            <div className='espaco-botao'>
+              <button className="botao-fechar-piscina" onClick={closeDetails}>FECHAR</button>
+            </div>
           </div>
         </div>
       )}

@@ -48,42 +48,6 @@
 
   }
   
-  
-  .details-modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border: 2px solid black;
-    width: 1200px;
-    height: 500px;
-    overflow-y: auto;
-    z-index: 2;
-  }
-
-  .details-modal1{
-    position:fixed;
-    left:0;
-    top:0;
-    right:0;
-    bottom:0;
-    background-color: rgba(56, 89, 126, 0.4); /* Fundo semi-transparente */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-  
-  .details-content img {
-    text-align: right;
-    max-width: 100%;
-    max-height: 300px;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-    z-index: 2;
-  }
-  
   .overlay {
     position: absolute;
     border-radius: 20px;
@@ -112,4 +76,73 @@
     font-weight: normal;
     font-family: "Josefin Sans", sans-serif;
     font-size: 22px;
+  }
+
+  .espaco-botao {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 20px;
+    width: auto;
+    height: auto;
+  }
+
+  .botao-fechar-piscina {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(58, 113, 233);
+    align-items: center;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .details-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    
+  }
+
+  .details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 1500px;
+    height: 500px;
+    overflow-y: auto;
+    z-index: 2;
+  }
+
+  .details-modal1{
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(56, 89, 126, 0.4); /* Fundo semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .details-content img {
+    text-align: right;
+    max-width: 100%;
+    max-height: 300px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    z-index: 2;
   }
