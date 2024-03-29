@@ -46,42 +46,34 @@
       padding:0;
     }
 
-  }
-  
-  
-  .details-modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border: 2px solid black;
-    width: 1200px;
-    height: 500px;
-    overflow-y: auto;
-    z-index: 2;
-  }
+    .overlay{
+      position: absolute;
+      border-radius: 20px;
+      top: 0;
+      left: 0;
+      width: 80%;
+      height: 20vh;
+      background-color: #14BBC7; /* Azul transparente */
+      opacity: 0; /* Inicialmente transparente */
+      transition: opacity 0.3s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      z-index: 2;
+    }
 
-  .details-modal1{
-    position:fixed;
-    left:0;
-    top:0;
-    right:0;
-    bottom:0;
-    background-color: rgba(56, 89, 126, 0.4); /* Fundo semi-transparente */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-  
-  .details-content img {
-    text-align: right;
-    max-width: 100%;
-    max-height: 300px;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-    z-index: 2;
+    .piscina-item:hover .overlay {
+      opacity: 0.7;
+    }
+     
+    .overlay p {
+      color: white;
+      font-weight: normal;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 18px;
+    }
   }
   
   .overlay {
@@ -112,4 +104,109 @@
     font-weight: normal;
     font-family: "Josefin Sans", sans-serif;
     font-size: 22px;
+  }
+
+  .espaco-botao {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .botao-fechar-piscina {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(58, 113, 233);
+    align-items: center;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .espaco-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex: 1;
+    align-items: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 850px;
+    height: auto;
+  }
+
+  .details-text {
+    width: 100%;
+    height: auto;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(73, 73, 73);
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.3;
+    font-weight: lighter;
+  }
+
+  .titulo-piscina {
+    width: 100%;
+    height: auto;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(145, 145, 145);
+    font-size: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+
+  .esquerda {
+    width: 1000px;
+    height: auto;
+  }
+
+  .espaco-img {
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 580px;
+    width: 550px;
+    border-radius: 50px;
+  }
+  
+  .details-content img {
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    align-self: flex-end;
+    border-radius: 40px;
+  }
+
+  .details-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 1500px;
+    height: 600px;
+    overflow-y: auto;
+    z-index: 2;
+    box-shadow: 0px 0px 10px rgba(131, 131, 131, 0.5);
   }
