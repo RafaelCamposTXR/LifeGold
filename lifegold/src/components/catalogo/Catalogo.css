@@ -35,7 +35,7 @@
     }
 
     .piscina-grid {
-      gap: 15%;
+      gap: 2%;
       grid-template-columns: repeat(2, 1fr);
       padding:0;
     }
