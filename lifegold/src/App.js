@@ -8,6 +8,7 @@ import Piscinas from './pages/Piscinas';
 import Descubra from './pages/Descubra';
 import Contato from './pages/Contato';
 
+
 function App() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   return (

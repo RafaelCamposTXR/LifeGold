@@ -9,7 +9,10 @@
   width: 100%;
   margin-top: 50vmin;
   padding:0;
+  z-index:3;
+  margin-bottom:auto;
 }
+
 
 .listaMenu{
   padding:0;
@@ -21,6 +24,7 @@
   flex-wrap: wrap;
 }
 
+
 .texto{
   margin-top:6vh;
   margin-bottom:2vh;
@@ -30,6 +34,7 @@
   font-weight: 700px;
   font-style: normal;
 }
+
 
 .texto-normal {
   margin-top:-4vh;
@@ -42,12 +47,14 @@
   line-height: 1.5;
 }
 
+
 .logo{
   margin-top: 8%;
   margin-left: 50%;
   height: fit-content;
   display: flex;
 }
+
 
 .fundo{
   margin-right: 0;
@@ -56,12 +63,30 @@
   display: flex;
 }
 
+
 @media only screen and (max-width: 768px) {
+  .contato{
+    height: 100vh;
+  }
   .fundo {
     display: none;
   }
   .logo {
     max-width: 100px;
+  }
+  .texto{
+    margin-top: 2vh;
+    margin-left:45vmin;
+    max-width:100vmin;
+    font-size: 16px;
+    text-align: start;
+    margin-bottom:0;
+  }
+  .texto-normal{
+    margin-top: 0.5vh;
+    margin-left:45vmin;
+    max-width:30vmin;
+    font-size: 12px;
   }
 }
 

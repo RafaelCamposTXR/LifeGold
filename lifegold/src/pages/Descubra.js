@@ -1,4 +1,6 @@
 import React from 'react';
+import TelaContato from '../components/TelaContato/TelaContato';
+import MenuEquipe from '../components/MenuEquipe/MenuEquipe'
 
 function Descubra() {
     return (
@@ -9,7 +11,8 @@ function Descubra() {
                     <img src={require('../components/media/logoh.png')} className="logoh" />
                 </div>
             </div>
-
+            <MenuEquipe/>
+            <TelaContato/>
         </div>
     );
 }

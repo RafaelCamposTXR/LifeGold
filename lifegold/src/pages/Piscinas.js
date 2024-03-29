@@ -3,6 +3,7 @@ import Slider from '../components/Slider/Slider';
 import '../components/styles.css';
 import '../components/catalogo/Catalogo';
 import Catalogo from '../components/catalogo/Catalogo';
+import TelaContato from '../components/TelaContato/TelaContato';
 
 function Piscinas() {
     return (
@@ -18,7 +19,7 @@ function Piscinas() {
             </div>
 
             <div style={{ marginTop: '130px', maxWidth: '600px', margin: '0 auto' }}>
-                <div className='texto'>
+                <div className='texto-produto'>
                     <p>Confira os nossos trabalhos ao longo de nossa experiência com construção de piscinas</p>
                 </div>
             </div>
@@ -32,7 +33,6 @@ function Piscinas() {
             </div>
 
             <div style={{ marginTop: '100px' }}>
-
             </div>
             
         </div>
