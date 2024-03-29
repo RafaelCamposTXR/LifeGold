@@ -1,0 +1,58 @@
+/* Form.css */
+
+.form-container {
+  position:absolute;
+  padding:0;
+  margin-top:10vh;
+  margin-bottom:0;
+  margin-left:550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Define a altura da tela inteira */
+  z-index:500;
+}
+
+form {
+  margin-top:0vh;
+  width: 400px; /* Define a largura do formulário */
+  padding: 20px;
+  background-color: #f9f9f9; /* Cor de fundo do formulário */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 100px; /* Define a altura da área de texto */
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}

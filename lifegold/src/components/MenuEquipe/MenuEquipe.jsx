@@ -7,7 +7,7 @@ function MenuEquipe() {
   const [selectedPiscina, setSelectedPiscina] = useState(null);
 
   const menuItems = [        
-    { name: 'TIAGO AUGUSTO', image: require('../media/peneira.jpg'), texto:'20 anos de experiência no ramo de piscinas.É projetista, vendedor, consultor. Possui ddomínio de construção e projeção de piscinas, especialista na área hidráulica e alvenaria de piscinas'},
+    { name: 'TIAGO AUGUSTO', image: require('../media/peneira.jpg'), texto:' 20 anos de experiência no ramo de piscinas. \n É projetista, vendedor, consultor. \n Possui domínio de construção e projeção de piscinas. \n Especialista na área hidráulica e alvenaria de piscinas'},
    
   ];
 
@@ -40,9 +40,9 @@ function MenuEquipe() {
           <div className="popup-titulo-equipe">
               {selectedPiscina.name}
             </div>
-            <img src={selectedPiscina.image} className="popup-img" alt={`Piscina ${selectedPiscina.id}`} />
+            <img src={selectedPiscina.image} className="popup-img-equipe" alt={`Piscina ${selectedPiscina.id}`} />
             <p>{selectedPiscina.details}</p>
-            <div className="popup-texto">
+            <div className="popup-texto-equipe">
               {selectedPiscina.texto}
             </div>
             <button onClick={closeDetails}>Fechar</button>

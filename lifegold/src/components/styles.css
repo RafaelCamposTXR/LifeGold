@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
-
 .App {
   text-align: center;
   display: flex;
@@ -8,6 +7,7 @@
   justify-content: center;
   margin-bottom:100vh;
 }
+
 
 .App-header {
   margin-top: 0;
@@ -91,6 +91,7 @@
 .logoh {
   height: 75px; /* Altura da logo */
   width: auto; /* Largura automática (mantém a proporção) */
+  z-index:1000;
 }
 
 .texto {
@@ -108,7 +109,7 @@
   text-align: center;
   color: #5a5858; /* Cor do texto */
   font-family: "Josefin Sans", sans-serif;
-  font-size: 50px;
+  font-size: 38px;
   margin-left:0;
   margin-right:0;
 }
@@ -160,12 +161,14 @@
 .imagem-lateral {
   height: 800px;
   object-fit: cover;
+  position:absolute;
 }
 
 .imagem-lateral img {
   height: 900px;
-  width: auto;
+  width: auto; 
   clip-path: polygon(0 0, 50% 0, 74% 80%, 0% 100%);
+  position:absolute;
 }
 
 .PorquegeralPC{
@@ -190,4 +193,5 @@
 
   }
 }
+
 
