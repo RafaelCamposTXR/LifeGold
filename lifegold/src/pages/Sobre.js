@@ -22,12 +22,8 @@ function Sobre() {
               <img src={IndicaPiscina} className="PorqueGeralPC" alt="logo"/>
             </header>
             <div className ="App">
-<<<<<<< Updated upstream
-
-=======
-              <img src={porqueGeral} className="App-logo" alt="logo"/>
+              <img src={porqueGeralPC} className="App-logo" alt="logo"/>
               <BubbleContainer numBubbles={10} areaWidth={1400} areaHeight={900} />
->>>>>>> Stashed changes
             </div>
             <TelaContato/>
         </div>
