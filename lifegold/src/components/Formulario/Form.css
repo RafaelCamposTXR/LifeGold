@@ -1,4 +1,4 @@
-/* Form.css */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
 .form-container {
   position:absolute;
@@ -9,17 +9,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Define a altura da tela inteira */
+  height: 100vh; 
   z-index:500;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 form {
   margin-top:0vh;
-  width: 400px; /* Define a largura do formulário */
+  width: 400px; 
   padding: 20px;
-  background-color: #f9f9f9; /* Cor de fundo do formulário */
+  background-color: #f9f9f9; 
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 form div {
@@ -41,7 +42,7 @@ form textarea {
 }
 
 form textarea {
-  height: 100px; /* Define a altura da área de texto */
+  height: 100px; 
 }
 
 form button {

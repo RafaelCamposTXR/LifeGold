@@ -11,6 +11,9 @@ function Descubra() {
                     <img src={require('../components/media/logoh.png')} className="logoh" />
                 </div>
             </div>
+            <div className='texto-produto'>
+                <p>Nossa equipe de Especialistas</p>
+              </div>
             <MenuEquipe/>
             <TelaContato/>
         </div>

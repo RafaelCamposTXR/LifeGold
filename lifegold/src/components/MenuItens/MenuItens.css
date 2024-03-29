@@ -3,6 +3,7 @@
 .menu {
   margin-top: 50px;
   text-align: center;
+  margin-left:-3vmin;
 }
 
 .item-menu {
@@ -10,7 +11,7 @@
   align-content: end;
   border: 5px solid #14BBC7;
   margin-bottom: 8vmin;
-  margin-left: 4vmin;
+  margin-left: 3vmin;
   background-color: #ffffff;
   max-width: 300px;
   max-height: auto;

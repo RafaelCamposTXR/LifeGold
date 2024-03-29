@@ -7,7 +7,6 @@ import Form from '../components/Formulario/Form';
 function Contato() {
     return (
         <div className="Contato">
-          <div>
           <div className="graybox">
                 <div className="content">
                 <img src={require('../components/media/logoh.png')} className="logoh" />
@@ -20,7 +19,6 @@ function Contato() {
                 <img src={require('../components/media/piscina6.jpeg')} />
             </div>
             <BubbleContainer numBubbles={10} areaWidth={500} areaHeight={900} />
-        </div>
         </div>
     );
 }
