@@ -55,7 +55,7 @@
 }
 
 .logo{
-  margin-top: 8%;
+  margin-top: 11%;
   height: fit-content;
   display: flex;
 }
@@ -63,7 +63,7 @@
 
 .fundo{
   margin-right: 0;
-  height: 30vmin;
+  height: 40vmin;
   width: fit-content;
   display: flex;
 }
