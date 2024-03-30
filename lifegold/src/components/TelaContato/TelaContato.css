@@ -18,6 +18,7 @@
   height: auto;
   display: flex;
   flex-direction: row;
+  padding-left: 10px;
 }
 
 .a {
