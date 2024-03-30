@@ -72,6 +72,9 @@
     font-size: 14px;
     border-radius: 12.5px;
   }
+  .popup-texto {
+    font-size: 16px;
+  }
 }
 
 .item-menu:hover .overlay {

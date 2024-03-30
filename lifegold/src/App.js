@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowContact(false);
-    }, 10000); // Esconde o container após 10 segundos
+    }, 7000); // Esconde o container após 10 segundos
 
     return () => clearTimeout(timer);
   }, []);

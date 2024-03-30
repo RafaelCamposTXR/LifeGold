@@ -19,7 +19,7 @@
 
 .slider-item{
     width: 100%;
-    max-height: 700px;
+    height: 550px;
     justify-content: center;
     object-fit: cover;
 }

@@ -72,6 +72,15 @@
     font-size: 14px;
     border-radius: 12.5px;
   }
+  .popup-texto-equipe {
+    max-width:300px;
+    font-size:10px;
+  }
+
+  .popup-content-equipe {
+    width:700px;
+  }
+
 }
 
 .item-menu:hover .overlay {

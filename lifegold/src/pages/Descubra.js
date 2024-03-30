@@ -12,9 +12,10 @@ function Descubra() {
                 </div>
             </div>
             <div className='texto-produto'>
-                <p>Nossa equipe de Especialistas</p>
+                <p>Nossa equipe de Especialistas. Clique para ler a experiência profissional</p>
               </div>
             <MenuEquipe/>
+            <div style={{marginTop:'300px'}}></div>
             <TelaContato/>
         </div>
     );

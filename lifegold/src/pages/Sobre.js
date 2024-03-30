@@ -33,14 +33,14 @@ function Sobre() {
                 </div>
 
                 <div className='fraseseta' >
-                  <FaArrowRight style={{ color: '#4a4a4a' }} />
+                  <FaArrowRight className="seta-piscina" style={{ color: '#4a4a4a'}} />
                   <div className='texto-linkado' >
                     <Link to='/piscinas' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira as piscinas já produzidas pela nossa equipe, e o nossa história profissional</Link>
                     </div>
                 </div>
 
                 <div className='fraseseta' >
-                  <FaArrowRight style={{ color: '#4a4a4a' }} />
+                  <FaArrowRight className="seta-consultor" style={{ color: '#4a4a4a' }} />
                   <div className='texto-linkado' >
                     <Link to='/contato' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Fale com um de nossos consultores</Link>
                     </div>

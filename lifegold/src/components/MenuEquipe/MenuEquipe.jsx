@@ -7,11 +7,11 @@ function MenuEquipe() {
   const [selectedPiscina, setSelectedPiscina] = useState(null);
 
   const menuItems = [      
-    { name: 'TIAGO AUGUSTO', image: require('../media/tiago.png'), texto:' 20 anos de experiência no ramo de piscinas. \n É projetista, vendedor, consultor. \n Possui domínio de construção e projeção de piscinas. \n Especialista na área hidráulica e alvenaria de piscinas'},
-    { name: 'GABRIEL MACHADO', image: require('../media/PessoaAnonima.jpg'), texto:' Piscineiro certificado. Assistente técnico. Vendedor '},
-    { name: 'CESAR VALTER', image: require('../media/cesar.png'), texto:' Assistente técnico. \n Piscineiro certificado. \n Social mídia '},
-    { name: 'GABRIELLY BORGES', image: require('../media/gabrielly.png'), texto:' Assistente técnico. \n Piscineiro certificado. \n Social mídia '},
-    { name: 'CRISTIANE BORGES', image: require('../media/cristiane.png'), texto:' Assistente técnico. \n Piscineiro certificado. \n Social mídia '},
+    { name: 'TIAGO AUGUSTO', image: require('../media/tiago.png'), texto:'Fundador e responsável técnico. Soma em sua carreira mais de 20 anos de experiência na área. Projetista, coordenador, consultor e  instalador. Todos os requisitos necessários para realizar seu sonho'},
+    { name: 'CRISTIANE BORGES', image: require('../media/cristiane.png'), texto:' Sócia. Gerente. Gestora de vendas. Negociadora '},
+    { name: 'GABRIEL MACHADO', image: require('../media/PessoaAnonima.jpg'), texto:'Assistente técnico. Representante de vendas. Cuidador de piscinas'},
+    { name: 'CESAR VALTER', image: require('../media/cesar.png'), texto:'Assistente técnico. Cuidador de piscinas. Social Media'},
+    { name: 'GABRIELLY BORGES', image: require('../media/gabrielly.png'), texto:' Social mídia. Assistente de gestão. Vendedora'},
   ];
 
   const openDetails = (item) => {

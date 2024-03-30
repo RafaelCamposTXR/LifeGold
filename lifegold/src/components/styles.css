@@ -250,6 +250,7 @@
   height: 230px;
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% 84%, 25% 84%, 0 100%);
+  z-index:500;
 }
 
 #contato-content {
@@ -294,4 +295,45 @@
   color:#4a4a4a;
   margin-left: 35px;
   margin-top: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .divisoria-cinza{
+    margin-top:20px;
+    background-color:#ddd;
+    width:100%;
+    height:350px;
+    margin-bottom:130px;
+  }
+  
+  .fraseseta{
+    width:70%;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    margin-left:20px;
+  }
+  
+  .texto-linkado{
+    font-family:'Josefin Sans';
+    color:#4a4a4a;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+
+  .seta-piscina{
+    width:35px;
+  }
+
+  .seta-consultor{
+    width:20px;
+  }
+
+  #contato-container {
+    display:none;
+  }
+  
+  #contato-content {
+    display:none;
+  }
 }
