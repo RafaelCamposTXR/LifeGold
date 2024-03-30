@@ -28,6 +28,12 @@ function Menu() {
     { name: 'SUPER TRATAMENTO SEMANAL', image: require('../media/g_tratamentosemanal.jpg'), texto:''},
     { name: 'TABLETE T200', image: require('../media/g_t200.jpg'), texto:'Tricloro em tabletes concentrado, contém 90% de cloro ativo. Possui estabilizante que inibe a degradação do cloro pelos raios UV. Possui dissolução lenta para cloração contínua e automática em cloradores ou dosadores automáticos por vários dias. Recomenda-se  1 tablet para 30.000 litros ou 200 g /30m³  duração de 7 a 10 dias.'},
     { name: 'BALDE CLORO GRANULADO 10KG', image: require('../media/g_baldecloro.jpg'), texto:'Dicloro concentrado , excelente agente  desinfetante e oxidante  de rápida dissolução  , essencial para manter a qualidade da água e a saúde dos banhistas .   Sua composição química o torna mas resistente a raios UV  fazendo com que ele dure muito mais tempo  a dosagem recomendada é de 2 a 3 g/m³ e seu teor  de cloro ativo é de 56%.'},
+    { name: 'BALDE DE CLORO HIDROAZUL', image: require('../media/baldeCloroHidroazul.jpg'), texto:'Composto Clorado estabilizado , excelente bactericida  com 56% de cloro ativo . Indicado para manutenção e  preservação da qualidade da água .'},
+    { name: 'CLORO HIDROAZUL PREMIUM', image: require('../media/baldeCloroHidroazulPremium.jpg'), texto:'Elevada concentração de hipoclorito de cálcio  um forte oxidante e excelente bactericida ,65% de cloro ativo . Produto indicado para preservar  a saúde dos banhistas e a qualidade da água.'},
+    { name: 'LED RGB', image: require('../media/ledRGB.jpg'), texto:'Dispositivo LED RGB para piscinas , iluminação para piscina ,  12 v ,24 lâmpadas e acabamento em inox'},
+    { name: 'DRENO DE FUNDO', image: require('../media/drenoFundo.jpg'), texto:'Dispositivo de dreno de fundo, Dreno de fundo anti- turbilhão grande . Oferece maior proteção e segurança aos banhistas atuando na prevenção de acidentes.'},
+    { name: 'DISPOSITIVO DE HIDROMASSAGEM', image: require('../media/dispositivoHidromassagem.jpg'), texto:'Dispositivo de hidromassagem  para vinil , proporciona um jato  pressurizado relaxante'},
+    { name: 'DISPOSITIVO DE NÍVEL', image: require('../media/dispositivoNivel.jpg'), texto:'Dispositivo de nível em ABS para piscinas de vinil . Equipamento para  preservar o nível da água e evitar o transbordo da água.'},
   ];
 
   const openDetails = (item) => {
