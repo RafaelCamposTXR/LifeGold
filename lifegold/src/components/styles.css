@@ -128,14 +128,15 @@
 }
 
 .texto-menor {
-  max-width:80%;
+  max-width:75%;
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: center;
   color: #747272; /* Cor do texto */
   font-family: "Josefin Sans", sans-serif;
-  font-size: 28px;
+  font-size: 26px;
   font-weight:10;
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 768px) {
