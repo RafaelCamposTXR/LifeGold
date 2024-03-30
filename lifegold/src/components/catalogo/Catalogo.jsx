@@ -16,6 +16,14 @@ function Catalogo() {
     { id: 9, image: require('../media/piscina9.jpeg'), details: 'Piscina revestida com Vinil e cascata naja  de aço Inox.' },
     { id: 10, image: require('../media/piscina10.jpeg'), details: 'Piscina revestida com Vinil e cascata naja  de aço Inox.' },
     { id: 11, image: require('../media/piscina11.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 12, image: require('../media/piscina12.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 13, image: require('../media/piscina13.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 14, image: require('../media/piscina14.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 15, image: require('../media/piscina15.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 16, image: require('../media/piscina16.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 17, image: require('../media/piscina17.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+    { id: 18, image: require('../media/piscina18.jpeg'), details: 'Piscina de alvenaria revestida com vinil mais cascata niágara de aço Inox.' },
+
   ];
 
   const openDetails = (piscina) => {
