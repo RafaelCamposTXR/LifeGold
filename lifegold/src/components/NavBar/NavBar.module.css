@@ -18,7 +18,7 @@
 }
 
 .listaMenu{
-  margin-top: 2.5vmin;
+  margin-top: 1.8vmin;
   position: fixed;
   text-align: center;
   justify-content:flex-end;
@@ -61,7 +61,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-optical-sizing: auto;
   font-weight: 700px;
   font-style: normal;
@@ -79,7 +79,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-optical-sizing: auto;
   font-weight: 700px;
   font-style: normal;

@@ -16,9 +16,10 @@ function Sobre() {
         <div className="Sobre">
           <header className="App-header">
 
-            <img src={logo} className="App-logo" alt="logo" />
-            <img src={fundoCentral} className="App-logo" alt="logo" />
-            <img src={porqueGeralPC} className="PorqueGeralPC" alt="logo"/>
+            <img src={logo} className="App-logo" style={{ width: '32%' }} alt="logo" />
+            <img src={fundoCentral} className="App-logo" style={{ width: '60%' }} alt="logo" />
+
+            <img src={porqueGeralPC} className="PorqueGeralPC" style={{ marginTop: '70px' }} alt="logo"/>
 
             <BubbleContainer numBubbles={10} areaWidth={1400} areaHeight={900} />
 

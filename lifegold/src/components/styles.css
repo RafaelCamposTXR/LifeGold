@@ -90,7 +90,7 @@
 }
 
 .logoh {
-  height: 75px; /* Altura da logo */
+  height: 60px; /* Altura da logo */
   width: auto; /* Largura automática (mantém a proporção) */
   z-index:1000;
 }
