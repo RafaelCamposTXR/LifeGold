@@ -1,7 +1,6 @@
 import React from 'react';
 import '../components/styles.css';
 import BubbleContainer from '../components/Bolhas/BubbleContainer';
-import TelaContato from '../components/TelaContato/TelaContato';
 import Form from '../components/Formulario/Form';
 
 function Contato() {

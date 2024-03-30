@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 768px) {
   .contato{
-    height: 100vh;
+    height: 16vh;
   }
   .fundo {
     display: none;
@@ -81,7 +81,7 @@
   }
   .texto{
     margin-top: 2vh;
-    margin-left:45vmin;
+    margin-left:50vmin;
     max-width:100vmin;
     font-size: 16px;
     text-align: start;
@@ -89,7 +89,7 @@
   }
   .texto-normal{
     margin-top: 0.5vh;
-    margin-left:45vmin;
+    margin-left:50vmin;
     max-width:30vmin;
     font-size: 12px;
   }

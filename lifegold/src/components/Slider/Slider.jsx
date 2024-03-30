@@ -17,6 +17,8 @@ function Slider() {
     { id: '1', image: require('../media/piscinalonga3.png') },
     { id: '2', image: require('../media/piscinalonga2.png') },
     { id: '3', image: require('../media/piscinalonga1.png') },
+    { id: '4', image: require('../media/PiscinaCarrossel3.jpg') },
+    { id: '5', image: require('../media/PiscinaCarrossel4.jpg') },
   ]
 
   return (
