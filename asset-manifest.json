@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a17fd34d.css",
-    "main.js": "/static/js/main.d2bc88dc.js",
+    "main.css": "/static/css/main.745449ee.css",
+    "main.js": "/static/js/main.e2bd7ff2.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
     "static/media/piscinalonga1.png": "/static/media/piscinalonga1.8edf89b48c42b2f83baa.png",
     "static/media/FundoSubtitulo.png": "/static/media/FundoSubtitulo.f4e5f3e572e99a19b6af.png",
     "static/media/IndicaPiscina.png": "/static/media/IndicaPiscina.c8e23707da7d1e11cc66.png",
+    "static/media/cristiane.png": "/static/media/cristiane.387290d3b60e15040297.png",
     "static/media/piscina6.jpeg": "/static/media/piscina6.dcf113e71d671a6a8ff9.jpeg",
     "static/media/tiago.png": "/static/media/tiago.e2bfcdcbe62dd173056e.png",
     "static/media/piscina10.jpeg": "/static/media/piscina10.dce3c5343ce2e55bd6da.jpeg",
     "static/media/fundoTelaContato.png": "/static/media/fundoTelaContato.ad83c526317296242007.png",
+    "static/media/gabrielly.png": "/static/media/gabrielly.7916a0f6db459806bb8f.png",
     "static/media/piscina11.jpeg": "/static/media/piscina11.971ddec9066bf4532711.jpeg",
+    "static/media/PiscinaCarrossel4.jpg": "/static/media/PiscinaCarrossel4.98a3ff0ab2f168f94dce.jpg",
     "static/media/piscina8.jpeg": "/static/media/piscina8.1a92438492e1f6e0a359.jpeg",
     "static/media/piscina3.jpeg": "/static/media/piscina3.55a1d65391ced189b8ee.jpeg",
     "static/media/piscina2.jpeg": "/static/media/piscina2.699b1b78fe1ddb9014d3.jpeg",
+    "static/media/cesar.png": "/static/media/cesar.4b67b25f1f7966108f94.png",
     "static/media/piscina4.jpeg": "/static/media/piscina4.577635ba9c2b092b9491.jpeg",
     "static/media/piscina9.jpeg": "/static/media/piscina9.dc496cf0392d4768049c.jpeg",
     "static/media/piscina5.jpeg": "/static/media/piscina5.de28b30ce4803ca43eb6.jpeg",
@@ -24,6 +28,7 @@
     "static/media/sulfato.jpg": "/static/media/sulfato.8fe724459ebe205184b6.jpg",
     "static/media/PorqueGeralPC.png": "/static/media/PorqueGeralPC.79a88a366e5febc9917f.png",
     "static/media/logoh.png": "/static/media/logoh.d962bf8d12cd3b24f7ec.png",
+    "static/media/PiscinaCarrossel3.jpg": "/static/media/PiscinaCarrossel3.e68bd03376ff4c409c91.jpg",
     "static/media/g_baldecloro.jpg": "/static/media/g_baldecloro.e9cef3f7e511412794d4.jpg",
     "static/media/mangueiraFlutuante1_2.jpg": "/static/media/mangueiraFlutuante1_2.8fc513bf8ca5dcadf21e.jpg",
     "static/media/g_tratamentosemanal.jpg": "/static/media/g_tratamentosemanal.2005d480d2dd2bd9d455.jpg",
@@ -47,12 +52,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.a17fd34d.css.map": "/static/css/main.a17fd34d.css.map",
-    "main.d2bc88dc.js.map": "/static/js/main.d2bc88dc.js.map",
+    "main.745449ee.css.map": "/static/css/main.745449ee.css.map",
+    "main.e2bd7ff2.js.map": "/static/js/main.e2bd7ff2.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a17fd34d.css",
-    "static/js/main.d2bc88dc.js"
+    "static/css/main.745449ee.css",
+    "static/js/main.e2bd7ff2.js"
   ]
 }
