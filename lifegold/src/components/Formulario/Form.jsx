@@ -1,70 +1,73 @@
-import React, { useState } from 'react';
+import React, { useState, useRef  } from 'react';
+import emailjs from '@emailjs/browser';
 import './Form.css';
 
-function Form() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value
-    }));
-  };
+  const Form = () => {
+    const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData); // Exemplo de exibição dos dados no console
-    setFormData({
-      name: '',
-      email: '',
+    const [formData, setFormData] = useState({
+      user_name: '',
+      user_email: '',
       message: ''
     });
-  };
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+      console.log(formData); // Exemplo de exibição dos dados no console
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      });
+  
+      emailjs
+        .sendForm('service_x33mzik', 'template_l1sxt3a', form.current, {
+          publicKey: 'AF_-plHeZye3p9oc_',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
 
-  return (
-      <div className="form-container"> {/* Aplica a classe .form-container */}
-        <form className="form" onSubmit={handleSubmit}> {/* Aplica a classe .form */}
-          <div>
-            <label htmlFor="name">Seu Nome:</label>
-            <input 
-              type="text" 
-              id="name" 
-              name="name" 
-              value={formData.name} 
-              onChange={handleChange} 
-              required 
-            />
-          </div>
-          <div>
-            <label htmlFor="email">Seu E-mail:</label>
-            <input 
-              type="email" 
-              id="email" 
-              name="email" 
-              value={formData.email} 
-              onChange={handleChange} 
-              required 
-            />
-          </div>
-          <div>
-            <label htmlFor="message">Mensagem:</label>
-            <textarea 
-              id="message" 
-              name="message" 
-              value={formData.message} 
-              onChange={handleChange} 
-              required 
-            />
-          </div>
-          <button type="submit">Enviar</button>
+    
+  
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData(prevState => ({
+        ...prevState,
+        [name]: value
+      }));
+    };
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      console.log(formData); // Exemplo de exibição dos dados no console
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      });
+    };
+
+    return (
+      <div className="form-container">
+        <form ref={form} onSubmit={sendEmail} className="form">
+          <label className="label">Seu Nome</label>
+          <input type="text" name="user_name" />
+          <label className="label">Seu email</label>
+          <input type="email" name="user_email" />
+          <label className="label">Sua Mensagem</label>
+          <textarea name="message" />
+          <input type="submit" value="Enviar" className="form-button" />
         </form>
       </div>
-  );
+    );
 }
 
 export default Form;

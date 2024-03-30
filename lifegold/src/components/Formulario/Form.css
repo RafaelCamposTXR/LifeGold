@@ -32,7 +32,7 @@ form label {
   margin-left:0px;
   display: block;
   margin-bottom: 5px;
-  
+  font-family: "Josefin Sans", sans-serif;
 }
 
 form input[type="text"],
