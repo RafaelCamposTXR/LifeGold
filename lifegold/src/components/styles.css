@@ -270,3 +270,28 @@
 .texto-linkado:hover {
   text-decoration: underline;
 }
+
+
+
+
+.divisoria-cinza{
+  background-color:#ddd;
+  width:100%;
+  height:300px;
+  margin-bottom:130px;
+}
+
+.fraseseta{
+  width:1440px;
+  padding:20px;
+  display:flex;
+  flex-direction: row;
+  margin-left:120px;
+}
+
+.texto-linkado{
+  font-family:'Josefin Sans';
+  color:#4a4a4a;
+  margin-left: 35px;
+  margin-top: 3px;
+}

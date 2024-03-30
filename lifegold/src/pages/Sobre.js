@@ -24,24 +24,24 @@ function Sobre() {
                 <p>Fundada por Tiago Augusto, profissional com mais de 20 anos de experiência na área de construção e venda de piscinas, a LifeGold já produziu e vendeu mais de 300 piscinas. Acompanhamos você do início ao fim da construção, para que você possa ter profissionais qualificados e certificados na área, sempre à disposição para tornar seu sonho realidade</p>
               </div>
 
-              <div className='divisoria-cinza' style={{ backgroundColor: '#ddd', width: '100%', height: '300px', marginBottom: '130px' }}>
-                <div className='fraseseta' style={{ width: '1400px', padding: '80px', display: 'flex', flexDirection: 'row', marginLeft: '120px' }}>
+              <div className='divisoria-cinza' >
+                <div className='fraseseta' style={{marginTop:'50px'}} >
                   <FaArrowRight style={{ color: '#4a4a4a' }} />
-                  <div className='texto-linkado' style={{ fontFamily: 'Josefin Sans', color: '#4a4a4a', marginLeft: '35px', marginTop: '3px' }}>
+                  <div className='texto-linkado' >
                     <Link to='/produtos' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira os produtos disponíveis em nossa loja</Link>
                     </div>
                 </div>
 
-                <div className='fraseseta' style={{ width: '1400px', padding: '80px', display: 'flex', flexDirection: 'row', marginLeft: '120px', marginTop: '-135px' }}>
+                <div className='fraseseta' >
                   <FaArrowRight style={{ color: '#4a4a4a' }} />
-                  <div className='texto-linkado' style={{ fontFamily: 'Josefin Sans', color: '#4a4a4a', marginLeft: '35px', marginTop: '3px' }}>
+                  <div className='texto-linkado' >
                     <Link to='/piscinas' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira as piscinas já produzidas pela nossa equipe, e o nossa história profissional</Link>
                     </div>
                 </div>
 
-                <div className='fraseseta' style={{ width: '1400px', padding: '80px', display: 'flex', flexDirection: 'row', marginLeft: '120px', marginTop: '-135px' }}>
+                <div className='fraseseta' >
                   <FaArrowRight style={{ color: '#4a4a4a' }} />
-                  <div className='texto-linkado' style={{ fontFamily: 'Josefin Sans', color: '#4a4a4a', marginLeft: '35px', marginTop: '3px' }}>
+                  <div className='texto-linkado' >
                     <Link to='/contato' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Fale com um de nossos consultores</Link>
                     </div>
                 </div>
