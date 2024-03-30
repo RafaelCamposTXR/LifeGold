@@ -213,3 +213,40 @@
 .TelaContato-contato{
   margin-top:100vh;
 }
+
+#contato-container {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: #dadada;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  transition: opacity 3s ease-in-out;
+  opacity: 1;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 230px;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 25% 84%, 0 100%);
+}
+
+#contato-content {
+  text-align: left;
+  justify-content: start;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #5e5e5e;
+  padding: 22px;
+  line-height: 1.5;
+  margin-top: -8px;
+}
+
+#contato-container.hidden {
+  opacity: 0;
+}
+
+.texto-linkado:hover {
+  text-decoration: underline;
+}
