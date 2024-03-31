@@ -30,28 +30,28 @@ function Sobre() {
             </div>
 
             <div className='divisoria-cinza' >
-    
-              <div className='fraseseta' style={{marginTop:'50px'}} >
-                <FaArrowRight style={{ color: '#4a4a4a' }} />
+              <div className='espaco-dentro-div' >
+              <div className='fraseseta' >
+                <FaArrowRight className="seta" />
                 <div className='texto-linkado' >
                   <Link to='/produtos' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira os produtos disponíveis em nossa loja</Link>
                 </div>
               </div>
 
               <div className='fraseseta' >
-                <FaArrowRight className="seta-piscina" style={{ color: '#4a4a4a'}} />
+                <FaArrowRight className="seta" />
                 <div className='texto-linkado' >
-                  <Link to='/piscinas' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira as piscinas já produzidas pela nossa equipe, e o nossa história profissional</Link>
+                  <Link to='/piscinas' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira as piscinas já produzidas pela nossa equipe e a nossa história profissional</Link>
                 </div>
               </div>
 
               <div className='fraseseta' >
-                <FaArrowRight className="seta-consultor" style={{ color: '#4a4a4a' }} />
+                <FaArrowRight className="seta" />
                 <div className='texto-linkado' >
                   <Link to='/contato' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Fale com um de nossos consultores</Link>
                 </div>
               </div>
-
+              </div>
             </div>
 
             <img src={IndicaPiscina} className="PorqueGeralPC" alt="logo"/>

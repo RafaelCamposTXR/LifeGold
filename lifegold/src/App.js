@@ -1,6 +1,6 @@
 // App.js
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Sobre from './pages/Sobre';
 import Produtos from './pages/Produtos';
@@ -23,8 +23,19 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0); // Define a posição de rolagem como o topo da página
+    }, [pathname]); // Executa sempre que a localização muda
+  
+    return null;
+  }
+
   return (
     <Router>
+      <ScrollToTop /> {/* Componente para controlar o scroll */}
       <NavBar/>
       {showContact && (
         <div id="contato-container">

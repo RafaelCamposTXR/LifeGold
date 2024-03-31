@@ -17,10 +17,10 @@ function Contato() {
               </div>
                 <Form/>
             </div>
-            <div className="imagem-lateral" style={{ marginTop: '90px', zIndex: '0' }}>
-                <img src={require('../components/media/piscina6.jpeg')} />
+            <div className="imagem-lateral" style={{ marginTop: '62px', zIndex: '0', marginLeft: '-8px' }}>
+                <img src={require('../components/media/piscina1.jpeg')} />
             </div>
-            <BubbleContainer numBubbles={10} areaWidth={500} areaHeight={900} />
+            <BubbleContainer numBubbles={10} areaWidth={300} areaHeight={600} />
         </div>
     );
 }
