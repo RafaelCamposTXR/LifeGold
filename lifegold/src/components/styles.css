@@ -116,14 +116,14 @@
 }
 
 .texto-contato {
-  margin-left:29%;
+  margin-left: 50%;
   max-width:100vmin;
   position: absolute;
   margin-top: 12vh;
-  text-align: center;
-  color: #3c3b3b;
+  text-align: right;
+  color: #525252;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   z-index:500;
 }
 
@@ -181,16 +181,17 @@
 }
 
 .imagem-lateral {
-  height: 800px;
-  object-fit: cover;
+  height: 550px;
+  width: 400px;
   position:absolute;
 }
 
 .imagem-lateral img {
-  height: 900px;
-  width: auto; 
+  height: 100%;
+  width: 100%; 
   clip-path: polygon(0 0, 50% 0, 74% 80%, 0% 100%);
-  position:absolute;
+  position: absolute;
+  object-fit: cover;
 }
 
 .PorquegeralPC{
@@ -304,31 +305,36 @@
     margin-top:20px;
     background-color:#ddd;
     width:100%;
-    height:350px;
+    height:280px;
     margin-bottom:130px;
+  }
+
+  .espaco-dentro-div {
+    padding-top: 6%;
   }
   
   .fraseseta{
-    width:70%;
-    padding:20px;
+    width:80%;
+    padding:15px;
     display:flex;
     flex-direction: row;
-    margin-left:20px;
+    margin-left:80px;
   }
   
   .texto-linkado{
+    max-width: 85%;
     font-family:'Josefin Sans';
+    font-size: 18px;
     color:#4a4a4a;
-    margin-left: 5px;
-    margin-top: 3px;
+    margin-left: 15px;
+    line-height: 1.5;
   }
 
-  .seta-piscina{
-    width:20px;
-  }
-
-  .seta-consultor{
-    width:20px;
+  .seta {
+    color: #4a4a4a;
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
   }
 
   #contato-container {
