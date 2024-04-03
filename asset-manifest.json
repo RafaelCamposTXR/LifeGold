@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7557bf87.css",
-    "main.js": "/static/js/main.7a846646.js",
+    "main.css": "/static/css/main.4ec9e6b4.css",
+    "main.js": "/static/js/main.29ecc946.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -65,12 +65,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.7557bf87.css.map": "/static/css/main.7557bf87.css.map",
-    "main.7a846646.js.map": "/static/js/main.7a846646.js.map",
+    "main.4ec9e6b4.css.map": "/static/css/main.4ec9e6b4.css.map",
+    "main.29ecc946.js.map": "/static/js/main.29ecc946.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7557bf87.css",
-    "static/js/main.7a846646.js"
+    "static/css/main.4ec9e6b4.css",
+    "static/js/main.29ecc946.js"
   ]
 }
