@@ -9,7 +9,7 @@ function MenuEquipe() {
   const menuItems = [      
     { name: 'TIAGO AUGUSTO', image: require('../media/tiago.png'), texto:'Fundador e responsável técnico. Soma em sua carreira mais de 20 anos de experiência na área. Projetista, coordenador, consultor e  instalador. Todos os requisitos necessários para realizar seu sonho'},
     { name: 'CRISTIANE BORGES', image: require('../media/cristiane.png'), texto:' Sócia. Gerente. Gestora de vendas. Negociadora '},
-    { name: 'GABRIEL MACHADO', image: require('../media/PessoaAnonima.jpg'), texto:'Assistente técnico. Representante de vendas. Cuidador de piscinas'},
+    { name: 'GABRIEL MACHADO', image: require('../media/gabriel.png'), texto:'Assistente técnico. Representante de vendas. Cuidador de piscinas'},
     { name: 'CESAR VALTER', image: require('../media/cesar.png'), texto:'Assistente técnico. Cuidador de piscinas. Social Media'},
     { name: 'GABRIELLY BORGES', image: require('../media/gabrielly.png'), texto:' Social mídia. Assistente de gestão. Vendedora'},
   ];
