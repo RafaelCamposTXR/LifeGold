@@ -14,11 +14,15 @@ register();
 
 function Slider() {
   const data = [
-    { id: '1', image: require('../media/piscinalonga3.png') },
-    { id: '2', image: require('../media/piscinalonga2.png') },
-    { id: '3', image: require('../media/piscinalonga1.png') },
-    { id: '4', image: require('../media/PiscinaCarrossel3.jpg') },
-    { id: '5', image: require('../media/PiscinaCarrossel4.jpg') },
+    { id: '1', image: require('../media/piscinavinil0.jpg') },
+    { id: '2', image: require('../media/piscinavinil1.jpg') },
+    { id: '3', image: require('../media/piscinavinil2.jpg') },
+    { id: '4', image: require('../media/piscinalonga3.png') },
+    { id: '5', image: require('../media/piscinalonga2.png') },
+    { id: '6', image: require('../media/piscinalonga1.png') },
+    { id: '7', image: require('../media/PiscinaCarrossel3.jpg') },
+    { id: '8', image: require('../media/PiscinaCarrossel4.jpg') },
+
   ]
 
   return (
