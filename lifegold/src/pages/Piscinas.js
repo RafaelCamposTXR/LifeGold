@@ -78,7 +78,7 @@ function Piscinas() {
             <div className='logoParceiroPai'>
                     <img className='logoParceiro' src={require('../components/media/AzulVinil.jpg')}  alt="" />
                 </div>
-                <Catalogo piscinas={piscinasAzulVinil} />
+                <Catalogo piscinas={piscinasAzulVinil} AzulVinil />
             </div>
 
             <div style={{ marginTop: '100px' }}>

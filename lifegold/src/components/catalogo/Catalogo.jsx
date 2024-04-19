@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Catalogo.css';
 
-function Catalogo({piscinas}) {
+function Catalogo({piscinas, AzulVinil}) {
   const [selectedPiscina, setSelectedPiscina] = useState(null);
 
   
@@ -18,7 +18,7 @@ function Catalogo({piscinas}) {
     <div className="catalogo">
       <div className="piscina-grid">
         {piscinas.map((piscina) => (
-          <div key={piscina.id} className="piscina-item" onClick={() => openDetails(piscina)}>
+          <div key={piscina.id} className={`piscina-item ${AzulVinil ? 'piscina-item-AzulVinil' : ''}`} onClick={() => openDetails(piscina)}>
             <img src={piscina.image} alt={`Piscina ${piscina.id}`} />
             <div className="overlay">
               <p>Ver detalhes</p>
