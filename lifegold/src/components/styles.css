@@ -302,6 +302,18 @@
   margin-top: 3px;
 }
 
+.logoParceiroPai{
+  position: relative;
+  justify-content: flex-start;
+  margin-left:40px;
+  margin-top:-40px;
+}
+
+.logoParceiro{
+  width: auto;
+  height:160px;
+}
+
 @media only screen and (max-width: 768px) {
   .divisoria-cinza{
     margin-top:20px;

@@ -75,6 +75,9 @@ function Piscinas() {
                 <div className="linha-cinza" style={{marginTop:"80px"}}></div> {/* Adiciona a linha cinza */}
             </div>
             <div style={{ marginTop: '70px' }}>
+            <div className='logoParceiroPai'>
+                    <img className='logoParceiro' src={require('../components/media/AzulVinil.jpg')}  alt="" />
+                </div>
                 <Catalogo piscinas={piscinasAzulVinil} />
             </div>
 
