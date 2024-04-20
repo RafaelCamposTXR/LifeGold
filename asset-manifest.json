@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.79ef2dbe.css",
-    "main.js": "/static/js/main.1f47e551.js",
+    "main.css": "/static/css/main.a323804f.css",
+    "main.js": "/static/js/main.9210a5e5.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -44,6 +44,7 @@
     "static/media/g_tratamentosemanal.jpg": "/static/media/g_tratamentosemanal.2005d480d2dd2bd9d455.jpg",
     "static/media/PorqueGeralMobile.png": "/static/media/PorqueGeralMobile.5b03938efdb169987884.png",
     "static/media/barrilha.jpg": "/static/media/barrilha.3b27aa1d52d3add31d27.jpg",
+    "static/media/FibraTec.jpg": "/static/media/FibraTec.b6cd3db0b7f6239afe79.jpg",
     "static/media/piscina14.jpeg": "/static/media/piscina14.c62af3264747cac2c2be.jpeg",
     "static/media/estojoTeste.jpg": "/static/media/estojoTeste.0e04c93a7e1572e493c0.jpg",
     "static/media/g_t200.jpg": "/static/media/g_t200.5977b8559f8ce0cf3d3f.jpg",
@@ -66,16 +67,17 @@
     "static/media/piscina5.jpeg": "/static/media/piscina5.4f942960365a5d8ffffd.jpeg",
     "static/media/bombaVelcro1_3.jpg": "/static/media/bombaVelcro1_3.94dbe61569eccdcb2347.jpg",
     "static/media/dispositivoNivel.jpg": "/static/media/dispositivoNivel.095c21f3e9fdcc6c1ef8.jpg",
+    "static/media/genco.jpg": "/static/media/genco.60a682b79d86599399c5.jpg",
     "static/media/ponteira.jpg": "/static/media/ponteira.70b948dfc501fffee1c0.jpg",
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.79ef2dbe.css.map": "/static/css/main.79ef2dbe.css.map",
-    "main.1f47e551.js.map": "/static/js/main.1f47e551.js.map",
+    "main.a323804f.css.map": "/static/css/main.a323804f.css.map",
+    "main.9210a5e5.js.map": "/static/js/main.9210a5e5.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79ef2dbe.css",
-    "static/js/main.1f47e551.js"
+    "static/css/main.a323804f.css",
+    "static/js/main.9210a5e5.js"
   ]
 }
