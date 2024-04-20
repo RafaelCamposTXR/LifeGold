@@ -10,8 +10,21 @@ import IrPiscina from '../components/media/IrPiscinas.png';
 import '../components/styles.css';
 import TelaContato from '../components/TelaContato/TelaContato';
 import BubbleContainer from '../components/Bolhas/BubbleContainer';
+import Slider from '../components/Slider/Slider';
 
 function Sobre() {
+
+  const data = [
+    { id: '1', image: require('../components/media/g_t200.jpg')},
+    { id: '2', image: require('../components/media/piscinavinil1.jpg')},
+    { id: '3', image: require('../components/media/piscinavinil0.jpg')},
+    { id: '4', image: require('../components/media/g_tratamentosemanal.jpg')},
+    { id: '5', image: require('../components/media/g_baldecloro.jpg')},
+    { id: '6', image: require('../components/media/g_limpabordas.jpg')},
+    { id: '7', image: require('../components/media/g_algicidachoque.jpg')},
+    { id: '8', image: require('../components/media/g_algicidamanutencao.jpg')},
+
+  ]
     return (
         <div className="Sobre">
           <header className="App-header">
@@ -69,6 +82,26 @@ function Sobre() {
           </header>
 
           <div className ="App"></div>
+
+          <div >
+            <div className="linha-cinza" style={{marginTop:"80px"}}></div> {/* Adiciona a linha cinza */}
+          </div>
+          <div className="area-parceiros">
+          <div className="texto-parceiro">
+            Parceiros
+          </div>
+          <div className="container-logos">
+            <img src={require('../components/media/AzulVinil.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/genco.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/VinilTec.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/FibraTec.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/FibraMix.jpg')} className="logoParceiro" alt="logo"/>
+          </div>
+          <div className='texto-menor' style={{marginLeft:"180px"}}>
+              <p>Em parceria com as empresas acima, a LifeGold ampliou as possibilidades de oferta de produtos e piscinas, contribuindo para a concretização do seu sonho.</p>
+            </div>
+          <Slider data={data} />
+          </div>
           
           <TelaContato/>
 

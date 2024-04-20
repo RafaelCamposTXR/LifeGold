@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ced5404e.css",
-    "main.js": "/static/js/main.1b243ef2.js",
+    "main.css": "/static/css/main.79ef2dbe.css",
+    "main.js": "/static/js/main.1f47e551.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -34,6 +34,7 @@
     "static/media/logoh.png": "/static/media/logoh.d962bf8d12cd3b24f7ec.png",
     "static/media/piscina3.jpeg": "/static/media/piscina3.7108105227b5d70a0d91.jpeg",
     "static/media/PiscinaCarrossel3.jpg": "/static/media/PiscinaCarrossel3.e68bd03376ff4c409c91.jpg",
+    "static/media/AzulVinil.jpg": "/static/media/AzulVinil.c2860bd0b69263d25ddd.jpg",
     "static/media/piscina2.jpeg": "/static/media/piscina2.3cb5dfa25ee9772eb23b.jpeg",
     "static/media/g_baldecloro.jpg": "/static/media/g_baldecloro.e9cef3f7e511412794d4.jpg",
     "static/media/piscina9.jpeg": "/static/media/piscina9.0ce739c85338c7a89d8d.jpeg",
@@ -69,12 +70,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.ced5404e.css.map": "/static/css/main.ced5404e.css.map",
-    "main.1b243ef2.js.map": "/static/js/main.1b243ef2.js.map",
+    "main.79ef2dbe.css.map": "/static/css/main.79ef2dbe.css.map",
+    "main.1f47e551.js.map": "/static/js/main.1f47e551.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ced5404e.css",
-    "static/js/main.1b243ef2.js"
+    "static/css/main.79ef2dbe.css",
+    "static/js/main.1f47e551.js"
   ]
 }
