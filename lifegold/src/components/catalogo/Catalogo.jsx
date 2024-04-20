@@ -20,7 +20,7 @@ function Catalogo({piscinas, AzulVinil}) {
         {piscinas.map((piscina) => (
           <div key={piscina.id} className={`piscina-item ${AzulVinil ? 'piscina-item-AzulVinil' : ''}`} onClick={() => openDetails(piscina)}>
             <img src={piscina.image} alt={`Piscina ${piscina.id}`} />
-            <div className="overlay">
+            <div className={`overlay ${AzulVinil ? 'overlay-AzulVinil' : ''}`}>
               <p>Ver detalhes</p>
             </div>
           </div>
