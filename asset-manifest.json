@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a323804f.css",
-    "main.js": "/static/js/main.9210a5e5.js",
+    "main.css": "/static/css/main.ff9331dc.css",
+    "main.js": "/static/js/main.33b49dcb.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -61,6 +61,7 @@
     "static/media/aspirador.jpg": "/static/media/aspirador.5e70e69a6858546ff434.jpg",
     "static/media/cloradorFlutuante.jpg": "/static/media/cloradorFlutuante.1dd880ee08901c9184e6.jpg",
     "static/media/ledRGB.jpg": "/static/media/ledRGB.354cbc858e8e0027fd1a.jpg",
+    "static/media/FibraMix.jpg": "/static/media/FibraMix.24eb944eaf72a8c9370c.jpg",
     "static/media/cloro.jpg": "/static/media/cloro.3b00dbc748938f6aa0c7.jpg",
     "static/media/dispositivoHidromassagem.jpg": "/static/media/dispositivoHidromassagem.7a921753cc7413600b93.jpg",
     "static/media/piscina8.jpeg": "/static/media/piscina8.1619eba24a16a3f0aceb.jpeg",
@@ -72,12 +73,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.a323804f.css.map": "/static/css/main.a323804f.css.map",
-    "main.9210a5e5.js.map": "/static/js/main.9210a5e5.js.map",
+    "main.ff9331dc.css.map": "/static/css/main.ff9331dc.css.map",
+    "main.33b49dcb.js.map": "/static/js/main.33b49dcb.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a323804f.css",
-    "static/js/main.9210a5e5.js"
+    "static/css/main.ff9331dc.css",
+    "static/js/main.33b49dcb.js"
   ]
 }
