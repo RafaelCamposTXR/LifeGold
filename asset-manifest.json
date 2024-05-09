@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f180decf.css",
-    "main.js": "/static/js/main.925e00e4.js",
+    "main.js": "/static/js/main.72455711.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -80,11 +80,11 @@
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
     "main.f180decf.css.map": "/static/css/main.f180decf.css.map",
-    "main.925e00e4.js.map": "/static/js/main.925e00e4.js.map",
+    "main.72455711.js.map": "/static/js/main.72455711.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f180decf.css",
-    "static/js/main.925e00e4.js"
+    "static/js/main.72455711.js"
   ]
 }
