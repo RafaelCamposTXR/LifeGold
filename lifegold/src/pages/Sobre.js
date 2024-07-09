@@ -96,6 +96,7 @@ function Sobre() {
             <img src={require('../components/media/VinilTec.jpg')} className="logoParceiro" alt="logo"/>
             <img src={require('../components/media/FibraTec.jpg')} className="logoParceiro" alt="logo"/>
             <img src={require('../components/media/FibraMix.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/mondialle.jpg')} className="logoParceiro" alt="logo"/>
           </div>
           <div className='texto-menor' style={{marginLeft:"180px"}}>
               <p>Em parceria com as empresas acima, a LifeGold ampliou as possibilidades de oferta de produtos e piscinas, contribuindo para a concretização do seu sonho.</p>

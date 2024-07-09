@@ -24,6 +24,15 @@ function Piscinas() {
     { id: 3, image: require('../components/media/piscinavinil2.jpg'), details: 'Piscina AzulVinil' },
   ];
 
+  const banheiras = [
+    { id: 0, image: require('../components/media/banheira0.jpg'), details: 'Banheira Macerata Canto, acomodações para 3 pessoas.' },
+    { id: 1, image: require('../components/media/banheira1.jpg'), details: 'Banheira Ascoli Dupla, acomodações para duas pessoas.' },
+    { id: 2, image: require('../components/media/banheira2.jpg'), details: 'Banheira Macerata Dupla, desing inovador que valoriza o ambiente. Acomodações para duas pessoas.' },
+    { id: 3, image: require('../components/media/banheira3.jpg'), details: 'Modelo de spa LifeGold' },
+    { id: 4, image: require('../components/media/banheira4.jpg'), details: 'Modelo de spa LifeGold' },
+    { id: 5, image: require('../components/media/banheira5.jpg'), details: 'Spa Evolution, oferece inúmeros benefícios como a valorização do ambiente e do imóvel além  de melhorar a qualidade de vida dos seus usuários ajudando no relaxamento muscular e psicológico.' },
+  ];
+
   const piscinas = [
     { id: 4, image: require('../components/media/piscina1.jpeg'), details: 'Piscina AzulVinil' },
     { id: 5, image: require('../components/media/piscina2.jpeg'), details: 'Piscina ornamental com deck de madeira' },
@@ -71,10 +80,19 @@ function Piscinas() {
             <div style={{ marginTop: '70px' }}>
                 <Catalogo piscinas={piscinas} />
             </div>
-            <div >
+              <div >
+                <div className="linha-cinza" style={{marginTop:"80px"}}></div> {/* Adiciona a linha cinza */}
+              </div>
+              <div style={{ marginTop: '70px' }}>
+              <div className='logoParceiroPai'>
+              <img className='logoParceiro' src={require('../components/media/mondialle.jpg')}  alt="" />
+              </div>
+                <Catalogo piscinas={banheiras} />
+              </div>
+            <div>
                 <div className="linha-cinza" style={{marginTop:"80px"}}></div> {/* Adiciona a linha cinza */}
             </div>
-            <div style={{ marginTop: '70px' }}>
+            <div style={{ marginTop: '70px'}}>
             <div className='logoParceiroPai'>
                     <img className='logoParceiro' src={require('../components/media/AzulVinil.jpg')}  alt="" />
                 </div>

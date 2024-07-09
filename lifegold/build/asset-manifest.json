@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff9331dc.css",
-    "main.js": "/static/js/main.33b49dcb.js",
+    "main.css": "/static/css/main.f180decf.css",
+    "main.js": "/static/js/main.72455711.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
     "static/media/piscinalonga2.png": "/static/media/piscinalonga2.97adf12673c50eb2bfcd.png",
@@ -18,11 +18,15 @@
     "static/media/gabrielly.png": "/static/media/gabrielly.7916a0f6db459806bb8f.png",
     "static/media/PiscinaCarrossel4.jpg": "/static/media/PiscinaCarrossel4.98a3ff0ab2f168f94dce.jpg",
     "static/media/piscina16.jpeg": "/static/media/piscina16.c343774fa3315bc94dd8.jpeg",
+    "static/media/banheira1.jpg": "/static/media/banheira1.1bcf138f4e66a6be25cb.jpg",
     "static/media/cesar.png": "/static/media/cesar.4b67b25f1f7966108f94.png",
     "static/media/piscina7.jpeg": "/static/media/piscina7.a697d23c3917e4c47824.jpeg",
     "static/media/piscina13.jpeg": "/static/media/piscina13.d7ea87154519c2fda870.jpeg",
+    "static/media/banheira2.jpg": "/static/media/banheira2.4a867fdf570b7192b62a.jpg",
+    "static/media/banheira5.jpg": "/static/media/banheira5.0f0b3fd4e6fd81a7af59.jpg",
     "static/media/piscina17.jpeg": "/static/media/piscina17.0bdd86bd5f5d9a81ace3.jpeg",
     "static/media/piscina10.jpeg": "/static/media/piscina10.7dd24828559a38004d9c.jpeg",
+    "static/media/banheira0.jpg": "/static/media/banheira0.ee8a095ef321b7f4dd7a.jpg",
     "static/media/piscina6.jpeg": "/static/media/piscina6.dfe58cc31dad42fc2dc4.jpeg",
     "static/media/piscina18.jpeg": "/static/media/piscina18.72070e862bdc830e42e0.jpeg",
     "static/media/piscina15.jpeg": "/static/media/piscina15.e0bb333d1a4eac1595da.jpeg",
@@ -33,9 +37,11 @@
     "static/media/piscina11.jpeg": "/static/media/piscina11.0fe15f8e943a548faea1.jpeg",
     "static/media/logoh.png": "/static/media/logoh.d962bf8d12cd3b24f7ec.png",
     "static/media/piscina3.jpeg": "/static/media/piscina3.7108105227b5d70a0d91.jpeg",
+    "static/media/banheira3.jpg": "/static/media/banheira3.5284a198941b84a711ed.jpg",
     "static/media/PiscinaCarrossel3.jpg": "/static/media/PiscinaCarrossel3.e68bd03376ff4c409c91.jpg",
     "static/media/AzulVinil.jpg": "/static/media/AzulVinil.c2860bd0b69263d25ddd.jpg",
     "static/media/piscina2.jpeg": "/static/media/piscina2.3cb5dfa25ee9772eb23b.jpeg",
+    "static/media/banheira4.jpg": "/static/media/banheira4.efb709072f98363290fd.jpg",
     "static/media/g_baldecloro.jpg": "/static/media/g_baldecloro.e9cef3f7e511412794d4.jpg",
     "static/media/piscina9.jpeg": "/static/media/piscina9.0ce739c85338c7a89d8d.jpeg",
     "static/media/mangueiraFlutuante1_2.jpg": "/static/media/mangueiraFlutuante1_2.8fc513bf8ca5dcadf21e.jpg",
@@ -73,12 +79,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.ff9331dc.css.map": "/static/css/main.ff9331dc.css.map",
-    "main.33b49dcb.js.map": "/static/js/main.33b49dcb.js.map",
+    "main.f180decf.css.map": "/static/css/main.f180decf.css.map",
+    "main.72455711.js.map": "/static/js/main.72455711.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9331dc.css",
-    "static/js/main.33b49dcb.js"
+    "static/css/main.f180decf.css",
+    "static/js/main.72455711.js"
   ]
 }

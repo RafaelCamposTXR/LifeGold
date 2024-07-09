@@ -276,8 +276,6 @@
 }
 
 
-
-
 .divisoria-cinza{
   background-color:#ddd;
   width:100%;
@@ -304,14 +302,14 @@
 
 .logoParceiroPai{
   position: relative;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-left:40px;
   margin-top:-40px;
 }
 
 .logoParceiro{
   width: auto;
-  height:160px;
+  height:125px;
   margin-right:30px;
 }
 
@@ -330,7 +328,7 @@
 }
 
 .container-logos{
-  justify-content: end;
+  justify-content: space-between;
   margin-left: 150px;
 }
 
