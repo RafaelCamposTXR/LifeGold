@@ -1,4 +1,4 @@
-// App.js
+
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
@@ -11,7 +11,7 @@ import './components/styles.css'
 
 
 function App() {
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" ></meta>
 
   const [showContact, setShowContact] = useState(true);
 

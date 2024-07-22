@@ -18,7 +18,7 @@ function TelaContato() {
         </div>
         <div className='a'>
           <div className='texto'>ENDEREÇO</div>
-          <div className='texto-normal'>Rua Presidente Olegário Maciel, 111 - Loja 6 Centro</div>
+          <div className='texto-normal'>Avenida senador Montandon, 60</div>
         </div>
         <div className='a'></div>
       </div>
