@@ -15,15 +15,11 @@ import Slider from '../components/Slider/Slider';
 function Sobre() {
 
   const data = [
-    //{ id: '1', image: require('../components/media/g_t200.jpg')},
-    { id: '2', image: require('../components/media/piscinavinil1.jpg')},
-    { id: '3', image: require('../components/media/piscinavinil0.jpg')},
-    //{ id: '4', image: require('../components/media/g_tratamentosemanal.jpg')},
-    //{ id: '5', image: require('../components/media/g_baldecloro.jpg')},
-    //{ id: '6', image: require('../components/media/g_limpabordas.jpg')},
-    //{ id: '7', image: require('../components/media/g_algicidachoque.jpg')},
-    //{ id: '8', image: require('../components/media/g_algicidamanutencao.jpg')},
-
+    { id: 1, image: require('../components/media/piscinavinil1.jpg')},
+    { id: 2, image: require('../components/media/piscinavinil0.jpg')},
+    { id: 3, image: require('../components/media/piscinaSPA.jpg')},
+    { id: 4, image: require('../components/media/piscinaCascata.jpg')},
+    { id: 5, image: require('../components/media/piscinaFibraAzul.jpg')},
   ]
     return (
         <div className="Sobre">
@@ -97,6 +93,8 @@ function Sobre() {
             <img src={require('../components/media/FibraTec.jpg')} className="logoParceiro" alt="logo"/>
             <img src={require('../components/media/FibraMix.jpg')} className="logoParceiro" alt="logo"/>
             <img src={require('../components/media/mondialle.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/logoUnisol.jpg')} className="logoParceiro" alt="logo"/>
+            <img src={require('../components/media/logoUP.jpg')} className="logoParceiro" alt="logo"/>
           </div>
           <div className='texto-menor' style={{marginLeft:"180px"}}>
               <p>Em parceria com as empresas acima, a LifeGold ampliou as possibilidades de oferta de produtos e piscinas, contribuindo para a concretização do seu sonho.</p>

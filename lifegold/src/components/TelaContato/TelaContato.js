@@ -18,7 +18,7 @@ function TelaContato() {
         </div>
         <div className='a'>
           <div className='texto'>ENDEREÇO</div>
-          <div className='texto-normal'>Avenida senador Montandon, 60</div>
+          <div className='texto-normal'>Avenida senador Montandon, 60 - Centro</div>
         </div>
         <div className='a'></div>
       </div>

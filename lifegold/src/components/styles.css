@@ -7,8 +7,6 @@
   justify-content: center;
   margin-bottom:100vh;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .body {
@@ -308,6 +306,8 @@
 }
 
 .logoParceiroPai{
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   justify-content: space-between;
   margin-left:40px;
@@ -316,8 +316,7 @@
 
 .logoParceiro{
   width: auto;
-  height:125px;
-  margin-right:30px;
+  height: 130px;
 }
 
 .texto-parceiro{
@@ -335,8 +334,13 @@
 }
 
 .container-logos{
-  justify-content: space-between;
-  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 2vw;
 }
 
 @media only screen and (max-width: 768px) {

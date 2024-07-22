@@ -34,6 +34,8 @@ function Menu() {
     { name: 'DRENO DE FUNDO', image: require('../media/drenoFundo.jpg'), texto:'Dispositivo de dreno de fundo, Dreno de fundo anti- turbilhão grande . Oferece maior proteção e segurança aos banhistas atuando na prevenção de acidentes.'},
     { name: 'DISPOSITIVO DE HIDROMASSAGEM', image: require('../media/dispositivoHidromassagem.jpg'), texto:'Dispositivo de hidromassagem  para vinil , proporciona um jato  pressurizado relaxante'},
     { name: 'DISPOSITIVO DE NÍVEL', image: require('../media/dispositivoNivel.jpg'), texto:'Dispositivo de nível em ABS para piscinas de vinil . Equipamento para  preservar o nível da água e evitar o transbordo da água.'},
+    { name: 'CLORO GRANULADO', image: require('../media/cloroGranulado.jpg'), texto:'Desinfetante para águas de piscina, rende duas vezes mais. Cloro com classificação 5 estrelas, referência de qualidade.'},
+
   ];
 
   const openDetails = (item) => {
