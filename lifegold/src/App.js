@@ -41,7 +41,7 @@ function App() {
         <div id="contato-container">
           <div id="contato-content">
             <h2>@lifegoldpiscinas</h2>
-            <h2>Rua Presidente Olegário Maciel, 111 - Loja 6 Centro</h2>
+            <h2>Avenida senador Montandon, 60 - Centro</h2>
           </div>
         </div>
       )}
