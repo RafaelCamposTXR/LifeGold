@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -9,10 +14,7 @@
   max-width: 100%;
 }
 
-.body {
-  margin: 0;
-  padding: 0;
-}
+
 
 
 .App-header {
