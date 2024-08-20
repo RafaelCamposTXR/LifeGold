@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import logo from '../components/media/LifeGold.png';
@@ -21,8 +21,29 @@ function Sobre() {
     { id: 4, image: require('../components/media/piscinaCascata.jpg')},
     { id: 5, image: require('../components/media/piscinaFibraAzul.jpg')},
   ]
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleVideoEnd = () => {
+    setIsVisible(true); // Oculta o vídeo quando a reprodução termina
+  };
+
     return (
+      
         <div className="Sobre">
+          {isVisible && (
+        <video
+          width="750"
+          height="500"
+          loop // Desativa o loop para que o vídeo reproduza apenas uma vez
+          autoPlay
+          muted
+          className="bg-video"
+          style={{ objectFit: 'cover', borderRadius: '0px' }}
+          onEnded={handleVideoEnd} // Chama a função quando o vídeo termina
+        >
+          <source src={require('../components/media/bg-video.mp4')} type="video/mp4" />
+        </video>
+        )}
           <header className="App-header">
 
             <img src={logo} className="App-logo" style={{ width: '32%' }} alt="logo" />

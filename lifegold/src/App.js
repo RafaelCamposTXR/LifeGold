@@ -33,8 +33,12 @@ function App() {
     return null;
   }
 
+  
+
+
   return (
     <Router>
+      
       <ScrollToTop /> {/* Componente para controlar o scroll */}
       <NavBar/>
       {showContact && (
