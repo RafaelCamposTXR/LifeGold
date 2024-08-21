@@ -45,9 +45,9 @@ function Sobre() {
         </video>
         )}
           <header className="header">
-            <div className="area-superior">
-              <img src={logo} className="logo" alt="logo" />
-              <img src={fundoCentral} className="fundo-central" alt="logo" />
+            <div className="area-superior-sobre">
+              <img src={logo} className="logo-lifegold" alt="logo" />
+              <img src={fundoCentral} className="fundo-central-lifegold" alt="logo" />
             </div>
 
             <img src={porqueGeralPC} className="PorqueGeralPC" style={{ marginTop: '70px' }} alt="logo"/>
@@ -59,26 +59,26 @@ function Sobre() {
               <p>Fundada por Tiago Augusto, profissional com mais de 20 anos de experiência na área de construção e venda de piscinas, a LifeGold já produziu e vendeu mais de 300 piscinas. Acompanhamos você do início ao fim da construção, para que você possa ter profissionais qualificados e certificados na área, sempre à disposição para tornar seu sonho realidade</p>
             </div>
 
-            <div className='conteiner-links' >
+            <div className='conteiner-links-sobre' >
               <>
-                <div className='fraseseta' >
-                  <FaArrowRight className="seta"/>
-                  <div className='texto-linkado' >
-                    <Link to='/produtos' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira os produtos disponíveis em nossa loja</Link>
+                <div className='fraseseta-sobre' >
+                  <FaArrowRight className="seta-sobre"/>
+                  <div className='texto-linkado-pai' >
+                    <Link to='/produtos' className="texto-linkado-sobre">Confira os produtos disponíveis em nossa loja</Link>
                   </div>
                 </div>
 
-                <div className='fraseseta' >
-                  <FaArrowRight className="seta" />
-                  <div className='texto-linkado' >
-                    <Link to='/piscinas' style={{ textDecoration: 'none', color: '#4a4a4a' }}>Confira as piscinas já produzidas pela nossa equipe e a nossa história profissional</Link>
+                <div className='fraseseta-sobre' >
+                  <FaArrowRight className="seta-sobre" />
+                  <div className='texto-linkado-pai' >
+                    <Link to='/piscinas' className="texto-linkado-sobre">Confira as piscinas já produzidas pela nossa equipe e a nossa história profissional</Link>
                   </div>
                 </div>
 
-                <div className='fraseseta' >
-                  <FaArrowRight className="seta" />
-                  <div className='texto-linkado' >
-                    <Link to='/contato' className="texto-linkado">Fale com um de nossos consultores</Link>
+                <div className='fraseseta-sobre' >
+                  <FaArrowRight className="seta-sobre" />
+                  <div className='texto-linkado-pai' >
+                    <Link to='/contato' className="texto-linkado-sobre">Fale com um de nossos consultores</Link>
                   </div>
                 </div>
               </>
