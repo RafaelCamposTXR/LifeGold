@@ -62,7 +62,7 @@ function Sobre() {
             <div className='conteiner-links-sobre' >
               <>
                 <div className='fraseseta-sobre' >
-                  <FaArrowRight className="seta-sobre"/>
+                  <FaArrowRight className="seta-sobre" style={{fontSize: '20px'}}/>
                   <div className='texto-linkado-pai' >
                     <Link to='/produtos' className="texto-linkado-sobre">Confira os produtos disponíveis em nossa loja</Link>
                   </div>
@@ -84,49 +84,45 @@ function Sobre() {
               </>
             </div>
 
-            <img src={IndicaPiscina} className="PorqueGeralPC" alt="logo"/>
+
+            {/* Indicação da área de piscinas */}
+            <img src={IndicaPiscina} className="indica-piscina" alt="logo"/>
 
             <Link to='/piscinas'>
-              <img src={IrPiscina} className="PorqueGeralPC" alt="logo"/>
+              <img src={IrPiscina} className="indica-piscina-link" alt="logo"/>
             </Link>
 
-            <img src={IndicaPiscina} className="PorqueGeralMobile" alt="logo"/>
-
-            <Link to='/piscinas'>
-              <img src={IrPiscina} className="PorqueGeralMobile" alt="logo"/>
-            </Link>
+            
               
           </header>
 
-          <div className ="App"></div>
+          <div className ="parceiros"></div>
 
           <div >
-            <div className="linha-cinza" style={{margin:"80px 0 0 0 "}}></div> {/* Adiciona a linha cinza */}
+            <div className="linha-cinza" style={{margin:"80px 0 0 0 "}}></div> 
           </div>
           <div className="area-parceiros">
-          <div className="area-parceiros-superior">
-          <div className="texto-parceiro">
-            Parceiros
-          </div>
-          <div className="container-logos">
-            <img src={require('../../components/media/AzulVinil.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/genco.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/VinilTec.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/FibraTec.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/FibraMix.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/mondialle.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/logoUnisol.jpg')} className="logoParceiro" alt="logo"/>
-            <img src={require('../../components/media/logoUP.jpg')} className="logoParceiro" alt="logo"/>
-          </div>
-          </div>
-          <div className='texto-menor' style={{marginLeft:"180px"}}>
+            <div className="area-parceiros-superior-sobre">
+              <div className="texto-parceiro">
+                Parceiros
+              </div>
+              <div className="container-logos-sobre">
+                <img src={require('../../components/media/AzulVinil.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/genco.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/VinilTec.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/FibraTec.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/FibraMix.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/mondialle.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/logoUnisol.jpg')} className="logoParceiro" alt="logo"/>
+                <img src={require('../../components/media/logoUP.jpg')} className="logoParceiro" alt="logo"/>
+              </div>
+            </div>
+            <div className='texto-menor' style={{marginLeft:"180px"}}>
               <p>Em parceria com as empresas acima, a LifeGold ampliou as possibilidades de oferta de produtos e piscinas, contribuindo para a concretização do seu sonho.</p>
             </div>
           <Slider data={data} />
           </div>
-          
           <TelaContato/>
-
         </div>
         
     );

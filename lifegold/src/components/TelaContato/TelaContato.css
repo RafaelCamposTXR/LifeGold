@@ -32,7 +32,7 @@
   padding-right: 70px;
 }
 
-.texto {
+.titulo-contato {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   width: 100%;
@@ -45,7 +45,7 @@
 
 .texto-normal {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   width: 100%;
   height: auto;
   text-align: left;

@@ -6,14 +6,6 @@
   padding: 0;
 }
 
-.App {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom:100vh;
-  max-width: 100%;
-}
 
 
 .bg-video {
@@ -30,7 +22,7 @@
   overflow-x: hidden;
   margin-top: 0;
   min-height: 100vh;
-  max-width: 100%;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   align-content: start;
@@ -374,7 +366,7 @@
   background-color:#ddddddcc;
   width:100%;
   height:30vh;
-  margin-bottom:50vh;
+  margin-bottom:30vh;
   align-content:center;
   justify-content: start;
   padding: 0 0 0 6vw;
@@ -388,10 +380,10 @@
 
 .seta-sobre {
   color: #4a4a4a;
-    width: 4vw;
-    height: 2vh;
-    margin-top: 6px;
-    font-size: 10rem;
+  width: 4vw;
+  height: 2vh;
+  margin-top: 6px;
+  font-size: 10rem;
 }
 
 .texto-linkado-pai{
@@ -399,14 +391,21 @@
   color:#4a4a4a;
 }
 
+.seta-sobre {
+  color: #4a4a4a;
+  margin-top: 6px;
+  width: 10vw;
+  display: block;
+  font-size: 20px;
+
+}
+
 .texto-linkado-sobre{
   color:#4a4a4a;
   text-decoration: none;
 }
 
-/* .texto-linkado:hover{
-  text-decoration: none;
-} */
+
 
 @media only screen and (max-width: 768px) {
   .conteiner-links-sobre{
@@ -435,6 +434,7 @@
     margin-top: 6px;
     width: 10vw;
     display: block;
+    font-size: 20px;
 
   }
   
@@ -461,6 +461,50 @@
 /*  */
 
 
+/* Indicação de piscinas */
+.indica-piscina{
+  display:flex;
+  justify-content: center;
+  width:42%;
+}
+
+.indica-piscina-link{
+  display:flex;
+  width:20vw;
+  background-color: rgba(104, 98, 98, 0.455);
+  padding: 2vw;
+  border-radius: 1000px;
+}
+
+@media only screen and (max-width: 768px) {
+  .indica-piscina{
+    display: flex;
+    margin-top: 10vh;
+    width:100%;
+    margin: 0 0 10vh 0;
+  }
+  .indica-piscina-link{
+    position: relative;
+    display:flex;
+    width:65vw;
+    background-color: rgba(117, 111, 111, 0.455);
+    padding: 4vw;
+    border-radius: 1000px;
+    border: 2px solid rgb(163, 156, 156);
+  }
+}
+/*  */
+
+.parceiros {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:100vh;
+  max-width: 100%;
+}
+
+
 .logoParceiroPai{
   display: flex;
   flex-wrap: wrap;
@@ -473,6 +517,25 @@
 .logoParceiro{
   width: auto;
   height: 130px;
+  border-radius: 300px;
+  padding: 3vw;
+}
+
+
+.area-parceiros{
+  padding: 0 0 10vh 0;
+  justify-content: center;
+  width: 100vw;
+  margin: 0;
+  background-color: rgba(130, 127, 127, 0.089);
+}
+
+.area-parceiros-superior-sobre{
+  padding: 1vh 0 5vh 0;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.381);
 }
 
 .texto-parceiro{
@@ -484,31 +547,58 @@
   margin-bottom: 50px;
 }
 
-.area-parceiros{
-  padding: 0 0 10vh 0;
-  justify-content: center;
-  width: 100vw;
-  margin: 0;
-  background-color: rgba(130, 127, 127, 0.089);
-}
-
-.area-parceiros-superior{
-  padding: 1vh 0 5vh 0;
-  justify-content: center;
-  width: 100vw;
-  background-color: white;
-}
-
-.container-logos{
+.container-logos-sobre{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5vh;
   width: 100vw;
-  background-color: white;
-  height: 50vh;
+  background-color: transparent;
+  height: max-content;
   gap: 2vw;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .area-parceiros{
+    padding: 0 0 10vh 0;
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+    background-color: rgba(130, 127, 127, 0.089);
+    height: 100vh;
+  }
+  
+  .area-parceiros-superior-sobre{
+    padding: 1vh 0 5vh 0;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+    height: 170vh;
+  }
+  
+  .texto-parceiro{
+    margin-left: 60px;
+    font-family:'Josefin Sans';
+    color:#4a4a4a;
+    font-size: 30px;
+    margin-top:50px;
+    margin-bottom: 50px;
+  }
+  
+  .container-logos-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    width: 75vw;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    gap: 2vw;
+  }
+
+}
+
 
 @media only screen and (max-width: 768px) {
 
