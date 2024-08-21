@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
-import Sobre from './pages/Sobre';
+import Sobre from './pages/sobre/Sobre';
 import Produtos from './pages/Produtos';
 import Piscinas from './pages/Piscinas';
 import Descubra from './pages/Descubra';

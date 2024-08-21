@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from '../components/MenuItens/Menu.js';
 import '../components/styles.css'
-import TelaContato from '../components/TelaContato/TelaContato';
+import TelaContato from '../components/TelaContato/TelaContato.js';
 
 function Produtos() {
     return (

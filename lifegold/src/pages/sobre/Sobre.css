@@ -25,7 +25,7 @@
 }
 
 
-.App-header {
+.header {
   margin-top: 0;
   min-height: 100vh;
   max-width: 100%;
@@ -38,7 +38,7 @@
   color: black;
 }
 
-.App-logo {
+.logo {
   position: relative;
   display:block;
   margin-top: 100px;
@@ -47,27 +47,26 @@
   pointer-events: none;
   align-items: center;
   height: auto;
-  width: 30vw;
+  width: 32vw;
   justify-content: center;
   bottom: -8vh;
 }
 
 .area-superior {
   display: flex;
-  flex-direction: row ;
   justify-content: center ;
   align-items: center;
+  flex-wrap: wrap;
   padding: 2vh 0 30vh 0;
   width: 100vw;
   /* background-color: rgba(48, 128, 171, 0.261); */
   background-color: rgba(149, 156, 161, 0.084);
-
 }
-.fundo-central {
 
+.fundo-central {
   border-radius: 30px;
   display:block;
-  margin-top: 100px;
+  margin-top: 10vh;
   max-width: 100%;
   height: 60vmin;
   pointer-events: none;
@@ -75,16 +74,17 @@
   height: auto;
   width: fit-content;
   justify-content: center;
+  width: 60vw;
 }
 
 @media only screen and (max-width: 768px) {
-  .App-logo {
-    margin-top: 5vmin;
-    max-width: 70%;
-  }
-  .App-header {
+  .header {
     margin-top: 30vmin;
     overflow: hidden;
+  }
+  .logo {
+    margin-top: 5vmin;
+    width: 100vw;
   }
   .bg-video {
     overflow: hidden;
@@ -94,6 +94,29 @@
     left: 0;
     width: 100vw;
     height: 120vh;
+  }
+
+  .area-superior {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vh 0 5vh 0;
+    width: 100vw;
+    background-color: transparent;
+  }
+
+  .fundo-central {
+    border-radius: 30px;
+    display:block;
+    margin-top: 10vh;
+    height: 60vmin;
+    pointer-events: none;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    display: none;
   }
 }
 
@@ -113,17 +136,17 @@
 .graybox {
   opacity: 0.88;
   margin-bottom: 30px;
-  background-color: #eeeeee; /* Cor de fundo cinza */
-  height: 70px; /* Altura da caixa */
-  width: 100vw; /* Largura total da viewport */
-  position: fixed; /* Posição fixa na parte superior da tela */
-  top: 0; /* Alinha a caixa no topo da tela */
-  left: 0; /* Alinha a caixa no canto esquerdo da tela */
-  z-index: 999; /* Define a ordem de empilhamento */
-  display: flex; /* Ativa o flexbox */
-  align-items: center; /* Centraliza verticalmente */
-  padding: 0 20px; /* Adiciona um pouco de padding para o conteúdo interno */
-  box-sizing: border-box; /* Garante que o padding não aumente a largura da caixa */
+  background-color: #eeeeee; 
+  height: 70px; 
+  width: 100vw; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 999; 
+  display: flex; 
+  align-items: center; 
+  padding: 0 20px; 
+  box-sizing: border-box; 
 }
 
 @media only screen and (max-width: 768px) {
@@ -138,19 +161,19 @@
 }
 
 .content {
-  margin-left: 10px; /* Espaço à esquerda para a logo */
+  margin-left: 10px; 
 }
 
 .logoh {
-  height: 60px; /* Altura da logo */
-  width: auto; /* Largura automática (mantém a proporção) */
+  height: 60px; 
+  width: auto; 
   z-index:1000;
 }
 
 .texto {
   margin-top: 40vh;
   text-align: center;
-  color: #747272; /* Cor do texto */
+  color: #747272; 
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
   margin-left:0;
@@ -185,18 +208,13 @@
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: center;
-  color: #d3c6c6; /* Cor do texto */
+  color: #d3c6c6; 
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   font-weight:10;
   line-height: 1.4;
   background-color: rgba(121, 112, 112, 0.558);
   border-radius: 20px;
-  /* text-shadow: 
-    -1px -1px 0 black,  
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black; */
 }
 
 .texto-apresentacao {
@@ -205,7 +223,7 @@
   max-width:75%;
   margin-top: 20vh 0;
   text-align: center;
-  color: #d3c6c6; /* Cor do texto */
+  color: #d3c6c6; 
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -356,30 +374,56 @@
   text-decoration: underline;
 }
 
-
+/* links */
 .conteiner-links{
   background-color:#ddddddcc;
   width:100%;
-  height:250px;
-  margin-bottom:130px;
+  height:30vh;
+  margin-bottom:50vh;
   align-content:center;
 }
 
 .fraseseta{
   width:auto;
-  padding:12px;
+  padding:1.2vw;
   display:flex;
-  flex-direction: row;
-  margin-left:120px;
 }
 
 
 .texto-linkado{
   font-family:'Josefin Sans';
   color:#4a4a4a;
-  margin-left: 35px;
-  margin-top: 3px;
 }
+
+@media only screen and (max-width: 768px) {
+  .conteiner-links{
+    display: flex;
+    width:100%;
+    height: 70vh;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .fraseseta{
+    width:100vw;
+    padding:1vh;
+    display:flex;
+    flex-direction: row;
+    margin-left:120px;
+  }
+  
+  
+  .texto-linkado{
+    font-family:'Josefin Sans';
+    font-size:2rem;
+    color:#4a4a4a;
+    margin-left: 35px;
+    margin-top: 3px;
+  }
+}
+/*  */
+
 
 .logoParceiroPai{
   display: flex;
