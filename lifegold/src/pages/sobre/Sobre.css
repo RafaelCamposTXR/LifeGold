@@ -228,6 +228,29 @@
      1px  1px 0 black; */
 }
 
+.texto-apresentacao-cima {
+  position: relative;
+  left: -1vw;
+  padding: 3vh 5vw;
+  margin: 15vh 5vw;
+  max-width:75%;
+  margin-top: 20vh 0;
+  text-align: center;
+  color: #d3c6c6; 
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  background-color: rgba(121, 112, 112, 0.688);
+  border-radius: 20px;
+  /* text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; */
+}
+
+
 @media only screen and (max-width: 768px) {
   .texto{
     justify-content:center;
@@ -541,7 +564,7 @@
   padding: 1vh 0 5vh 0;
   justify-content: center;
   width: 100vw;
-  height: 80vh;
+  height: 88vh;
   background-color: rgb(255, 255, 255);
 }
 
@@ -593,9 +616,7 @@
     left: -5vw;
   }
 
-  .logoParceiro{
 
-  }
   
   .container-logos-sobre{
     margin: 0;

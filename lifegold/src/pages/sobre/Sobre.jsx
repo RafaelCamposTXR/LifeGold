@@ -52,7 +52,7 @@ function Sobre() {
           <img src={porqueGeralPC} className="PorqueGeralPC" style={{ marginTop: '70px' }} alt="logo"/>
           <BubbleContainer numBubbles={10} areaWidth={1400} areaHeight={900} />
           <img src={porqueGeralMobile} className="PorqueGeralMobile" alt="logo"/>
-          <div className='texto-apresentacao'>
+          <div className='texto-apresentacao-cima'>
             <p>Fundada por Tiago Augusto, profissional com mais de 20 anos de experiência na área de construção e venda de piscinas, a LifeGold já produziu e vendeu mais de 300 piscinas. Acompanhamos você do início ao fim da construção, para que você possa ter profissionais qualificados e certificados na área, sempre à disposição para tornar seu sonho realidade</p>
           </div>
           <div className='conteiner-links-sobre' >

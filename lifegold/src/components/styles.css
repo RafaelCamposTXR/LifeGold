@@ -199,13 +199,13 @@
      1px  1px 0 black; */
 }
 
-.texto-apresentacao {
+.texto-apresentacao-cima {
   padding: 3vh 5vw;
   margin: 15vh 5vw;
   max-width:75%;
-  margin-top: 20vh 0;
+  margin-top: 20vh ;
   text-align: center;
-  color: #d3c6c6; /* Cor do texto */
+  color: #d3c6c6; 
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -218,6 +218,8 @@
     -1px  1px 0 black,
      1px  1px 0 black; */
 }
+
+
 
 
 
