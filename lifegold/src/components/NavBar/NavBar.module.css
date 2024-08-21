@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
+
+.navbar {
+  overflow-y: hidden;
+}
 .menu{
   margin-top: 20vmin;
   background-color: none;
@@ -11,10 +15,11 @@
   right: 0;
   left: auto;
   height:100px;
-  top: 0; /* Coloca o navbar no topo da tela */
+  top: 0; 
   z-index: 1000;
   margin-top: 6px;
   margin-right: 5vmin;
+  overflow-y: hidden;
 }
 
 .listaMenu{
@@ -54,9 +59,9 @@
 
 .botaoNavegacao {
   padding: 1vmin 3vmin;
-  margin-right: 3vmin; /* Espaçamento entre os botões */
+  margin-right: 3vmin;
   text-decoration: none;
-  color: #767272; /* Cor do texto */
+  color: #767272; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -68,6 +73,13 @@
   position: relative;
   overflow: hidden;
   z-index: 2;
+
+  
+}
+
+.botao-pai {
+  overflow:hidden;
+  
 }
 
 .botaoNavegacaoAtivo {
@@ -84,6 +96,7 @@
   font-weight: 700px;
   font-style: normal;
   z-index: 2;
+  height: 10vh;
 }
 
 .botaoNavegacao:hover {

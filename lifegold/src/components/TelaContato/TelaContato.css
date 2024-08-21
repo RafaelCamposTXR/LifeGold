@@ -71,21 +71,53 @@
 
 @media only screen and (max-width: 768px) {
   .contato{
-    height: 16vh;
+    height: 30vh;
+    padding: 0;
   }
   .fundo {
     display: none;
   }
   .logo {
-    max-width: 100px;
+    position: relative;
+    bottom: -6vh;
+    left: -4vw;
+    max-width: 15vw;
   }
-  .texto{
-    margin-top: 2vh;
-    margin-left:50vmin;
-    max-width:100vmin;
-    font-size: 16px;
-    text-align: start;
-    margin-bottom:0;
+  .espaco-contatos {
+    background-color: none;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    overflow: scroll;
+    gap: 10vw;
+  }
+  .titulo-contato{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.1rem;
+    width: 10vw;
+    height: 1vh;
+    margin: 1vh 0 10vh 1vw;
+  }
+  .a {
+    background-color: none;
+    width: 30%;
+    height: 20vh;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .titulo-contato {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-bottom: 20px;
   }
   .texto-normal{
     margin-top: 0.5vh;

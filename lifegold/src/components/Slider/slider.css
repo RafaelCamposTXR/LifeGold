@@ -4,6 +4,8 @@
     height:auto;
     margin: 0 auto;
     z-index: 2;
+    overflow: clip;
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -22,11 +24,11 @@
 }
 
 .slider-item{
-    width: 100%;
+    width: 1440px;
     height: 550px;
-    justify-content: center;
     object-fit: cover;
     border-radius: 10px;
+    overflow: clip;
 }
 
 

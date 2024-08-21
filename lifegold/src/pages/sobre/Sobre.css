@@ -2,6 +2,7 @@
 
 .Sobre {
   overflow-y: hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -56,6 +57,7 @@
   height: 80vh;
   /* background-color: rgba(48, 128, 171, 0.261); */
   background-color: rgba(149, 156, 161, 0.084);
+  overflow-y: hidden;
 }
 
 .fundo-central-lifegold {
@@ -527,6 +529,7 @@
 
 
 .area-parceiros{
+  margin-top:30vh;
   padding: 0 0 10vh 0;
   justify-content: center;
   width: 100vw;
@@ -565,17 +568,21 @@
 @media only screen and (max-width: 768px) {
 
   .area-parceiros{
-    background-color: red;
+    display: none;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
   
   .area-parceiros-superior-sobre{
     height: 145vh;
     margin: 0;
+    padding: 0.1vh 0 5vh 0;
   }
   
   .texto-parceiro{
-
+    position: relative;
+    left: -5vw;
   }
 
   .logoParceiro{
@@ -584,6 +591,8 @@
   
   .container-logos-sobre{
     margin: 0;
+    position: relative;
+    left: -5vw;
   }
 
 }
@@ -599,4 +608,25 @@
   #contato-content {
     display:none;
   }
+}
+
+
+
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.logo-lifegold {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }

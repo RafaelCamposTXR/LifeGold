@@ -1,6 +1,7 @@
 // Slider.jsx
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import "./slider.css";
 
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
@@ -18,6 +19,7 @@ function Slider({data}) {
     <div className='container'>
       <Swiper
         slidesPerView={1}
+        loop={true}
         pagination={{ clickable: true }}
         navigation={true}
         autoplay={{ delay: 4000 }}
