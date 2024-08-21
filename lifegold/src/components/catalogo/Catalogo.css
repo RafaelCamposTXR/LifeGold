@@ -5,6 +5,8 @@
   }
   
   .piscina-grid {
+    position: relative;
+    left: 0vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 90px;
@@ -215,8 +217,11 @@
     }
 
     .piscina-grid {
+      position: relative;
+      left: -4vw;
+      display: grid;
       grid-template-columns: repeat(1, 1fr);
-      padding:0;
+      gap: 90px;
     }
 
     .catalogo{

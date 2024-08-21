@@ -565,10 +565,18 @@
   gap: 2vw;
 }
 
+.logo-lifegold-parceiros {
+  width: 18vw;
+  opacity: 0.2;
+  position: relative;
+  top: 5vh;
+  right: -77vw;
+}
+
 @media only screen and (max-width: 768px) {
 
   .area-parceiros{
-    display: none;
+    display: block;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -595,6 +603,13 @@
     left: -5vw;
   }
 
+  .logo-lifegold-parceiros {
+    width: 30vw;
+    opacity: 0.3;
+    position: relative;
+    top: -4vh;
+    right: -67vw;
+  }
 }
 
 

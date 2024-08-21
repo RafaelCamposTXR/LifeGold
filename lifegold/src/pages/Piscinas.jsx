@@ -73,7 +73,7 @@ function Piscinas() {
             </div>
             
             <div >
-                <div className="linha-cinza"></div> {/* Adiciona a linha cinza */}
+                <div className="linha-cinza"></div> 
             </div>
 
             <div style={{ marginTop: '70px' }}>

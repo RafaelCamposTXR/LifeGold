@@ -99,6 +99,7 @@ function Sobre() {
                 <img src={require('../../components/media/logoUnisol.jpg')} className="logoParceiro" alt="logo"/>
                 <img src={require('../../components/media/logoUP.jpg')} className="logoParceiro" alt="logo"/>
               </div>
+              <img src={logo} className="logo-lifegold-parceiros" alt="logo" />
             </div>
             <div className='texto-apresentacao' style={{marginLeft:"7vw"}}>
               <p>Em parceria com as empresas acima, a LifeGold ampliou as possibilidades de oferta de produtos e piscinas, contribuindo para a concretização do seu sonho.</p>
