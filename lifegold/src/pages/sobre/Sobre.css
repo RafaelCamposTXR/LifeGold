@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
 
-* {
-  overflow-x:hidden;
+.Sobre {
+  overflow-y: hidden;
   margin: 0;
   padding: 0;
 }
 
 
 
-.bg-video {
+.bg-video-sobre {
   position: fixed;
   z-index: -1;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+
 }
 
 
-.header {
+.header-sobre {
   overflow-x: hidden;
   margin-top: 0;
   min-height: 100vh;
@@ -30,13 +31,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+
 }
 
 .logo-lifegold {
   position: relative;
   display:block;
   margin-top: 100px;
-  height: 60vmin;
+  height: 50vh;
   pointer-events: none;
   align-items: center;
   height: auto;
@@ -51,6 +53,7 @@
   flex-wrap: wrap;
   padding: 2vh 0 30vh 0;
   width: 100vw;
+  height: 80vh;
   /* background-color: rgba(48, 128, 171, 0.261); */
   background-color: rgba(149, 156, 161, 0.084);
 }
@@ -60,25 +63,25 @@
   display:block;
   margin-top: 10vh;
   max-width: 100%;
-  height: 60vmin;
+  height: auto;
   pointer-events: none;
   align-items: center;
-  height: auto;
   width: fit-content;
   justify-content: center;
   width: 60vw;
+  overflow-y: hidden;
 }
 
 @media only screen and (max-width: 768px) {
-  .header {
+  .header-sobre {
     margin-top: 30vmin;
     overflow: hidden;
   }
   .logo-lifegold {
-    margin-top: 5vmin;
+    margin-top: 5vh;
     width: 100vw;
   }
-  .bg-video {
+  .bg-video-sobre {
     overflow: hidden;
     position: fixed;
     z-index: -1;
@@ -96,6 +99,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 2vh 0 5vh 0;
+    height: 47vh;
     width: 100vw;
     background-color: transparent;
   }
@@ -500,7 +504,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom:100vh;
+  margin-top:30vh;
   max-width: 100%;
 }
 
@@ -517,8 +521,8 @@
 .logoParceiro{
   width: auto;
   height: 130px;
-  border-radius: 300px;
-  padding: 3vw;
+  border-radius: 0px;
+  padding: 2vw 5vw;
 }
 
 
@@ -527,7 +531,7 @@
   justify-content: center;
   width: 100vw;
   margin: 0;
-  background-color: rgba(130, 127, 127, 0.089);
+  background-color: rgb(255, 255, 255);
 }
 
 .area-parceiros-superior-sobre{
@@ -535,7 +539,7 @@
   justify-content: center;
   width: 100vw;
   height: 80vh;
-  background-color: rgba(255, 255, 255, 0.381);
+  background-color: rgb(255, 255, 255);
 }
 
 .texto-parceiro{
@@ -561,40 +565,25 @@
 @media only screen and (max-width: 768px) {
 
   .area-parceiros{
-    padding: 0 0 10vh 0;
-    justify-content: center;
-    width: 100vw;
+    background-color: red;
     margin: 0;
-    background-color: rgba(130, 127, 127, 0.089);
-    height: 100vh;
   }
   
   .area-parceiros-superior-sobre{
-    padding: 1vh 0 5vh 0;
-    justify-content: center;
-    width: 100vw;
-    background-color: white;
-    height: 170vh;
+    height: 145vh;
+    margin: 0;
   }
   
   .texto-parceiro{
-    margin-left: 60px;
-    font-family:'Josefin Sans';
-    color:#4a4a4a;
-    font-size: 30px;
-    margin-top:50px;
-    margin-bottom: 50px;
+
+  }
+
+  .logoParceiro{
+
   }
   
   .container-logos-sobre{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 5vh;
-    width: 75vw;
-    background-color: rgb(255, 255, 255);
-    height: max-content;
-    gap: 2vw;
+    margin: 0;
   }
 
 }
