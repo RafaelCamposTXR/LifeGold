@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import logo from '../../components/media/LifeGold.png';
+import fundo from '../../components/media/desenhoFundo.jpg';
 import fundoCentral from '../../components/media/FundoSubtitulo.png';
 import porqueGeralPC from '../../components/media/PorqueGeralPC.png';
 import porqueGeralMobile from '../../components/media/PorqueGeralMobile.png';
@@ -99,7 +100,7 @@ function Sobre() {
                 <img src={require('../../components/media/logoUnisol.jpg')} className="logoParceiro" alt="logo"/>
                 <img src={require('../../components/media/logoUP.jpg')} className="logoParceiro" alt="logo"/>
               </div>
-              <img src={logo} className="logo-lifegold-parceiros" alt="logo" />
+              <img src={fundo} className="logo-lifegold-parceiros" alt="logo" />
             </div>
             <div className='texto-apresentacao' style={{marginLeft:"7vw"}}>
               <p>Em parceria com as empresas acima, a LifeGold ampliou as possibilidades de oferta de produtos e piscinas, contribuindo para a concretização do seu sonho.</p>

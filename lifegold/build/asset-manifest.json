@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a885a081.css",
-    "main.js": "/static/js/main.979d5f14.js",
+    "main.css": "/static/css/main.22e4db4a.css",
+    "main.js": "/static/js/main.8d0352b0.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/bg-video.mp4": "/static/media/bg-video.85b556594f503821a309.mp4",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
@@ -50,6 +50,7 @@
     "static/media/baldeCloroHidroazul.jpg": "/static/media/baldeCloroHidroazul.5d216afb2dc448bf9eb5.jpg",
     "static/media/g_tratamentosemanal.jpg": "/static/media/g_tratamentosemanal.2005d480d2dd2bd9d455.jpg",
     "static/media/PorqueGeralMobile.png": "/static/media/PorqueGeralMobile.5b03938efdb169987884.png",
+    "static/media/desenhoFundo.jpg": "/static/media/desenhoFundo.2111e6b4304f43f29642.jpg",
     "static/media/barrilha.jpg": "/static/media/barrilha.3b27aa1d52d3add31d27.jpg",
     "static/media/FibraTec.jpg": "/static/media/FibraTec.b6cd3db0b7f6239afe79.jpg",
     "static/media/piscina14.jpeg": "/static/media/piscina14.c62af3264747cac2c2be.jpeg",
@@ -82,12 +83,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.a885a081.css.map": "/static/css/main.a885a081.css.map",
-    "main.979d5f14.js.map": "/static/js/main.979d5f14.js.map",
+    "main.22e4db4a.css.map": "/static/css/main.22e4db4a.css.map",
+    "main.8d0352b0.js.map": "/static/js/main.8d0352b0.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a885a081.css",
-    "static/js/main.979d5f14.js"
+    "static/css/main.22e4db4a.css",
+    "static/js/main.8d0352b0.js"
   ]
 }
