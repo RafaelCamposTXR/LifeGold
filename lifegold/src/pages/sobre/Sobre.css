@@ -610,6 +610,7 @@
   
   .area-parceiros-superior-sobre{
     height: 160vh;
+    max-height: 170vh;
     margin: 0;
     padding: 0.1vh 0 5vh 0;
   }
