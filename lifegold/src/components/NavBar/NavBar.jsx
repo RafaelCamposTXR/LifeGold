@@ -12,7 +12,7 @@ function NavBar() {
     <div className={style.menu}>
       <ul className={style.listaMenu}>
         <div className={style.arealogos}>
-          <img src={logo} className={style.logonavbar}></img>
+          {/* <img src={logo} className={style.logonavbar}></img> */}
           <img src={fundo} className={style.fundonavbar}></img>
         </div>
         <li style={{overflowY: "hidden"}}><Link to="/" className={location.pathname === '/' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>SOBRE</Link></li>
