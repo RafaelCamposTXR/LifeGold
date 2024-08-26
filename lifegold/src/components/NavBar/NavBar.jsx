@@ -3,7 +3,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import style from './NavBar.module.css';
 import logo from '../../components/media/LifeGold.png';
-import fundo from '../../components/media/LifeGoldSelo.png';
+import fundo from '../mediasrc/fundolifegold.png';
 
 function NavBar() {
   const location = useLocation();
