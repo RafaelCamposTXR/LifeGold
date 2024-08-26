@@ -1,7 +1,9 @@
-// NavBar.js
+
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import style from './NavBar.module.css';
+import logo from '../../components/media/LifeGold.png';
+import fundo from '../../components/media/LifeGoldSelo.png';
 
 function NavBar() {
   const location = useLocation();
@@ -9,6 +11,10 @@ function NavBar() {
   return (
     <div className={style.menu}>
       <ul className={style.listaMenu}>
+        <div className={style.arealogos}>
+          <img src={logo} className={style.logonavbar}></img>
+          <img src={fundo} className={style.fundonavbar}></img>
+        </div>
         <li style={{overflowY: "hidden"}}><Link to="/" className={location.pathname === '/' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>SOBRE</Link></li>
         <li style={{overflowY: "hidden"}}><Link to="/piscinas" className={location.pathname === '/piscinas' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>PISCINAS</Link></li>
         <li style={{overflowY: "hidden"}}><Link to="/produtos" className={location.pathname === '/produtos' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>PRODUTOS</Link></li>

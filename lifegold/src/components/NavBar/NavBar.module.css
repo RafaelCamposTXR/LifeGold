@@ -84,9 +84,9 @@
 
 .botaoNavegacaoAtivo {
   padding: 1vmin 3vmin;
-  margin-right: 3vmin; /* Espaçamento entre os botões */
+  margin-right: 3vmin;
   text-decoration: none;
-  color: #14BBC7; /* Cor do texto */
+  color: #14BBC7;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -100,7 +100,7 @@
 }
 
 .botaoNavegacao:hover {
-  color: #f0bb48; /* Cor de fundo ao passar o mouse */
+  color: #f0bb48; 
   font-size: 19px;
 }
 
@@ -110,6 +110,25 @@
   font-weight: bold;
 }
 
+
+.arealogos {
+  position: relative;
+  top: -2vh;
+  left: -30vw;
+}
+
+.logonavbar {
+  width: 9vw;
+  height: auto;
+}
+
+.fundonavbar {
+  position: relative;
+  top: -1.4vh;
+  width: 4vw;
+  border: 1px solid rgba(0, 0, 255, 0.28);
+  opacity: 0.25;
+}
 
 
 

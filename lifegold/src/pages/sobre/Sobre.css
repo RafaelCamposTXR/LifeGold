@@ -39,12 +39,13 @@
   position: relative;
   display:block;
   margin-top: 100px;
-  height: 50vh;
+  height: auto;
   pointer-events: none;
   align-items: center;
   height: auto;
-  width: 32vw;
-  bottom: -8vh;
+  width: 34vw;
+  bottom: 8vh;
+  left: -25vw;
 }
 
 .area-superior-sobre {
@@ -82,6 +83,8 @@
   .logo-lifegold {
     margin-top: 5vh;
     width: 100vw;
+    bottom: -7vh;
+    left: 0vw;
   }
   .bg-video-sobre {
     overflow: hidden;

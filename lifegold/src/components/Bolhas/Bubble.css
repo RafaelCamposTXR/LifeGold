@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none; /* Permite que as bolhas não bloqueiem a interação com outros elementos */
+  pointer-events: none; 
 }
 
 .bubble {
@@ -13,25 +13,25 @@
   height: 50px;
   border: 5px solid #e0e0e0;
   border-radius: 50%;
-  animation: moveUp 25s linear forwards, fadeOut 5s linear forwards; /* Aplica as animações */
+  animation: moveUp 25s linear forwards, fadeOut 5s linear forwards; 
 }
 
-/* Animação de movimento para cima */
+
 @keyframes moveUp {
   from {
-    top: top; /* Começa no fundo da tela */
+    top: top; 
   }
   to {
-    top: -100%; /* Move para o topo da tela */
+    top: -100%; 
   }
 }
 
-/* Animação de diminuição da opacidade */
+
 @keyframes fadeOut {
   from {
-    opacity: 1; /* Começa totalmente visível */
+    opacity: 1; 
   }
   to {
-    opacity: 0; /* Desaparece totalmente */
+    opacity: 0; 
   }
 }

@@ -22,7 +22,6 @@ function TelaContato() {
         </div>
         <div className='a'></div>
       </div>
-      {/* teste */}
       <img src={logo} className="logo"/>
       
       <img src={img} className="fundo"/>

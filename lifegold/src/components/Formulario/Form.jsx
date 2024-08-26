@@ -14,7 +14,7 @@ import './Form.css';
   
     const sendEmail = (e) => {
       e.preventDefault();
-      console.log(formData); // Exemplo de exibição dos dados no console
+      console.log(formData); 
       setFormData({
         name: '',
         email: '',
@@ -47,7 +47,7 @@ import './Form.css';
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      console.log(formData); // Exemplo de exibição dos dados no console
+      console.log(formData); 
       setFormData({
         name: '',
         email: '',

@@ -48,7 +48,7 @@ function Sobre() {
         <header className="header-sobre">
           <div className="area-superior-sobre">
             <img src={logo} className="logo-lifegold" alt="logo" />
-            <img src={fundoCentral} className="fundo-central-lifegold" alt="logo" />
+            {/* <img src={fundoCentral} className="fundo-central-lifegold" alt="logo" /> */}
           </div>
           <img src={porqueGeralPC} className="PorqueGeralPC" style={{ marginTop: '70px' }} alt="logo"/>
           <BubbleContainer numBubbles={10} areaWidth={1400} areaHeight={900} />
