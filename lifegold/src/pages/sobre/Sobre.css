@@ -43,9 +43,13 @@
   pointer-events: none;
   align-items: center;
   height: auto;
-  width: 34vw;
-  bottom: 8vh;
-  left: -25vw;
+  width: 28vw;    
+  bottom: -24vh;
+  left: -29vw;
+
+  /* width: 34vw;
+  bottom: -10vh;
+  left: -25vw; */
 }
 
 .area-superior-sobre {

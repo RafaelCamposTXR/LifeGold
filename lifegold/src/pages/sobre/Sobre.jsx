@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import logo from '../../components/media/LifeGold.png';
-import fundo from '../../components/media/desenhoFundo.jpg';
+import fundo from '../../components/mediasrc/fundolifegold.png';
 import fundoCentral from '../../components/media/FundoSubtitulo.png';
 import porqueGeralPC from '../../components/media/PorqueGeralPC.png';
 import porqueGeralMobile from '../../components/media/PorqueGeralMobile.png';

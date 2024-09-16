@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd5e5b40.css",
-    "main.js": "/static/js/main.8d0352b0.js",
+    "main.css": "/static/css/main.af040009.css",
+    "main.js": "/static/js/main.8ca6b76c.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/bg-video.mp4": "/static/media/bg-video.85b556594f503821a309.mp4",
     "static/media/piscinalonga3.png": "/static/media/piscinalonga3.7d421571fc01223ded16.png",
@@ -41,6 +41,7 @@
     "static/media/PiscinaCarrossel3.jpg": "/static/media/PiscinaCarrossel3.e68bd03376ff4c409c91.jpg",
     "static/media/AzulVinil.jpg": "/static/media/AzulVinil.c2860bd0b69263d25ddd.jpg",
     "static/media/piscina2.jpeg": "/static/media/piscina2.3cb5dfa25ee9772eb23b.jpeg",
+    "static/media/fundolifegold.png": "/static/media/fundolifegold.dc2132741f03d37bf3a5.png",
     "static/media/banheira4.jpg": "/static/media/banheira4.efb709072f98363290fd.jpg",
     "static/media/logoUP.jpg": "/static/media/logoUP.67004217d7110c935854.jpg",
     "static/media/g_baldecloro.jpg": "/static/media/g_baldecloro.e9cef3f7e511412794d4.jpg",
@@ -50,7 +51,6 @@
     "static/media/baldeCloroHidroazul.jpg": "/static/media/baldeCloroHidroazul.5d216afb2dc448bf9eb5.jpg",
     "static/media/g_tratamentosemanal.jpg": "/static/media/g_tratamentosemanal.2005d480d2dd2bd9d455.jpg",
     "static/media/PorqueGeralMobile.png": "/static/media/PorqueGeralMobile.5b03938efdb169987884.png",
-    "static/media/desenhoFundo.jpg": "/static/media/desenhoFundo.2111e6b4304f43f29642.jpg",
     "static/media/barrilha.jpg": "/static/media/barrilha.3b27aa1d52d3add31d27.jpg",
     "static/media/FibraTec.jpg": "/static/media/FibraTec.b6cd3db0b7f6239afe79.jpg",
     "static/media/piscina14.jpeg": "/static/media/piscina14.c62af3264747cac2c2be.jpeg",
@@ -83,12 +83,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.cd5e5b40.css.map": "/static/css/main.cd5e5b40.css.map",
-    "main.8d0352b0.js.map": "/static/js/main.8d0352b0.js.map",
+    "main.af040009.css.map": "/static/css/main.af040009.css.map",
+    "main.8ca6b76c.js.map": "/static/js/main.8ca6b76c.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5e5b40.css",
-    "static/js/main.8d0352b0.js"
+    "static/css/main.af040009.css",
+    "static/js/main.8ca6b76c.js"
   ]
 }

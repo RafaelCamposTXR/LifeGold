@@ -13,7 +13,7 @@ function NavBar() {
       <ul className={style.listaMenu}>
         <div className={style.arealogos}>
           {/* <img src={logo} className={style.logonavbar}></img> */}
-          <img src={fundo} className={style.fundonavbar}></img>
+          {/* <img src={fundo} className={style.fundonavbar}></img> */}
         </div>
         <li style={{overflowY: "hidden"}}><Link to="/" className={location.pathname === '/' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>SOBRE</Link></li>
         <li style={{overflowY: "hidden"}}><Link to="/piscinas" className={location.pathname === '/piscinas' ? style.botaoNavegacaoAtivo : style.botaoNavegacao}>PISCINAS</Link></li>
