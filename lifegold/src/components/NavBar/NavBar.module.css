@@ -3,10 +3,10 @@
 
 .navbar {
   overflow-y: hidden;
+  background-color: white !important;
 }
 .menu{
   margin-top: 20vmin;
-  background-color: none;
   padding: 1.5vmin 0;
   display: flex;
   text-align: end;
@@ -20,6 +20,7 @@
   margin-top: 6px;
   margin-right: 5vmin;
   overflow-y: hidden;
+
 }
 
 .listaMenu{
@@ -30,9 +31,11 @@
   list-style-type: none;
   margin-right: 3vmin;
   margin-left:0;
-  padding: 4px;
+  padding: 1.05vh 1vw;
   display: flex;
   flex-wrap: wrap;
+  /* background-color: rgba(255, 255, 255, 0.098) ; */
+  border-radius: 8px;
 }
 
 
@@ -61,7 +64,8 @@
   padding: 1vmin 3vmin;
   margin-right: 3vmin;
   text-decoration: none;
-  color: #767272; 
+  /* color: #767272;  */
+  color: #dcd8d8; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
