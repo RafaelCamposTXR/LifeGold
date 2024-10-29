@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.af040009.css",
+    "main.css": "/static/css/main.8e74bcf6.css",
     "main.js": "/static/js/main.8ca6b76c.js",
     "static/js/453.404b96b4.chunk.js": "/static/js/453.404b96b4.chunk.js",
     "static/media/bg-video.mp4": "/static/media/bg-video.85b556594f503821a309.mp4",
@@ -83,12 +83,12 @@
     "static/media/filtroVelcrov30.jpg": "/static/media/filtroVelcrov30.b1def0b362028f666b7f.jpg",
     "static/media/filtroVelcrov40.jpg": "/static/media/filtroVelcrov40.0201cab54f8cd2100d75.jpg",
     "index.html": "/index.html",
-    "main.af040009.css.map": "/static/css/main.af040009.css.map",
+    "main.8e74bcf6.css.map": "/static/css/main.8e74bcf6.css.map",
     "main.8ca6b76c.js.map": "/static/js/main.8ca6b76c.js.map",
     "453.404b96b4.chunk.js.map": "/static/js/453.404b96b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af040009.css",
+    "static/css/main.8e74bcf6.css",
     "static/js/main.8ca6b76c.js"
   ]
 }
