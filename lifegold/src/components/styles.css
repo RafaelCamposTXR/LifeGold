@@ -113,17 +113,17 @@
 .graybox {
   opacity: 0.88;
   margin-bottom: 30px;
-  background-color: #eeeeee; /* Cor de fundo cinza */
-  height: 70px; /* Altura da caixa */
-  width: 100vw; /* Largura total da viewport */
-  position: fixed; /* Posição fixa na parte superior da tela */
-  top: 0; /* Alinha a caixa no topo da tela */
-  left: 0; /* Alinha a caixa no canto esquerdo da tela */
-  z-index: 999; /* Define a ordem de empilhamento */
-  display: flex; /* Ativa o flexbox */
-  align-items: center; /* Centraliza verticalmente */
-  padding: 0 20px; /* Adiciona um pouco de padding para o conteúdo interno */
-  box-sizing: border-box; /* Garante que o padding não aumente a largura da caixa */
+  background-color: #eeeeee; 
+  height: 11vh; 
+  width: 100vw; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 999; 
+  display: flex; 
+  align-items: center; 
+  padding: 0 20px; 
+  box-sizing: border-box; 
 }
 
 @media only screen and (max-width: 768px) {
